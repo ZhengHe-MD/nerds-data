@@ -1,0 +1,241 @@
+{
+  "displayName": "Writing Quiz Questions",
+  "brief": "To make the most of your quiz questions, be sure to follow the best practices laid out in this article, and check out the resources provided below.",
+  "link": "https://ctl.wiley.com/writing-quiz-questions/",
+  "referrer": "zhenghe",
+  "tags": [{ "displayName": "english"}, {"displayName": "doc"}],
+  "elements": [{
+    "order": 1,
+    "displayName": "Writing Quiz Questions",
+    "brief": "",
+    "link": "https://ctl.wiley.com/writing-quiz-questions/",
+    "quizzes": [{
+      "passRate": 92,
+      "questions": [
+        {
+          "order": 1,
+          "kind": 2,
+          "stems": [{
+            "kind": 1,
+            "text": "What are the main concepts of multiple-choice questions?"
+          }],
+          "choices": {
+            "A": "Stem",
+            "B": "Response items",
+            "C": "Correct items",
+            "D": "Distractors"
+          },
+          "answers": ["A", "B", "D"],
+          "explains": [{
+            "kind": 1,
+            "text": "The question is called a \"stem\"."
+          }, {
+            "kind": 1,
+            "text": "Possible answers are \"response items\""
+          }, {
+            "kind": 1,
+            "text": "Wrong answers are \"distractors\""
+          }]
+        },
+        {
+          "order": 2,
+          "kind": 2,
+          "stems": [{
+            "kind": 1,
+            "text": "Which of the following statements about effective stems are true"
+          }],
+          "choices": {
+            "A": "Concise",
+            "B": "Use simple, clear wording",
+            "C": "Avoid grammatical clues (e.g., a or an, singular or plural)",
+            "D": "Use negative constructors often (e.g., not and except)",
+            "E": "Don't leak information that provides clues for other questions"
+          },
+          "answers": ["A", "B", "C", "E"],
+          "explains": [{
+            "kind": 1,
+            "text": "If you must use a negative construction, be sure to underline or bold words such as not or except"
+          }]
+        },
+        {
+          "order": 3,
+          "kind": 3,
+          "stems": [{
+            "kind": 1,
+            "text": "Just to reminds you the characteristics of effective response items: "
+          }, {
+            "kind": 1,
+            "text": "- Ensure that every response is grammatically consistent with the stem"
+          }, {
+            "kind": 2,
+            "text": "- Make sure response items have a parallel grammatical structure"
+          }, {
+            "kind": 3,
+            "text": "- Avoid idioms and potentially confusing vocabulary"
+          }, {
+            "kind": 4,
+            "text": "- Avoid absolutes (e.g., always and never)"
+          }, {
+            "kind": 5,
+            "text": "- Make sure the position of the correct answer varies"
+          }, {
+            "kind": 6,
+            "text": "- Make the length of response items roughly consistent"
+          }, {
+            "kind": 7,
+            "text": "- Eliminate repetitive or extraneous wording"
+          }, {
+            "kind": 8,
+            "text": "- Ensure that all items are mutually exclusive (i.e., avoid overlapping alternatives)"
+          }, {
+            "kind": 9,
+            "text": "- List response options in a logical order (e.g., alphabetically, chronologically, or numerically)"
+          }, {
+            "kind": 10,
+            "text": "- Avoid potentially confusing response items such as “A and B” or “B and C.” If there is more than one correct answer, use multiple-answer questions instead"
+          }, {
+            "kind": 11,
+            "text": "- Avoid using all of the above and none of the above, but if you do use them, use them generously and not just when they’re the correct answer."
+          }]
+        },
+        {
+          "order": 4,
+          "kind": 2,
+          "stems": [{
+            "kind": 1,
+            "text": "Please read the following question first: "
+          }, {
+            "kind": 1,
+            "text": "What is the average effective radiation dose from a chest CT?"
+          }, {
+            "kind": 1,
+            "text": "A. 1–10 mSv"
+          }, {
+            "kind": 1,
+            "text": "B. 10–12 mSv"
+          }, {
+            "kind": 1,
+            "text": "C. 24–32 mSv"
+          }, {
+            "kind": 1,
+            "text": "D. 16–24 mSv"
+          }, {
+            "kind": 1,
+            "text": "Can you spot the problems with the response items?"
+          }],
+          "choices": {
+            "A": "They overlap",
+            "B": "They are not in a logical order",
+            "C": "They don't have a parallel grammatical structure"
+          },
+          "answers": ["A", "B"],
+          "explains": [{
+            "kind": 1,
+            "text": "The grammatical structure is obviously parallel, even the lengths of them."
+          }, {
+            "kind": 1,
+            "text": "A better version of the question can be:"
+          }, {
+            "kind": 1,
+            "text": "What is the average effective radiation dose from a chest CT?"
+          }, {
+            "kind": 1,
+            "text": "A. 1–10 mSv"
+          }, {
+            "kind": 1,
+            "text": "B. 11–20 mSv"
+          }, {
+            "kind": 1,
+            "text": "C. 21–30 mSv"
+          }, {
+            "kind": 1,
+            "text": "D. 31–40 mSv"
+          }]
+        },
+        {
+          "order": 5,
+          "kind": 2,
+          "stems": [{
+            "kind": 1,
+            "text": "Which of the following statements about effective distractors are true"
+          }],
+          "choices": {
+            "A": "Every distractor should sound plausible",
+            "B": "Don't use trivial or nonsensical distractors",
+            "C": "Take advantage of mistakes that users often make",
+            "D": "Generate distractors from correct response items"
+          },
+          "answers": ["A", "B", "C", "D"],
+          "explains": [{
+            "kind": 1,
+            "text": "All of the above are directly mentioned in the original material"
+          }]
+        },
+        {
+          "order": 6,
+          "kind": 3,
+          "stems": [{
+            "kind": 1,
+            "text": "Don't forget the feedback for each response and distractor, it's a chance that you can help them understand the reasoning better and point out the learning resources."
+          }]
+        },
+        {
+          "order": 7,
+          "kind": 2,
+          "stems": [{
+            "kind": 1,
+            "text": "Please read the following question first: "
+          }, {
+            "kind": 1,
+            "text": "Annuals are ______."
+          }, {
+            "kind": 1,
+            "text": "A. plants that live and bloom for multiple years"
+          }, {
+            "kind": 1,
+            "text": "B. do not bloom"
+          }, {
+            "kind": 1,
+            "text": "C. plants that live and bloom for one year"
+          }, {
+            "kind": 1,
+            "text": "D. plants that bloom exclusively in cold climates"
+          }, {
+            "kind": 1,
+            "text": "Can you spot the problems with the question?"
+          }],
+          "choices": {
+            "A": "The stem is too vague",
+            "B": "The response items have repetitive or extraneous wording",
+            "C": "The response items don't have a parallel grammatical structure",
+            "D": "The response items don't match the stem grammatically",
+            "E": "The response items use idioms and potentially confusing vocabulary"
+          },
+          "answers": ["A", "B", "C", "D"],
+          "explains": [{
+            "kind": 1,
+            "text": "There is no idioms and confusing vocabulary in response items"
+          }, {
+            "kind": 1,
+            "text": "A better version of the question can be:"
+          }, {
+            "kind": 1,
+            "text": "Which of the following is true of annuals? They ___."
+          }, {
+            "kind": 1,
+            "text": "A. live and bloom for multiple years"
+          }, {
+            "kind": 1,
+            "text": "B. do not bloom"
+          }, {
+            "kind": 1,
+            "text": "C. bloom exclusively in cold climates"
+          }, {
+            "kind": 1,
+            "text": "D. live and bloom for one year"
+          }]
+        }
+      ]
+    }]
+  }]
+}
