@@ -40,7 +40,7 @@
           }],
           "choices": {
             "A": "\"It seems to me that X and Y are quite similar, why not do both together?\"",
-            "B": "\"I've found that our competitors already shipped a similar feature, without too much help, should we put this off first?\"",
+            "B": "\"I've found that our competitors already shipped a similar feature but reversed it due to regulation, should we put this off first?\"",
             "C": "\"If we can give up some parts of this feature, this feature can be delivered without any code changes.\"",
             "D": "\"If we can delay 2 weeks, the time to deliver can be reduced by 3 days\""
           },
