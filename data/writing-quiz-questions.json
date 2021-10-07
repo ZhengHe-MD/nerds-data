@@ -67,34 +67,34 @@
             "kind": 1,
             "text": "- Ensure that every response is grammatically consistent with the stem"
           }, {
-            "kind": 2,
+            "kind": 1,
             "text": "- Make sure response items have a parallel grammatical structure"
           }, {
-            "kind": 3,
+            "kind": 1,
             "text": "- Avoid idioms and potentially confusing vocabulary"
           }, {
-            "kind": 4,
+            "kind": 1,
             "text": "- Avoid absolutes (e.g., always and never)"
           }, {
-            "kind": 5,
+            "kind": 1,
             "text": "- Make sure the position of the correct answer varies"
           }, {
-            "kind": 6,
+            "kind": 1,
             "text": "- Make the length of response items roughly consistent"
           }, {
-            "kind": 7,
+            "kind": 1,
             "text": "- Eliminate repetitive or extraneous wording"
           }, {
-            "kind": 8,
+            "kind": 1,
             "text": "- Ensure that all items are mutually exclusive (i.e., avoid overlapping alternatives)"
           }, {
-            "kind": 9,
+            "kind": 1,
             "text": "- List response options in a logical order (e.g., alphabetically, chronologically, or numerically)"
           }, {
-            "kind": 10,
+            "kind": 1,
             "text": "- Avoid potentially confusing response items such as “A and B” or “B and C.” If there is more than one correct answer, use multiple-answer questions instead"
           }, {
-            "kind": 11,
+            "kind": 1,
             "text": "- Avoid using all of the above and none of the above, but if you do use them, use them generously and not just when they’re the correct answer."
           }]
         },
@@ -176,7 +176,7 @@
           "kind": 3,
           "stems": [{
             "kind": 1,
-            "text": "Don't forget the feedback for each response and distractor, it's a chance that you can help them understand the reasoning better and point out the learning resources."
+            "text": "Don't forget the feedback for each response and distractor, it's a chance that you can help the audience understand the reasoning better and point out the learning resources."
           }]
         },
         {
