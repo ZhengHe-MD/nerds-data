@@ -1,0 +1,131 @@
+{
+  "displayName": "Understanding Medical Research: Your Facebook Friend is Wrong",
+  "brief": "The tools and skills you need to critically interpret medical studies, and determine for yourself the difference between good and bad science.",
+  "link": "https://www.coursera.org/learn/medical-research",
+  "referrer": "zhanglei",
+  "tags": [{ "displayName": "midical" }, { "displayName": "coursera"}, { "displayName": "english" }],
+  "elements": [{
+    "order": 1,
+    "displayName": "Week 2: The Basics",
+    "brief": "Gain some foundational knowledge!",
+    "link": "https://www.coursera.org/learn/medical-research/home/week/2",
+    "quizzes": [{
+      "passRate": 73,
+      "questions": [
+        {
+          "order": 1,
+          "kind": 1,
+          "stems": [{
+            "kind": 1,
+            "text": "Which is the most important element that makes the path of academic research more complicated than industry research?"
+          }],
+          "choices": {
+            "A": "Hypothesis",
+            "B": "Grant",
+            "C": "Data",
+            "D": "Peer review"
+          },
+          "answer": "B",
+          "explains": [{
+            "kind": 1,
+            "text": "Steps that only exist in the path of acadamic research, are either about grant, or prerequisites of grant."
+          }]
+        },
+        {
+          "order": 2,
+          "kind": 1,
+          "stems": [{
+            "kind": 1,
+            "text": "What's the one job of manuscript titles?"
+          }],
+          "choices": {
+            "A": "Tell the question.",
+            "B": "Tell the exposure and the outcome.",
+            "C": "Tell the method.",
+            "D": "Tell the result"
+          },
+          "answer": "B",
+          "explains": [{
+            "kind": 1,
+            "text": "Titles have exactly one job to tell you what the exposure is and what the outcome is in that study."
+          }]
+        },
+        {
+          "order": 3,
+          "kind": 1,
+          "stems": [{
+            "kind": 1,
+            "text": "For a manuscript with title \"The effect of diet on epigenetics of patients with pancreatic cancer\", what's the exposure?"
+          }],
+          "choices": {
+            "A": "Diet",
+            "B": "Epigenetics",
+            "C": "Patients",
+            "D": "Pancreatic cancer"
+          },
+          "answer": "A",
+          "explains": [{
+            "kind": 1,
+            "text": "It's about assessing the effect of a patient’s diet on the changes in the outcome."
+          }]
+        },
+        {
+          "order": 4,
+          "kind": 1,
+          "stems": [{
+            "kind": 1,
+            "text": "For a manuscript with title \"The effect of diet on epigenetics of patients with pancreatic cancer\", what's the outcome?"
+          }],
+          "choices": {
+            "A": "Diet",
+            "B": "Epigenetics",
+            "C": "Patients",
+            "D": "Pancreatic cancer"
+          },
+          "answer": "B",
+          "explains": [{
+            "kind": 1,
+            "text": "It's about assessing the effect of a patient’s diet on the changes in their gene expression (epigenetics)."
+          }]
+        },
+        {
+          "order": 5,
+          "kind": 1,
+          "stems": [{
+            "kind": 1,
+            "text": "Which section of the manuscript should you be the most skeptical?"
+          }],
+          "choices": {
+            "A": "Background",
+            "B": "Method",
+            "C": "Result",
+            "D": "Discussion"
+          },
+          "answer": "D",
+          "explains": [{
+            "kind": 1,
+            "text": "The discussion section is where the authors opine about the applications of their research and interpret their results. There can be room for bias here."
+          }]
+        },
+        {
+          "order": 6,
+          "kind": 2,
+          "stems": [{
+            "kind": 1,
+            "text": "How many studies have the result contradicts practices at the time?"
+          }],
+          "choices": {
+            "A": "Only a few (< 1/3).",
+            "B": "About half (1/3 ~ 2/3).",
+            "C": "Lots of (> 2/3)."
+          },
+          "answer": "B",
+          "explains": [{
+            "kind": 1,
+            "text": "In a study looking at the New England Journal of Medicine over 10 years, among 363 articles tested \"standard of care\", 40.2% articals reversed the practice, 38.0% affirmed it."
+          }]
+        }
+      ]
+    }]
+  }]
+}
