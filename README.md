@@ -1,2 +1,3 @@
 # nerds-data
-data for nerds
+
+Highly recommend you to see this collection first before contributing.
