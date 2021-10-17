@@ -1,6 +1,6 @@
 {
-  "displayName": "Do blind people dream in visual images?",
-  "brief": "Yes, blind people do indeed dream in visual images. For people who were born with eyesight and then later went blind, it is not surprising that they experience visual sensations while dreaming.",
+  "displayName": "Science Questions with Surprising Answers",
+  "brief": "Teach science principles that are commonly misunderstood, as well as to teach principles that are different from what you would expect if you were to make an educated guess.",
   "link": "https://www.wtamu.edu/~cbaird/sq/",
   "referrer": "zhenghe",
   "tags": [
@@ -18,8 +18,8 @@
     {
       "order": 1,
       "displayName": "Do blind people dream in visual images?",
-      "brief": "",
-      "link": "https://www.wtamu.edu/~cbaird/sq/",
+      "brief": "Yes, blind people do indeed dream in visual images. For people who were born with eyesight and then later went blind, it is not surprising that they experience visual sensations while dreaming.",
+      "link": "https://www.wtamu.edu/~cbaird/sq/2020/02/11/do-blind-people-dream-in-visual-images/",
       "quizzes": [
         {
           "passRate": 73,
