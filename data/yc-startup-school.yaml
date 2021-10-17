@@ -1,0 +1,365 @@
+displayName: The YC startup school
+brief: Startup School is a free online program and global community of founders.
+link: https://www.startupschool.org/
+referrer: zhenghe
+tags:
+  - displayName: course
+  - displayName: english
+elements:
+  - order: 1
+    displayName: How to Pitch Your Startup
+    brief: ''
+    link: https://www.ycombinator.com/library/6q-how-to-pitch-your-startup
+    quizzes:
+      - passRate: 100
+        questions:
+          - order: 1
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: >-
+                  If there is only one thing that Kevin wants us audience to
+                  take away, what would that be?
+            choices:
+              A:
+                kind: Text
+                text: >-
+                  For every company that gets to YC, there's probably another
+                  company that's just as good to them out there but they messed
+                  up on the application.
+              B:
+                kind: Text
+                text: >-
+                  Average investors always try to poke holes on your idea, while
+                  good investors do it the other way around
+              C:
+                kind: Text
+                text: Be clear and concise when you try to pitch your startup
+              D:
+                kind: Text
+                text: >-
+                  A best application make the investor feel like "Fuck, I wanna
+                  join their company"
+            answer: C
+            explains:
+              - kind: Text
+                text: >-
+                  Here is the ending of the talk, "All right, I'm pretty much
+                  here at the end. The best way to help me, and I would love for
+                  you to help me, is to be clear and concise. Thank you very
+                  much."
+          - order: 2
+            kind: Narrative
+            stems:
+              - kind: Text
+                text: >-
+                  Just to remind you the things to avoid that makes your idea
+                  muddy:
+              - kind: Text
+                text: >-
+                  1. Complexity, a simple idea is one idea that doesn't fold,
+                  and a complex idea are ideas intertwined.
+              - kind: Text
+                text: >-
+                  2. Mystery, use any words that make the idea harder to
+                  understand
+              - kind: Text
+                text: 3. Ignorable, avoid marketing speak, MBA speak and buzzwords
+              - kind: Text
+                text: 4. Reproducible, listeners can imagine the idea in their minds
+          - order: 3
+            kind: MultipleChoices
+            stems:
+              - kind: Text
+                text: Which of the following idea(s) are legible
+            choices:
+              A:
+                kind: Text
+                text: >-
+                  "We are going to transform the relationship between
+                  individuals and information."
+              B:
+                kind: Text
+                text: '"Synchronize files across your or your team''s computers."'
+              C:
+                kind: Text
+                text: >-
+                  "The first online marketplace that lets travelers book rooms
+                  with locals, instead of hotels."
+              D:
+                kind: Text
+                text: '"Build X-ray vision for soldiers and first responders"'
+              E:
+                kind: Text
+                text: >-
+                  "Learn and sharing knowledge about Data Science and Artificial
+                  Intelligence"
+            answers:
+              - B
+              - C
+              - D
+            explains:
+              - kind: Text
+                text: >-
+                  Just apply the four things to the choices, complexity,
+                  mystery, ignorable, reproducible.
+  - order: 1
+    displayName: How to Talk to Users
+    brief: >-
+      YC Partner Eric Migicovsky shares a framework for asking questions and
+      collecting feedback from your users.
+    link: https://www.ycombinator.com/library/6g-how-to-talk-to-users
+    quizzes:
+      - passRate: 80
+        questions:
+          - order: 1
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: >-
+                  If you're the CEO, and want to know how users feel about your
+                  ideas or products, what should you do?
+            choices:
+              A:
+                kind: Text
+                text: >-
+                  Hire a professional product manager to help you collect user
+                  feedbacks
+              B:
+                kind: Text
+                text: Ask salespeople to do that for you
+              C:
+                kind: Text
+                text: Talk to your users directly
+            answer: C
+            explains:
+              - kind: Text
+                text: >-
+                  If you are the CEO, it is your job. It is in your job
+                  description to talk to customers.
+              - kind: Text
+                text: >-
+                  You want to make sure that the founders and the core members
+                  of your company are the ones who develop the skills for
+                  talking to users. So, you do not have to hire someone like
+                  that to be the go-between.
+          - order: 2
+            kind: MultipleChoices
+            stems:
+              - kind: Text
+                text: >-
+                  What are the typical mistakes that founders make when talking
+                  to users?
+            choices:
+              A:
+                kind: Text
+                text: >-
+                  Take users as investors, and describe what the products will
+                  be in the future
+              B:
+                kind: Text
+                text: >-
+                  Talk based on assumptions, and ask questions like 'would you
+                  like it if we do X'
+              C:
+                kind: Text
+                text: Spend a lot of time talking instead of listening
+              D:
+                kind: Text
+                text: Take notes when talking and bring back facts
+            answers:
+              - A
+              - B
+              - C
+            explains:
+              - kind: Text
+                text: >-
+                  The three mistakes are 'pitching the product', 'talk about
+                  hypotheticals' and 'spend a lot of time talking'
+          - order: 3
+            kind: Narrative
+            stems:
+              - kind: Text
+                text: >-
+                  Just to remind you the five great questions that everyone can
+                  ask during their early customer interviews
+              - kind: Text
+                text: >-
+                  1. What is the hardest part about doing the thing that you're
+                  trying to solve?
+              - kind: Text
+                text: >-
+                  2. Tell me about the last time that you encountered this
+                  problem.
+              - kind: Text
+                text: 3. Why was this (solving the problem) hard?
+              - kind: Text
+                text: >-
+                  4. What, if anything, have you done to try to solve this
+                  problem?
+              - kind: Text
+                text: >-
+                  5. What don't you love about the solutions that you've already
+                  tried?
+          - order: 4
+            kind: MultipleChoices
+            stems:
+              - kind: Text
+                text: >-
+                  As founder(s), when you ask the five questions in interviews,
+                  what information are you trying to extract?
+            choices:
+              A:
+                kind: Text
+                text: Some aspects about the problem you didn't notice
+              B:
+                kind: Text
+                text: If users feel painful about the problem
+              C:
+                kind: Text
+                text: How do they like your product
+              D:
+                kind: Text
+                text: How often do your users encounter this problem
+              E:
+                kind: Text
+                text: Understand how you can market your product
+              F:
+                kind: Text
+                text: More information about your competitors out there
+              G:
+                kind: Text
+                text: What features do users want of your product
+            answers:
+              - A
+              - B
+              - D
+              - E
+              - F
+            explains:
+              - kind: Text
+                text: >-
+                  Basically the purpose is to know more facts about the problem.
+                  The exact answers can be directly found in the original
+                  material.
+              - kind: Link
+                text: click here to visit the source
+                url: https://www.ycombinator.com/library/6g-how-to-talk-to-users
+          - order: 5
+            kind: MultipleChoices
+            stems:
+              - kind: Text
+                text: >-
+                  If it's hard for you to find potential users, what hacks can
+                  you do?
+            choices:
+              A:
+                kind: Text
+                text: Send emails to a broad range of people
+              B:
+                kind: Text
+                text: >-
+                  If the product also serves you, test your interview strategy
+                  on yourself
+              C:
+                kind: Text
+                text: >-
+                  Show up directly in front of your users and ask for an
+                  interview
+              D:
+                kind: Text
+                text: Pitch your idea to your friends and family
+              E:
+                kind: Text
+                text: Attend industry events
+            answers:
+              - B
+              - C
+              - E
+            explains:
+              - kind: Text
+                text: >-
+                  A. Randomly sending emails is considered to be an easy thing
+                  to do
+              - kind: Text
+                text: B. It's another way of "Eating your own dog food"
+              - kind: Text
+                text: C & E. Eric mentioned this directly in the talk.
+              - kind: Text
+                text: D. Don't pitch idea to your users
+          - order: 6
+            kind: MultipleChoices
+            stems:
+              - kind: Text
+                text: What statement(s) are true about users with highest potential
+            choices:
+              A:
+                kind: Text
+                text: The problem costs them much
+              B:
+                kind: Text
+                text: The problem comes to them regularly
+              C:
+                kind: Text
+                text: They have control over the budget
+            answers:
+              - A
+              - B
+              - C
+            explains:
+              - kind: Text
+                text: >-
+                  These are the three facts Eric mentioned in the talk, that
+                  help founders to prioritize customers
+          - order: 7
+            kind: MultipleChoices
+            stems:
+              - kind: Text
+                text: What stages you can benefit from user interviews?
+            choices:
+              A:
+                kind: Text
+                text: Idea stage
+              B:
+                kind: Text
+                text: Prototype stage
+              C:
+                kind: Text
+                text: After launch and before product-market fit
+              D:
+                kind: Text
+                text: Product-market fit
+            answers:
+              - A
+              - B
+              - C
+              - D
+            explains:
+              - kind: Text
+                text: >-
+                  Talking to users is useful at pretty much all stages of your
+                  company, especially the first three.
+          - order: 8
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: Which is Paul Graham's definition for product-market fit
+            choices:
+              A:
+                kind: Text
+                text: '"When you''ve made something that people want"'
+              B:
+                kind: Text
+                text: >-
+                  "When the product is just being pulled out of you. When you no
+                  longer have to push the product on customers, they're just
+                  pulling it from you."
+              C:
+                kind: Text
+                text: >-
+                  "When 40% or more of your user base reports that they would be
+                  very disappointed if your product went away on a weekly basis"
+            answer: A
+            explains:
+              - kind: Text
+                text: This is a boring question though.

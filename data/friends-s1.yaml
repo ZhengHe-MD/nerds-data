@@ -1,0 +1,281 @@
+---
+displayName: Friends
+brief: >-
+  Follows the personal and professional lives of six twenty to
+  thirty-something-year-old friends living in Manhattan.
+link: https://www.imdb.com/title/tt0108778/
+referrer: zhenghe
+tags:
+  - displayName: tv series
+  - displayName: english
+elements:
+  - order: 1
+    displayName: SE1-EP1 - The One Where Monica Gets a Roommate
+    brief: >-
+      Monica and the gang introduce Rachel to the "real world" after
+      she leaves her fiancé at the altar.
+    link: >-
+      https://www.imdb.com/title/tt0583459/
+    quizzes:
+      - passRate: 80,
+        kind: Retrieval
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: Narrative
+            stems:
+              - kind: Text
+                text: 如果你已经很熟悉这一季，可以直接进入下一题。如果想先回顾一下原剧或脚本：
+              - kind: Link
+                text: 脚本：The One Where Monica Gets a New Roommate (The Pilot-The Uncut Version)
+                link: https://fangj.github.io/friends/season/0101.html
+          - order: 2
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  阅读片段：
+                  Monica: There's nothing to tell! He's just some guy I work with!
+                  Joey: C'mon, you're going out with the guy! There's gotta be something wrong with him!
+                  Chandler: All right Joey, be nice. So does he have a hump? A hump and a hairpiece?
+                  Phoebe: Wait, does he eat chalk?
+                  Phoebe: Just, 'cause, I don't want her to go through what I went through with Carl- oh!
+                  Monica: Okay, everybody relax. This is not even a date. It's just two people going out to dinner and- not having sex.
+                  Chandler: Sounds like a date to me.
+              - kind: Text
+                text: 当 Monica 描述之前的约会后，Chandler 说 "Sounds like a date to me"，他想表达的意思是？
+            choices:
+              A:
+                kind: Text
+                text: 在 Monica 眼里，Chandler 的约会算不上约会
+              B:
+                kind: Text
+                text: 在 Monica 眼里，Chandler 的约会听起来像个约会
+            answer: A
+            explains:
+              - kind: Text
+                text: Chandler 自嘲自己的约会在 Monica 眼里算不上约会，只是吃吃晚饭而已。
+          - order: 3
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: 经典台词填空
+            target: |
+              Ross: I just feel like someone ${verb1} down my throat, ${verb2} my small intestine, ${verb3} it out of my mouth and ${verb4} it around my neck...
+            answers:
+              verb1: reached
+              verb2: grabbed
+              verb3: pulled
+              verb4: tied
+          - order: 4
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: 经典台词填空
+            target: |
+              Ross: No, no don't! Stop cleansing my ${noun}! No, just leave my (same) alone, okay?
+              Phoebe: Fine! Be murky!
+            answers:
+              noun: aura
+          - order: 5
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: 为什么 Ross 在结婚若干年后才发现 Carol (她的前妻) 是一位女同性恋者？
+            choices:
+              A:
+                kind: Text
+                text: 因为 Carol 隐藏得很好
+              B:
+                kind: Text
+                text: 因为 Ross 没有发现
+              C:
+                kind: Text
+                text: 因为 Carol 没有发现
+            answer: C
+            explains:
+              - kind: Text
+                text: |
+                  Ross: No!! Okay?! Why does everyone keep fixating on that? She didn't know, how should I know?
+          - order: 6
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  阅读片段：
+                  Ross: I don't want to be single, okay? I just... I just- I just wanna be married again!
+                  (Rachel enters)
+                  Chandler: And I just want a million dollars!
+                  Monica: Rachel?!
+              - kind: Text
+                text: 为什么 Chandler 说自己想要一百万美元？
+            choices:
+              A:
+                kind: Text
+                text: Chandler 正在玩大富翁
+              B:
+                kind: Text
+                text: Ross 想要结婚，Rachel 就进来了
+            answer: B
+            explains:
+              - kind: Text
+                text: Ross 说想要再次结婚，一个穿婚纱的人就出现了；Chandler 觉得现在许愿肯定很灵 (开玩笑)。
+          - order: 7
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Ross: ... if you don't feel like being alone tonight, Joey and Chandler are coming over to help me put together my new furniture.
+                  Chandler: (deadpan) Yes, and we're very excited about it.
+                  Rachel: Well actually thanks, but I think I'm just gonna hang out here tonight.  It's been kinda a long day.
+                  Ross: Okay, sure.
+                  Joey: Hey Pheebs, you wanna help?
+                  Phoebe: Oh, I wish I could, but ___.
+                  Phoebe 的下半句说的是？
+            choices:
+              A:
+                kind: Text
+                text: I don't have time
+              B:
+                kind: Text
+                text: I don't want to
+            answer: B
+          - order: 8
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: 经典台词填空
+            target:
+              kind: Text
+              text: |
+                Monica: Oh my God!
+                Paul: I know, I know, I'm such an idiot. I guess I should have caught on when she started going to the dentist four and five times a week. I mean, how clean can teeth get?
+                Monica: My brother's going through that right now, he's such a mess. How did you get through it?
+                Paul: Well, you might try accidentally breaking something valuable of hers, say her-
+                Monica: -leg?
+                Paul: (laughing) That's one way! Me, I- I went for the watch.
+                Monica: You actually broke her watch?  Wow!  The worst thing I ever did was, I-I shredded by boyfriend's favorite bath towel.
+                Paul: Ooh, ${verb} clear of you.
+                Monica: That's right.
+            answers:
+              verb: steer
+          - order: 9
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  下面是 Rachel 参加了一天面试后回到公寓和大家的对话：
+                  Ross: You got a job?
+                  Rachel: Are you kidding? I'm trained for nothing! I was laughed out of twelve interviews today.
+                  Chandler: And yet you're surprisingly ____.
+                  Rachel: You would be too if you found John and David boots on sale, fifty percent off!
+              - kind: Text
+                text: Chandler 说的最后一个词是？
+            choices:
+              A:
+                kind: Text
+                text: uptight
+              B:
+                kind: Text
+                text: upbeat
+              C:
+                kind: Text
+                text: frustrated
+            answer: B
+            explains:
+              - kind: Text
+                text: Rachel 看起来并不难过，因此是 surprisingly upbeat (积极乐观).
+          - order: 10
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Monica 看到 Rachel 还在用父亲的信用卡买靴子后说：
+                  "Come on, you can't live ___ your parents your whole life."
+            choices:
+              A:
+                kind: Text
+                text: off
+              B:
+                kind: Text
+                text: along
+              C:
+                kind: Text
+                text: on
+              D:
+                kind: Text
+                text: by
+            answer: A
+            explains:
+              - kind: Text
+                text: live off your parents 与 depend on your parents 含义相同
+      - passRate: 75
+        kind: Connection
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  阅读片段：
+                  Monica: Maybe. Joey: Wait. Your 'not a real date' tonight is with Paul the Wine Guy?
+                  Ross: He finally asked you out?
+                  Monica: Yes!
+                  Chandler: Ooh, this is a Dear Diary moment.
+              - kind: Text
+                text: 这里的 Dear Diary moment 是什么意思？
+            explains:
+              - kind: Text
+                text: 值得写到日记里的瞬间
+          - order: 2
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  阅读片段：
+                  Waitress: Can I get you some coffee?
+                  Monica: (pointing at Rachel) De-caff. (to All) Okay, everybody, this is Rachel, another Lincoln High survivor. (to Rachel) This is everybody, this is Chandler, and Phoebe, and Joey, and- you remember my brother Ross?
+                  Rachel: Hi, sure!
+              - kind: Text
+                text: 为什么 Monica 要说 De-caff (过滤咖啡因)
+            explains:
+              - kind: Text
+                text: Monica 认为 Rachel 刚从婚礼现场逃走，需要冷静
+          - order: 3
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Chandler: Look, Ross, you gotta understand, between us we haven't had a relationship that has lasted longer than a Mento. You, however have had the love of a woman for four years.  Four years of closeness and sharing at the end of which she ripped your heart out, and that is why we don't do it!  I don't think that was my point!
+              - kind: Text
+                text: 这里的 Mento 是什么意思？
+            explains:
+              - kind: Text
+                text: Mento 指的是是曼妥思 (Mentos)，嚼着嚼着就失去了甜味，比喻 Chandler 从不会长期处在恋爱关系中。
+          - order: 4
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Ross: You know what the scariest part is? What if there's only one woman for everybody, y'know? I mean what if you get one woman- and that's it? Unfortunately in my case, there was only one woman- for her...
+                  Joey: What are you talking about? 'One woman'? That's like saying there's only one flavor of ice cream for you. Lemme tell you something, Ross. There's lots of flavors out there. There's Rocky Road, and Cookie Dough, and Bing! Cherry Vanilla. You could get 'em with Jimmies, or nuts, or whipped cream! This is the best thing that ever happened to you! You got married, you were, like, what, eight? Welcome back to the world! Grab a spoon!
+              - kind: Text
+                text: 这里 "grab a spoon" 是什么意思？
+            explains:
+              - kind: Text
+                text: spoon 指的是吃冰激凌的勺子，意思是让 Ross 跳出来，准备迎接新的生活
+          - order: 5
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Monica: So how you doing today? Did you sleep okay? Talk to Barry? I can't stop smiling.
+                  Rachel: I can see that. You look like you slept with a hanger in your mouth.
+              - kind: Text
+                text: 为什么 Rachel 说 Monica 昨晚上和衣架睡了一觉？
+            explains:
+              - kind: Text
+                text: 因为 Monica 掩饰不住心中的兴奋，嘴角上扬，再加上她的嘴型比较宽，看起来像一个衣架。
