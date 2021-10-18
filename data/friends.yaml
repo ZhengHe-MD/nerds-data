@@ -43,8 +43,6 @@ elements:
                   Phoebe: Just, 'cause, I don't want her to go through what I went through with Carl- oh!
                   Monica: Okay, everybody relax. This is not even a date. It's just two people going out to dinner and- not having sex.
                   Chandler: Sounds like a date to me.
-              - kind: Text
-                text: 关于上述片段，哪个说法正确？
             choices:
               A:
                 kind: Text
@@ -132,8 +130,7 @@ elements:
                   Ross: Okay, sure.
                   Joey: Hey Pheebs, you wanna help?
                   Phoebe: Oh, I wish I could, but ___.
-              - kind: Text
-                text: Phoebe 的下半句说的是？
+                  Phoebe 的下半句说的是？
             choices:
               A:
                 kind: Text
@@ -147,18 +144,16 @@ elements:
             stems:
               - kind: Text
                 text: 经典台词填空
-            target:
-              kind: Text
-              text: |
-                Monica: Oh my God!
-                Paul: I know, I know, I'm such an idiot. I guess I should have caught on when she started going to the dentist four and five times a week. I mean, how clean can teeth get?
-                Monica: My brother's going through that right now, he's such a mess. How did you get through it?
-                Paul: Well, you might try accidentally breaking something valuable of hers, say her-
-                Monica: -leg?
-                Paul: (laughing) That's one way! Me, I- I went for the watch.
-                Monica: You actually broke her watch?  Wow!  The worst thing I ever did was, I-I shredded by boyfriend's favorite bath towel.
-                Paul: Ooh, ${verb} clear of you.
-                Monica: That's right.
+            target: |
+              Monica: Oh my God!
+              Paul: I know, I know, I'm such an idiot. I guess I should have caught on when she started going to the dentist four and five times a week. I mean, how clean can teeth get?
+              Monica: My brother's going through that right now, he's such a mess. How did you get through it?
+              Paul: Well, you might try accidentally breaking something valuable of hers, say her-
+              Monica: -leg?
+              Paul: (laughing) That's one way! Me, I- I went for the watch.
+              Monica: You actually broke her watch?  Wow!  The worst thing I ever did was, I-I shredded by boyfriend's favorite bath towel.
+              Paul: Ooh, ${verb} clear of you.
+              Monica: That's right.
             answers:
               verb: steer
           - order: 9
