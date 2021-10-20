@@ -10,7 +10,7 @@ tags:
   - displayName: english
 elements:
   - order: 1
-    displayName: SE1-EP1 - The One Where Monica Gets a Roommate
+    displayName: SE01-EP01 - The One Where Monica Gets a Roommate
     brief: >-
       Monica and the gang introduce Rachel to the "real world" after
       she leaves her fiancé at the altar.
@@ -275,3 +275,218 @@ elements:
             explains:
               - kind: Text
                 text: 因为 Monica 掩饰不住心中的兴奋，嘴角上扬，再加上她的嘴型比较宽，看起来像一个衣架。
+  - order: 2
+    displayName: SE01-EP02 - The Sonogram At The End
+    brief: >-
+      Ross finds out his ex-wife is pregnant. Rachel returns her engagement ring to Barry.
+      Monica becomes stressed when her and Ross's parents come to visit.
+    link: >-
+      https://www.imdb.com/title/tt0583647/
+    quizzes:
+      - passRate: 70
+        kind: Retrieval
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Chandler: Ugly Naked Guy got a Thighmaster!
+              - kind: Text
+                text: 这里的 Thighmaster 是什么？
+            choices:
+              A:
+                kind: Text
+                text: 手臂塑型器械
+              B:
+                kind: Text
+                text: 大腿塑型器械
+            answer: B
+            explains:
+              - kind: Text
+                text: Thigh 是大腿，Thighmaster 是一种给大腿塑型的器械，这里的画面感比较强。
+          - order: 2
+            kind: FillInTheBlanks
+            target: >
+              I know this is going to sound unbelievably selfish,
+              but, were you planning on bringing up the whole baby/lesbian thing?
+              Because I think it might take some of the ${noun} off me.
+            answers:
+              noun: heat
+            explains:
+              - kind: Text
+                text: Monica 希望能够转移父母的注意力，不要把热度 (heat) 集中在自己身上。
+          - order: 3
+            kind: FillInTheBlanks
+            target: >
+              Ross: (pulls his hand away) Okay! Okay. (To his parents) Look, I, uh-
+              I realise you guys have been wondering what exactly happened between Carol and me,
+              and, so, well, here's the ${noun}. Carol's a lesbian. She's living with a woman named Susan.
+              She's pregnant with my child, and she and Susan are going to raise the baby.
+            answers:
+              noun: deal
+            explains:
+              - kind: Text
+                text: >
+                  "here is the deal" 常用来引出一个观点、事实、想法等等。
+          - order: 4
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: Rachel 和 Ross 在讨论各自明天需要面临的难题：
+            target: >
+              Rachel: So, ${verb} any advice? Y'know, as someone who's recently been dumped?
+              Ross: Well, you may wanna steer clear of the word 'dumped'. Chances are he's gonna be this, this broken shell of a man, y'know, so you should try not to look too terrific, I know it'll be hard. Or, y'know, uh, hey!, I'll go down there, and I'll give Barry back his ring, and you can go with Carol and Susan to the OB/GYN...
+              Rachel: Oh, you've got Carol tomorrow.. When did it get so complicated?
+              Ross: Got me.
+            answers:
+              verb: got
+            explains:
+              - kind: Text
+                text: >
+                  "got any advice" 是一种询问建议的省略短句，本身并不符合标准语法，完整的句子可以是 "Have you got any advice for me?"
+          - order: 5
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Carol, Ross 和 Susan 在讨论孩子的名字：
+                  Carol: -if it's a boy, Minnie if it's a girl.
+                  Ross: ...As in Mouse?
+                  Carol: As in my grandmother.
+                  Ross: Still, you- you say Minnie, you hear Mouse. Um, how about, um.. how about Julia?
+                  Carol: Julia..
+                  Susan: We agreed on Minnie.
+                  Ross: 'S'funny, um, uh, we agreed we'd spend the rest of our lives together. Things change, roll with the punches. I believe Julia's on the table..?
+              - kind: Text
+                text: >
+                  "Things change, roll with the punches" 是什么意思？
+            explains:
+              - kind: Text
+                text: >
+                  "世事难料，兵来将挡水来土掩"
+          - order: 6
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Rachel 和被他抛弃的未婚夫 Barry 见面：
+                  Barry: Sorry about that. So. What have you been up to?
+                  Rachel: Oh, not much. I-I got a job.
+                  Barry: Oh, that's great.
+                  Rachel: Why are- why are you so tanned?
+                  Barry: Oh, I, uh- I went to Aruba.
+              - kind: Text
+                text: >
+                  "tanned" 是什么意思
+            explains:
+              - kind: Text
+                text: >
+                  "tanned" 指得是皮肤被晒黑
+          - order: 7
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Rachel: Oh! Well, um.. (Grabs his forehand) You've got plugs!
+                  Barry: Careful! They haven't quite taken yet.
+                  Rachel: And you've got lenses! But you hate sticking your finger in your eye!
+                  Barry: Not for her. Listen, I really wanted to thank you.
+              - kind: Text
+                text: >
+                  这里的 plugs 和 lenses 分别指什么？
+            explains:
+              - kind: Text
+                text: >
+                  "plugs" 是植发，"lenses" 是隐形眼镜。Barry 在 Rachel 逃婚后跟 Mindy 在一起，并且开始打扮自己。
+      - passRate: 80,
+        kind: Connection
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Monica: What you guys don't understand is, for us, kissing is as important as any part of it.
+                  Joey: Yeah, right!.......Y'serious?
+                  Phoebe: Oh, yeah!
+                  Rachel: Everything you need to know is in that first kiss.
+                  Monica: Absolutely.
+                  Chandler: Yeah, I think for us, kissing is pretty much like an opening act, y'know? I mean it's like the stand-up comedian you have to sit through before Pink Floyd comes out.
+                  Ross: Yeah, and-and it's not that we don't like the comedian, it's that-that... that's not why we bought the ticket.
+                  Chandler: The problem is, though, after the concert's over, no matter how great the show was, you girls are always looking for the comedian again, y'know? I mean, we're in the car, we're fighting traffic... basically just trying to stay awake.
+                  Rachel: Yeah, well, word of advice: Bring back the comedian. Otherwise next time you're gonna find yourself sitting at home, listening to that album alone.
+              - kind: Text
+                text: Pink Floyed 的职业是什么？
+            choices:
+              A:
+                kind: Text
+                text: Stand-up comedian (脱口秀演员)
+              B:
+                kind: Text
+                text: Musician(s) (音乐表演者)
+              C:
+                kind: Text
+                text: Taxi Driver (出租车司机)
+            answer: B
+            explains:
+              - kind: Text
+                text: 从 Chandler 的话中可以看出 Pink Floyed 的表演在脱口秀演员之后，是主角；从 Rachel 的最后一句话中可以看出，它们与 album (专辑) 有关。
+          - order: 2
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Ross 和前妻 Carol 在博物馆见面：
+
+                  Ross:Hi.
+                  Carol: So.
+                  Ross: You look great. I, uh... I hate that.
+                  Carol: Sorry. You look good too.
+                  Ross: Ah, well, in here, anyone who... stands erect... So what's new? Still, uh...
+              - kind: Text
+                text: 这里的 stands erect 的笑点在于？
+            explains:
+              - kind: Text
+                text: 因为 Ross 和 Carol 见面的地方 (Museum of Prehistoric History) 是一个原始人展区，stands erect 既指 Ross 也指展区里的山洞人 (模型)。
+          - order: 3
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Ross: (standing outside the door).....Hi.
+                  Monica: Wow. That is not a happy hi.
+                  Ross: Carol's pregnant.
+                  Monica: W-w-wh-... wha-... w-w-w-...
+                  Ross: Yeah. Do that for another two hours, you might be where I am right about now. (He enters.)
+                  Chandler: Kinda puts that whole pillow thing in perspective, huh, Mon?
+              - kind: Text
+                text: Chandler 说这句话的含义是？
+            explains:
+              - kind: Text
+                text: >
+                  因为 Monica 很担心父母来家里挑自己的毛病，甚至把沙发上的抱枕都拍得很蓬松，
+                  但 Ross 前妻怀孕的这个新闻足以让那些在他们的父母面前变得不重要。
+          - order: 4
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  friends 们正在看 Ross 儿子的超声图：
+                  Ross: Well? Isn't that amazing?
+                  Joey: What are we supposed to be seeing here?
+                  Chandler: I dunno, but.. I think it's about to attack the Enterprise.
+                  ...
+              - kind: Text
+                text: |
+                  这里 Chandler 说的 attack the Enterprise 指什么？
+            explains:
+              - kind: Text
+                text: >
+                  这里是致敬了 Star Trek (星际迷航)，幽默地展现出父母看到胚胎或新生儿的感觉：就像看到了外星人一样。
+              - kind: Link
+                url: https://www.denofgeek.com/tv/the-geekiest-moments-in-friends/
