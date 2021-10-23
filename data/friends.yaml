@@ -401,7 +401,7 @@ elements:
               - kind: Text
                 text: >
                   "plugs" 是植发，"lenses" 是隐形眼镜。Barry 在 Rachel 逃婚后跟 Mindy 在一起，并且开始打扮自己。
-      - passRate: 80,
+      - passRate: 80
         kind: Connection
         createUser: zhenghe
         contributors:
@@ -490,3 +490,313 @@ elements:
                   这里是致敬了 Star Trek (星际迷航)，幽默地展现出父母看到胚胎或新生儿的感觉：就像看到了外星人一样。
               - kind: Link
                 url: https://www.denofgeek.com/tv/the-geekiest-moments-in-friends/
+  - order: 3
+    displayName: SE01-EP03 - The One With the Thumb
+    brief: >-
+      Monica becomes irritated when everyone likes her new boyfriend more than she does.
+      Chandler resumes his smoking habit. Phoebe is given $7000 when she finds a thumb in a can of soda.
+    link: >-
+      https://www.imdb.com/title/tt0583653/
+    quizzes:
+      - passRate: 80
+        kind: Retrieval
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Chandler: Don't think of it as a cigarette. Think of it as the thing that's been missing from your hand. When you're holding it, you feel right. You feel ___.
+              - kind: Text
+                text: 最后一个词应该是？
+            choices:
+              A:
+                kind: Text
+                text: happy
+              B:
+                kind: Text
+                text: alone
+              C:
+                kind: Text
+                text: complete
+            answer: C
+            explains:
+              - kind: Text
+                text: 当你拿着它 (烟) 的时候，你感觉到一切都是对的，是完整的。
+          - order: 2
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Monica: No, no, no. They say it's the same as the distance from the tip of a guy's thumb to the tip of his index finger.
+              - kind: Text
+                text: 这里的 "index finger" 是？
+            choices:
+              A:
+                kind: Text
+                text: 中指
+              B:
+                kind: Text
+                text: 无名指
+              C:
+                kind: Text
+                text: 食指
+            answer: C
+            explains:
+              - kind: Text
+                text: |
+                  食指通常用来指认东西，也称 "pointing finger" 和 "index finger"。
+              - kind: Image
+                url: https://fusionharmony.com/wp-content/uploads/2018/05/Finger-names-right.png
+              - kind: Link
+                text: >
+                  Wikipedia: Index Finger
+                url: https://en.wikipedia.org/wiki/Index_finger
+          - order: 3
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Chandler 抽烟被大家发现：
+                  All: Oh! Oh, God!
+                  Ross: What is this?!
+                  Chandler: I'm smoking. I'm smoking, I'm smoking.
+                  Phoebe: Oh, I can't believe you! You've been so good, for three years!
+                  Chandler: And this- is my ___!
+              - kind: Text
+                text: Chandler 说的最后一个词是？
+            choices:
+              A:
+                kind: Text
+                text: award
+              B:
+                kind: Text
+                text: reward
+            answer: B
+            explains:
+              - kind: Text
+                text: |
+                  Award 通常指公开颁发的奖项，表彰获奖者的工作
+                  Reward 通常指正常工作的回报，且大多数为非公开的行为
+          - order: 4
+            kind: FillInTheBlanks
+            target: |
+              Monica 带他新的约会对象 Alan 与大家见面，送走 Alan 后，说：
+              "Okay, let's let the Alan-bashing begin. Who's gonna take the first ${noun}, hmm?"
+            answers:
+              noun: shot
+            explains:
+              - kind: Text
+                text: |
+                  Take the first shot 表示第一个尝试。
+          - order: 5
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: |
+                  当大家都觉得 Monica 的新约会对象 Alan 很不错的时候，Ross 说了一句话
+            target: |
+              So I think Alan will become the ${noun} against which all future boyfriends will be measured.
+            answers:
+              noun: yardstick
+            explains:
+              - kind: Text
+                text: |
+                  yardstick 指标尺，Ross 的意思就是 Alan 将成为在座各位女性未来男朋友的衡量标准。
+          - order: 6
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Phoebe 打开苏打水发现了....
+                  Ross: A thumb?!
+                  (Phoebe nods.)
+                  All: Eww!
+                  Phoebe: I know! I know, I opened it up and there it was, just floating in there, like this tiny little ___!
+              - kind: Text
+                text: Phoebe 说的最后一个词是？
+            choices:
+              A:
+                kind: Text
+                text: thumb
+              B:
+                kind: Text
+                text: hitch-hiker
+              C:
+                kind: Text
+                text: like
+            answer: B
+            explains:
+              - kind: Text
+                text: |
+                  "hitch-hiker" 指的是搭顺风车的人，通常他们会在路边，竖起大拇指：
+              - kind: Image
+                url: https://ak.picdn.net/offset/photos/602eea3d6f52af4409fdaedd/medium/offset_1097078.jpg
+              - kind: Text
+                text: |
+                  因为 Phoebe 在苏打水里发现了一个拇指，好像一个 hitch-hiker 的大拇指...
+          - order: 7
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: |
+                  大家又发现 Chandler 抽烟并抵制一番后，Chandler 抱怨说：
+            target: >
+              So I have a flaw! Big deal! Like Joey's constant ${gerund1} isn't annoying?
+              And Ross, with his ${gerund2} every single word? And Monica, with that ${noun} when she laughs?
+              I mean, what the hell is that thing? ...I accept all those flaws, why can't you accept me for this?
+            answers:
+              gerund1: knuckle-cracking
+              gerund2: over-pronouncing
+              noun: snort
+            explains:
+              - kind: Text
+                text: 这里 Chandler 罗列了大家的一些特有的习惯来为自己抽烟开脱。
+          - order: 8
+            kind: FillInTheBlanks
+            stems:
+              - kind: Text
+                text: |
+                  Monica 宣布要和 Alan 分手后，Phoebe 说了一句话：
+            target:
+              You know.. you let your ${noun} down, you start to really care about someone, and I just- I- (starts chewing her hair)
+            answers:
+              noun: guard
+            explains:
+              - kind: Text
+                text: |
+                  "let your guard down" 指放下你的防御心理，表示开始接纳一个人。
+      - passRate: 90
+        kind: Connection
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Phoebe 约会回到 Central Perk
+                  Phoebe: Um, not so good. He walked me to the subway and said 'We should do this again!'
+                  All: Ohh. Ouch.
+                  Rachel: What? He said 'we should do it again', that's good, right?
+                  Monica: Uh, no. Loosely translated 'We should do this again' means 'You will never see me naked'.
+                  Rachel: Since when?
+                  Joey: Since always. It's like dating language. Y'know, like 'It's not you' means 'It is you'.
+                  Chandler: Or 'You're such a nice guy' means 'I'm gonna be dating leather-wearing alcoholics and complaining about them to you'.
+                  Phoebe: Or, or, y'know, um, 'I think we should see other people' means 'Ha, ha, I already am'.
+                  Rachel: And everybody knows this?
+                  Joey: Yeah. Cushions the blow.
+              - kind: Text
+                text: Joey 说的 "Cushions the blow" 是什么意思？
+            explains:
+              - kind: Text
+                text: |
+                  "Cushions the blow" 字面意思是减轻打击，这里指委婉地拒绝继续约会。
+          - order: 2
+            kind: SingleChoice
+            stems:
+              - kind: Text
+                text: |
+                  Chandler: Yeah, it's like when you're a kid, and your parents put your dog to sleep, and they tell you it went off to live on some farm.
+                  Ross: That's funny, that, no, because, uh, our parents actually did, uh, send our dog off to live on a farm.
+                  Monica: Uh, Ross.
+                  Ross: What? Wh- hello? The Millners' farm in Connecticut? The Millners, they had this unbelievable farm, they had horses, and, and rabbits that he could chase and it was- it w- .....Oh my God, Chi Chi!
+              - kind: Text
+                text: 这里的 "Chi Chi" 是？
+            choices:
+              A:
+                kind: Text
+                text: 一个感叹词，表示自己被欺骗了
+              B:
+                kind: Text
+                text: Ross 小时候养的小狗
+            answer: B
+            explains:
+              - kind: Text
+                text: |
+                  在 SE08-EP18 中有提到：
+                  Chandler: What are you doing?
+                  Monica: Oh I’m working on my toast for the party, or as I like to call it. Sob fest 2002. Hey check this out. (Hands him a picture.)
+                  Chandler: It’s a dog.
+                  Monica: It’s a dead dog. That’s Chi-Chi; she died when I was in high school.
+              - kind: Link
+                text: Fandom friends wiki - Chi-Chi
+                url: https://friends.fandom.com/wiki/Chi-Chi
+          - order: 3
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Phoebe 的银行卡多了 500 美金：
+                  Phoebe: - and there's five hundred extra dollars in my account.
+                  Chandler: Oh, Satan's minions at work again...
+              - kind: Text
+                text: Chandler 说的 "Satan's minions at work again" 是什么意思？
+            explains:
+              - kind: Text
+                text: Satan's minions 是撒旦的仆人，传说他们会通过各种方式测试人们会不会作恶。这里 Chandler 开玩笑地表示这可能是撒旦的测试。
+          - order: 4
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Phoebe 想摆脱意外获得的 1000 美元，找到拾荒者 Lizzie
+                  Phoebe: Hey, Lizzie.
+                  Lizzie: Hey, Weird Girl.
+                  Phoebe: I brought you alphabet soup.
+                  Lizzie: Did you pick out the vowels?
+                  Phoebe: Yes. But I left in the Ys. 'Cause, y'know, "sometimes y". Uh, I also have something else for you. (She searches in her purse.)
+              - kind: Text
+                text: |
+                  这里的 "sometimes y" 指的是？
+            explains:
+              - kind: Text
+                text: |
+                  首先这里的 alphabet soup 是一种字母形的意大利面，如下图所示：
+              - kind: Image
+                url: https://kidspot.co.nz/wp-content/uploads/2016/05/soup.jpg
+              - kind: Text
+                text: |
+                  "sometimes y" 指的是 y 在一些时候被算作元音，一些时候不被算作元音，因此 Phoebe 没有将 y 形状的面挑出。
+              - kind: Link
+                text: When is 'Y' a Vowel? When is 'Y' a Consonant?
+                url: https://www.sporcle.com/blog/2016/11/when-is-y-a-vowel/
+          - order: 5
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  当 Chandler 吐槽大家的缺点后，大家开始互相攻击：
+                  ...
+                  Ross: You know, there's nothing wrong with speaking correctly.
+                  Rachel: "Indeed there isn't"... I should really get back to work.
+                  Phoebe: Yeah, 'cause otherwise someone might get what they actually ordered.
+                  Rachel: Ohh-ho-hooohhh. The hair comes out, and the gloves come off.
+              - kind: Text
+                text: |
+                  "The hair comes out, and the gloves come on" 这句话指的是？
+            explains:
+              - kind: Text
+                text: >
+                  "The hair comes out" 字面义是把头发放下来；"The gloves come on" 字面义是把手套脱下。两句话描述的
+                  是在打架前做的准备活动，意指要大战一场了。
+          - order: 6
+            kind: YouTell
+            stems:
+              - kind: Text
+                text: |
+                  Monica 准备告诉大家她不打算和 Alan 在一起了：
+                  ...
+                  Monica: Please, guys, we have to talk.
+                  Phoebe: Wait, wait, I'm getting a deja vu...no, I'm not.
+                  Monica: Alright, we have to talk.
+              - kind: Text
+                text: |
+                  Phoebe 说的 "deja vu" 是什么意思？
+            explains:
+              - kind: Text
+                text: >
+                  "deja vu" 来自于法语，指的是眼下的场景似曾相似的现象。这里暗指 Monica 又要和约会对象分手了。
