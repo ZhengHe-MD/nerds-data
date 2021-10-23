@@ -9,6 +9,102 @@ tags:
   - displayName: tv
   - displayName: english
 elements:
+  - order: 0
+    displayName: >
+      主题曲：I'll Be There for You
+    brief: >-
+      It is performed by The Rembrandts over the opening titles of each episode.
+      The music was written by Michael Skloff and the lyrics were written by
+      David Crane, Marta Kauffman, Allee Willis, Danny Wilde and Phil Sōlem.
+    link: >-
+      https://www.imdb.com/title/tt5842546/
+    quizzes:
+      - passRate: 80
+        kind: Retrieval
+        createUser: zhenghe
+        contributors:
+        questions:
+          - order: 1
+            kind: Narrative
+            stems:
+              - kind: Text
+                text: 先回顾一下这首歌：
+              - kind: Video
+                source: Bilibili
+                url: >
+                  https://player.bilibili.com/player.html?aid=291779105&bvid=BV1Tf4y1576M&cid=375546930&page=1
+          - order: 2
+            kind: FillInTheBlanks
+            target: |
+              So no one ${verb} you life was gonna be this way
+            answers:
+              verb: told
+            explains:
+              - kind: Text
+                text: >
+                  "没有人曾告诉过你，生活就是这样的"
+          - order: 3
+            kind: FillInTheBlanks
+            target: |
+              Your job's a ${noun1}, you're ${verb}, your love life's ${noun2}
+            answers:
+              noun1: joke
+              verb: broke
+              noun2: D.O.A
+            explains:
+              - kind: Text
+                text: >
+                  "你的事业不成功，你一文不名，爱情没有结果"
+          - order: 4
+            kind: FillInTheBlanks
+            target: |
+              It's like you're always stuck in second ${noun}
+            answers:
+              noun: gear
+            explains:
+              - kind: Text
+                text: >
+                  "就像开车的时候卡在二档，无法迅速前进"
+          - order: 5
+            kind: FillInTheBlanks
+            target: >
+              Oh when it hasn't been your day, your week, your month, or even your ${noun}
+            answers:
+              noun: year
+            explains:
+              - kind: Text
+                text: >
+                  "当这一天、这一周、这一个月，甚至这一年你都很倒霉"
+          - order: 6
+            kind: FillInTheBlanks
+            target: >
+              But I'll be there for you, when the rain starts to ${verb}
+            answers:
+              verb: pour
+            explains:
+              - kind: Text
+                text: >
+                  "但是我会在那里支持你，即使大雨倾盆"
+          - order: 7
+            kind: FillInTheBlanks
+            target: >
+              I'll be there for you, like I've been there ${adverb}
+            answers:
+              adverb: before
+            explains:
+              - kind: Text
+                text: >
+                  "我会在那里支持你，就像我以前一样"
+          - order: 8
+            kind: FillInTheBlanks
+            target: >
+              I'll be there for you, 'cause you're there for ${noun}, too
+            answers:
+              noun: me
+            explains:
+              - kind: Text
+                text: >
+                  "我会在那里支持你，因为你也是我坚强的后盾"
   - order: 1
     displayName: SE01-EP01 - The One Where Monica Gets a Roommate
     brief: >-
