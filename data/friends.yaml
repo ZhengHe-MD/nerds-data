@@ -506,11 +506,14 @@ elements:
           - order: 1
             kind: SingleChoice
             stems:
-              - kind: Text
+              - kind: Markdown
                 text: |
-                  Chandler: Don't think of it as a cigarette. Think of it as the thing that's been missing from your hand. When you're holding it, you feel right. You feel ___.
-              - kind: Text
-                text: 最后一个词应该是？
+                  Chandler 教 Joey 如何抽烟，说道：
+
+                  "Don't think of it as a cigarette. Think of it as the thing that's been missing from your hand.
+                  When you're holding it, you feel right. You feel ___."
+
+                  最后一个词应该是？
             choices:
               A:
                 kind: Text
@@ -528,11 +531,12 @@ elements:
           - order: 2
             kind: SingleChoice
             stems:
-              - kind: Text
+              - kind: Markdown
                 text: |
-                  Monica: No, no, no. They say it's the same as the distance from the tip of a guy's thumb to the tip of his index finger.
-              - kind: Text
-                text: 这里的 "index finger" 是？
+                  **Monica**: No, no, no. They say it's the same as the distance from
+                  the tip of a guy's thumb to the tip of his index finger.
+
+                  这里的 "index finger" 是？
             choices:
               A:
                 kind: Text
@@ -545,28 +549,28 @@ elements:
                 text: 食指
             answer: C
             explains:
-              - kind: Text
+              - kind: Markdown
                 text: |
-                  食指通常用来指认东西，也称 "pointing finger" 和 "index finger"。
-              - kind: Image
-                url: https://fusionharmony.com/wp-content/uploads/2018/05/Finger-names-right.png
-              - kind: Link
-                text: >
-                  Wikipedia: Index Finger
-                url: https://en.wikipedia.org/wiki/Index_finger
+                  食指通常用来指认东西，也称 "pointing finger" 和 "index finger"，下图展示了所有手指的英文名称：
+
+                  ![finger-names-right](https://fusionharmony.com/wp-content/uploads/2018/05/Finger-names-right.png)
+
+                  参考资料：
+                  * [Wikipedia: Index Finger](https://en.wikipedia.org/wiki/Index_finger)
           - order: 3
             kind: SingleChoice
             stems:
-              - kind: Text
+              - kind: Markdown
                 text: |
                   Chandler 抽烟被大家发现：
-                  All: Oh! Oh, God!
-                  Ross: What is this?!
-                  Chandler: I'm smoking. I'm smoking, I'm smoking.
-                  Phoebe: Oh, I can't believe you! You've been so good, for three years!
-                  Chandler: And this- is my ___!
-              - kind: Text
-                text: Chandler 说的最后一个词是？
+
+                  **All**: Oh! Oh, God!\
+                  **Ross**: What is this?!\
+                  **Chandler**: I'm smoking. I'm smoking, I'm smoking.\
+                  **Phoebe**: Oh, I can't believe you! You've been so good, for three years!\
+                  **Chandler**: And this is my ___!
+
+                  Chandler 说的最后一个词是？
             choices:
               A:
                 kind: Text
@@ -608,15 +612,16 @@ elements:
           - order: 6
             kind: SingleChoice
             stems:
-              - kind: Text
+              - kind: Markdown
                 text: |
                   Phoebe 打开苏打水发现了....
-                  Ross: A thumb?!
-                  (Phoebe nods.)
-                  All: Eww!
-                  Phoebe: I know! I know, I opened it up and there it was, just floating in there, like this tiny little ___!
-              - kind: Text
-                text: Phoebe 说的最后一个词是？
+
+                  **Ross**: A thumb?!\
+                  (Phoebe nods.)\
+                  **All**: Eww!\
+                  **Phoebe**: I know! I know, I opened it up and there it was, just floating in there, like this tiny little ___!
+
+                  Phoebe 说的最后一个词是？
             choices:
               A:
                 kind: Text
@@ -799,4 +804,4 @@ elements:
             explains:
               - kind: Text
                 text: >
-                  "deja vu" 来自于法语，指的是眼下的场景似曾相似的现象。这里暗指 Monica 又要和约会对象分手了。
+                  "deja vu" 来自于法语，指的是眼下的场景似曾相似的现象。这里暗指 Monica 又要和约会对象分手了
