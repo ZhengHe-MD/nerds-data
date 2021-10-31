@@ -9,6 +9,7 @@ tags:
   - displayName: english
 elements:
   - order: 1
+    kind: RETRIEVAL
     displayName: 'Week 2: The Basics'
     brief: Gain some foundational knowledge!
     link: https://www.coursera.org/learn/medical-research/home/week/2
@@ -16,154 +17,154 @@ elements:
       - passRate: 73
         questions:
           - order: 1
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Which is the most important element that makes the path of
                   academic research more complicated than industry research?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Hypothesis
               B:
-                kind: Text
+                kind: TEXT
                 text: Grant
               C:
-                kind: Text
+                kind: TEXT
                 text: Data
               D:
-                kind: Text
+                kind: TEXT
                 text: Peer review
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Steps that only exist in the path of acadamic research, are
                   either about grant, or prerequisites of grant.
           - order: 2
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: What's the one job of manuscript titles?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Tell the question.
               B:
-                kind: Text
+                kind: TEXT
                 text: Tell the exposure and the outcome.
               C:
-                kind: Text
+                kind: TEXT
                 text: Tell the method.
               D:
-                kind: Text
+                kind: TEXT
                 text: Tell the result
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Titles have exactly one job to tell you what the exposure is
                   and what the outcome is in that study.
           - order: 3
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   For a manuscript with title "The effect of diet on epigenetics
                   of patients with pancreatic cancer", what's the exposure?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Diet
               B:
-                kind: Text
+                kind: TEXT
                 text: Epigenetics
               C:
-                kind: Text
+                kind: TEXT
                 text: Patients
               D:
-                kind: Text
+                kind: TEXT
                 text: Pancreatic cancer
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   It's about assessing the effect of a patient’s diet on the
                   changes in the outcome.
           - order: 4
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   For a manuscript with title "The effect of diet on epigenetics
                   of patients with pancreatic cancer", what's the outcome?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Diet
               B:
-                kind: Text
+                kind: TEXT
                 text: Epigenetics
               C:
-                kind: Text
+                kind: TEXT
                 text: Patients
               D:
-                kind: Text
+                kind: TEXT
                 text: Pancreatic cancer
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   It's about assessing the effect of a patient’s diet on the
                   changes in their gene expression (epigenetics).
           - order: 5
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Which section of the manuscript should you be the most
                   skeptical?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Background
               B:
-                kind: Text
+                kind: TEXT
                 text: Method
               C:
-                kind: Text
+                kind: TEXT
                 text: Result
               D:
-                kind: Text
+                kind: TEXT
                 text: Discussion
             answer: D
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   The discussion section is where the authors opine about the
                   applications of their research and interpret their results.
                   There can be room for bias here.
           - order: 6
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   How many studies have the result contradicts practices at the
                   time?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Only a few (< 1/3).
               B:
-                kind: Text
+                kind: TEXT
                 text: About half (1/3 ~ 2/3).
               C:
-                kind: Text
+                kind: TEXT
                 text: Lots of (> 2/3).
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   In a study looking at the New England Journal of Medicine over
                   10 years, among 363 articles tested "standard of care", 40.2%

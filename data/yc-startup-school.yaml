@@ -14,35 +14,35 @@ elements:
       - passRate: 100
         questions:
           - order: 1
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   If there is only one thing that Kevin wants us audience to
                   take away, what would that be?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: >-
                   For every company that gets to YC, there's probably another
                   company that's just as good to them out there but they messed
                   up on the application.
               B:
-                kind: Text
+                kind: TEXT
                 text: >-
                   Average investors always try to poke holes on your idea, while
                   good investors do it the other way around
               C:
-                kind: Text
+                kind: TEXT
                 text: Be clear and concise when you try to pitch your startup
               D:
-                kind: Text
+                kind: TEXT
                 text: >-
                   A best application make the investor feel like "Fuck, I wanna
                   join their company"
             answer: C
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Here is the ending of the talk, "All right, I'm pretty much
                   here at the end. The best way to help me, and I would love for
@@ -51,46 +51,46 @@ elements:
           - order: 2
             kind: Narrative
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Just to remind you the things to avoid that makes your idea
                   muddy:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   1. Complexity, a simple idea is one idea that doesn't fold,
                   and a complex idea are ideas intertwined.
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   2. Mystery, use any words that make the idea harder to
                   understand
-              - kind: Text
+              - kind: TEXT
                 text: 3. Ignorable, avoid marketing speak, MBA speak and buzzwords
-              - kind: Text
+              - kind: TEXT
                 text: 4. Reproducible, listeners can imagine the idea in their minds
           - order: 3
-            kind: MultipleChoices
+            kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: Which of the following idea(s) are legible
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: >-
                   "We are going to transform the relationship between
                   individuals and information."
               B:
-                kind: Text
+                kind: TEXT
                 text: '"Synchronize files across your or your team''s computers."'
               C:
-                kind: Text
+                kind: TEXT
                 text: >-
                   "The first online marketplace that lets travelers book rooms
                   with locals, instead of hotels."
               D:
-                kind: Text
+                kind: TEXT
                 text: '"Build X-ray vision for soldiers and first responders"'
               E:
-                kind: Text
+                kind: TEXT
                 text: >-
                   "Learn and sharing knowledge about Data Science and Artificial
                   Intelligence"
@@ -99,7 +99,7 @@ elements:
               - C
               - D
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Just apply the four things to the choices, complexity,
                   mystery, ignorable, reproducible.
@@ -113,122 +113,122 @@ elements:
       - passRate: 80
         questions:
           - order: 1
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   If you're the CEO, and want to know how users feel about your
                   ideas or products, what should you do?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: >-
                   Hire a professional product manager to help you collect user
                   feedbacks
               B:
-                kind: Text
+                kind: TEXT
                 text: Ask salespeople to do that for you
               C:
-                kind: Text
+                kind: TEXT
                 text: Talk to your users directly
             answer: C
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   If you are the CEO, it is your job. It is in your job
                   description to talk to customers.
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   You want to make sure that the founders and the core members
                   of your company are the ones who develop the skills for
                   talking to users. So, you do not have to hire someone like
                   that to be the go-between.
           - order: 2
-            kind: MultipleChoices
+            kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   What are the typical mistakes that founders make when talking
                   to users?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: >-
                   Take users as investors, and describe what the products will
                   be in the future
               B:
-                kind: Text
+                kind: TEXT
                 text: >-
                   Talk based on assumptions, and ask questions like 'would you
                   like it if we do X'
               C:
-                kind: Text
+                kind: TEXT
                 text: Spend a lot of time talking instead of listening
               D:
-                kind: Text
+                kind: TEXT
                 text: Take notes when talking and bring back facts
             answers:
               - A
               - B
               - C
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   The three mistakes are 'pitching the product', 'talk about
                   hypotheticals' and 'spend a lot of time talking'
           - order: 3
             kind: Narrative
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Just to remind you the five great questions that everyone can
                   ask during their early customer interviews
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   1. What is the hardest part about doing the thing that you're
                   trying to solve?
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   2. Tell me about the last time that you encountered this
                   problem.
-              - kind: Text
+              - kind: TEXT
                 text: 3. Why was this (solving the problem) hard?
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   4. What, if anything, have you done to try to solve this
                   problem?
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   5. What don't you love about the solutions that you've already
                   tried?
           - order: 4
-            kind: MultipleChoices
+            kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   As founder(s), when you ask the five questions in interviews,
                   what information are you trying to extract?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Some aspects about the problem you didn't notice
               B:
-                kind: Text
+                kind: TEXT
                 text: If users feel painful about the problem
               C:
-                kind: Text
+                kind: TEXT
                 text: How do they like your product
               D:
-                kind: Text
+                kind: TEXT
                 text: How often do your users encounter this problem
               E:
-                kind: Text
+                kind: TEXT
                 text: Understand how you can market your product
               F:
-                kind: Text
+                kind: TEXT
                 text: More information about your competitors out there
               G:
-                kind: Text
+                kind: TEXT
                 text: What features do users want of your product
             answers:
               - A
@@ -237,7 +237,7 @@ elements:
               - E
               - F
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Basically the purpose is to know more facts about the problem.
                   The exact answers can be directly found in the original
@@ -246,88 +246,88 @@ elements:
                 text: click here to visit the source
                 url: https://www.ycombinator.com/library/6g-how-to-talk-to-users
           - order: 5
-            kind: MultipleChoices
+            kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   If it's hard for you to find potential users, what hacks can
                   you do?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Send emails to a broad range of people
               B:
-                kind: Text
+                kind: TEXT
                 text: >-
                   If the product also serves you, test your interview strategy
                   on yourself
               C:
-                kind: Text
+                kind: TEXT
                 text: >-
                   Show up directly in front of your users and ask for an
                   interview
               D:
-                kind: Text
+                kind: TEXT
                 text: Pitch your idea to your friends and family
               E:
-                kind: Text
+                kind: TEXT
                 text: Attend industry events
             answers:
               - B
               - C
               - E
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   A. Randomly sending emails is considered to be an easy thing
                   to do
-              - kind: Text
+              - kind: TEXT
                 text: B. It's another way of "Eating your own dog food"
-              - kind: Text
+              - kind: TEXT
                 text: C & E. Eric mentioned this directly in the talk.
-              - kind: Text
+              - kind: TEXT
                 text: D. Don't pitch idea to your users
           - order: 6
-            kind: MultipleChoices
+            kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: What statement(s) are true about users with highest potential
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: The problem costs them much
               B:
-                kind: Text
+                kind: TEXT
                 text: The problem comes to them regularly
               C:
-                kind: Text
+                kind: TEXT
                 text: They have control over the budget
             answers:
               - A
               - B
               - C
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   These are the three facts Eric mentioned in the talk, that
                   help founders to prioritize customers
           - order: 7
-            kind: MultipleChoices
+            kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: What stages you can benefit from user interviews?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Idea stage
               B:
-                kind: Text
+                kind: TEXT
                 text: Prototype stage
               C:
-                kind: Text
+                kind: TEXT
                 text: After launch and before product-market fit
               D:
-                kind: Text
+                kind: TEXT
                 text: Product-market fit
             answers:
               - A
@@ -335,31 +335,31 @@ elements:
               - C
               - D
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Talking to users is useful at pretty much all stages of your
                   company, especially the first three.
           - order: 8
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: Which is Paul Graham's definition for product-market fit
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: '"When you''ve made something that people want"'
               B:
-                kind: Text
+                kind: TEXT
                 text: >-
                   "When the product is just being pulled out of you. When you no
                   longer have to push the product on customers, they're just
                   pulling it from you."
               C:
-                kind: Text
+                kind: TEXT
                 text: >-
                   "When 40% or more of your user base reports that they would be
                   very disappointed if your product went away on a weekly basis"
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: This is a boring question though.

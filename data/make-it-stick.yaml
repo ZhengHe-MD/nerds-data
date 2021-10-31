@@ -12,131 +12,131 @@ elements:
     displayName: 我们误解了学习 (Learning Is Misunderstood)
     quizzes:
       - passRate: 60
-        kind: Retrieval
+        kind: RETRIEVAL
         createUser: zhenghe
         questions:
           - order: 10
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   学习的过程付出得越 ___，学到的内容越扎实、越持久。
             choices:
               A:
-                - kind: Text
+                - kind: TEXT
                   text: 少
               B:
-                - kind: Text
+                - kind: TEXT
                   text: 多
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   过于简单的学习，就像在沙中写字，今天还在这里，明天就消失了。
           - order: 11
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   人们 ___ 判断自己学得好还是不好。
             choices:
               A:
-                - kind: Text
+                - kind: TEXT
                   text: 善于
               B:
-                - kind: Text
+                - kind: TEXT
                   text: 不善于
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   在学习的过程中，人们倾向于选择一些容易产生成就感的策略，而通过这些策略学到的内容常常难以持久。因此我们还需要外部的人或工具来协助判断学习效果。
           - order: 12
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   重复阅读、题海战术给人带来的成就感 ___。(注意：这里的题海战术指的是针对某个知识点短时间大量练习)
             choices:
               A:
-                - kind: Text
+                - kind: TEXT
                   text: 大
               B:
-                - kind: Text
+                - kind: TEXT
                   text: 小
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   重复阅读、题海战术让我们感觉自己记住了很多内容，带来很大的成就感。但实际上这是一种典型的低效学习方式。
                   实证研究甚至发现，即便实验结果证明了相关结论，仍然有被试者认为重复阅读、题海战术是有效的学习策略。
           - order: 13
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   当我们要巩固学过的内容时，哪一种方式更高效？
             choices:
               A:
-                - kind: Text
+                - kind: TEXT
                   text: 尝试从记忆中获取
               B:
-                - kind: Text
+                - kind: TEXT
                   text: 取出材料再读一遍
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   努力从记忆中获取会强化我们大脑中的记忆通道，通过课本直接获取答案会让大脑跳过这个过程。
           - order: 14
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   既然短时间内的重复练习无法让学习内容长期留存在大脑中，我们可以如何改善它？
             explains:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   - 间隔练习：隔一段时间后再练习相同的内容，且对内容越熟悉，间隔的时间越长。
                   - 交叉练习：如轮流练习 A、B、C 三个话题的内容，自动间隔相同内容的重复联系。
           - order: 15
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 下面哪种方式学习的效率更高？
             choices:
               - A:
-                  kind: Text
+                  kind: TEXT
                   text: 在学习一个知识点前，先尝试解决对应的问题
               - B:
-                  kind: Text
+                  kind: TEXT
                   text: 在学习一个知识点后，再尝试解决对应的问题
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   套用前面提到的一个基本结论：「学习过程付出得越多，学到的内容越扎实、越持久」，就不难理解答案。付出的努力帮助大脑建立更健壮的神经通路。
           - order: 16
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 关于学习风格，如听觉学习、视觉学习，下面哪种说法正确？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: 通过更适合你的学习风格学习，你会学得更好。
               B:
-                kind: Text
+                kind: TEXT
                 text: 通过更适合你的学习风格学习，不会学得更好
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                 目前没有实证研究证明学习风格对学习效率的影响存在显著影响。
           - order: 17
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   如果想要掌握多种问题的内在原则，比如：
                   - 计算不同形状容器的容积
@@ -144,13 +144,13 @@ elements:
                   - 识别不同的植物
                   你可以怎么做？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   有意交叉练习不同的问题，尝试在场景、角度等各个维度上变化。
           - order: 18
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   利用学到的知识解释生活中的现象，如：
                   - 「在夏天，空气越湿，人们感到越热」，是因为蒸发吸热
@@ -158,20 +158,19 @@ elements:
                   - 「烧柴火时适量吹风可让火烧得更旺」，是因为燃烧需要氧气参与
                   可以让学到的知识更不容易被遗忘，为什么？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   通过与自己已经熟悉的内容建立联系，同样能够达到强化神经通路的目的，建立更多的连接可以让这些内容都变得更持久。
           - order: 19
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 许多人认为人的智力在出生时就已经决定，而有的人认为智力可以改变，你觉得哪种说法是对的？为什么？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   大脑是可塑的，智力也是可以变化的。我们可以通过高效的学习策略，将知识存入大脑中，强化我们的 mental model，
                   帮助我们理解新知、解决问题、创造新事物，这些都在我们的掌控之中，并非由基因决定。
-
   - order: 2
     displayName: To Learn, Retrieve
   - order: 3

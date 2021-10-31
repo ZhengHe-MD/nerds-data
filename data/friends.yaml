@@ -20,31 +20,31 @@ elements:
       https://www.imdb.com/title/tt5842546/
     quizzes:
       - passRate: 80
-        kind: Retrieval
+        kind: RETRIEVAL
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: Narrative
+            kind: NARRATIVE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 先回顾一下这首歌：
-              - kind: Video
-                source: Bilibili
+              - kind: VIDEO
+                source: BILIBILI
                 url: >
                   https://player.bilibili.com/player.html?aid=291779105&bvid=BV1Tf4y1576M&cid=375546930&page=1
           - order: 2
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: |
               So no one ${verb} you life was gonna be this way
             answers:
               verb: told
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "没有人曾告诉过你，生活就是这样的"
           - order: 3
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: |
               Your job's a ${noun1}, you're ${verb}, your love life's ${noun2}
             answers:
@@ -52,57 +52,57 @@ elements:
               verb: broke
               noun2: D.O.A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "你的事业不成功，你一文不名，爱情没有结果"
           - order: 4
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: |
               It's like you're always stuck in second ${noun}
             answers:
               noun: gear
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "就像开车的时候卡在二档，无法迅速前进"
           - order: 5
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: >
               Oh when it hasn't been your day, your week, your month, or even your ${noun}
             answers:
               noun: year
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "当这一天、这一周、这一个月，甚至这一年你都很倒霉"
           - order: 6
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: >
               But I'll be there for you, when the rain starts to ${verb}
             answers:
               verb: pour
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "但是我会在那里支持你，即使大雨倾盆"
           - order: 7
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: >
               I'll be there for you, like I've been there ${adverb}
             answers:
               adverb: before
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "我会在那里支持你，就像我以前一样"
           - order: 8
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: >
               I'll be there for you, 'cause you're there for ${noun}, too
             answers:
               noun: me
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "我会在那里支持你，因为你也是我坚强的后盾"
   - order: 1
@@ -114,22 +114,22 @@ elements:
       https://www.imdb.com/title/tt0583459/
     quizzes:
       - passRate: 80,
-        kind: Retrieval
+        kind: RETRIEVAL
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: Narrative
+            kind: NARRATIVE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 如果你已经很熟悉这一季，可以直接进入下一题。如果想先回顾一下原剧或脚本：
-              - kind: Link
+              - kind: LINK
                 text: 脚本：The One Where Monica Gets a New Roommate (The Pilot-The Uncut Version)
                 url: https://fangj.github.io/friends/season/0101.html
           - order: 2
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   阅读下面片段：
                   Monica: There's nothing to tell! He's just some guy I work with!
@@ -141,19 +141,19 @@ elements:
                   Chandler: Sounds like a date to me.
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: 在 Monica 眼里，Chandler 的约会算不上约会
               B:
-                kind: Text
+                kind: TEXT
                 text: 在 Monica 眼里，Chandler 的约会听起来像个约会
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Chandler 自嘲自己的约会在 Monica 眼里算不上约会，只是吃吃晚饭而已。
           - order: 3
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 经典台词填空
             target: |
               Ross: I just feel like someone ${verb1} down my throat, ${verb2} my small intestine, ${verb3} it out of my mouth and ${verb4} it around my neck...
@@ -163,9 +163,9 @@ elements:
               verb3: pulled
               verb4: tied
           - order: 4
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 经典台词填空
             target: |
               Ross: No, no don't! Stop cleansing my ${noun}! No, just leave my (same) alone, okay?
@@ -173,52 +173,52 @@ elements:
             answers:
               noun: aura
           - order: 5
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 为什么 Ross 在结婚若干年后才发现 Carol (她的前妻) 是一位女同性恋者？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: 因为 Carol 隐藏得很好
               B:
-                kind: Text
+                kind: TEXT
                 text: 因为 Ross 没有发现
               C:
-                kind: Text
+                kind: TEXT
                 text: 因为 Carol 没有发现
             answer: C
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Ross: No!! Okay?! Why does everyone keep fixating on that? She didn't know, how should I know?
           - order: 6
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   阅读片段：
                   Ross: I don't want to be single, okay? I just... I just- I just wanna be married again!
                   (Rachel enters)
                   Chandler: And I just want a million dollars!
                   Monica: Rachel?!
-              - kind: Text
+              - kind: TEXT
                 text: 为什么 Chandler 说自己想要一百万美元？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Chandler 正在玩大富翁
               B:
-                kind: Text
+                kind: TEXT
                 text: Ross 想要结婚，Rachel 就进来了
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Ross 说想要再次结婚，一个穿婚纱的人就出现了；Chandler 觉得现在许愿肯定很灵 (开玩笑)。
           - order: 7
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Ross: ... if you don't feel like being alone tonight, Joey and Chandler are coming over to help me put together my new furniture.
                   Chandler: (deadpan) Yes, and we're very excited about it.
@@ -229,16 +229,16 @@ elements:
                   Phoebe 的下半句说的是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: I don't have time
               B:
-                kind: Text
+                kind: TEXT
                 text: I don't want to
             answer: B
           - order: 8
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: 经典台词填空
             target: |
               Monica: Oh my God!
@@ -253,123 +253,123 @@ elements:
             answers:
               verb: steer
           - order: 9
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   下面是 Rachel 参加了一天面试后回到公寓和大家的对话：
                   Ross: You got a job?
                   Rachel: Are you kidding? I'm trained for nothing! I was laughed out of twelve interviews today.
                   Chandler: And yet you're surprisingly ____.
                   Rachel: You would be too if you found John and David boots on sale, fifty percent off!
-              - kind: Text
+              - kind: TEXT
                 text: Chandler 说的最后一个词是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: uptight
               B:
-                kind: Text
+                kind: TEXT
                 text: upbeat
               C:
-                kind: Text
+                kind: TEXT
                 text: frustrated
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Rachel 看起来并不难过，因此是 surprisingly upbeat (积极乐观).
           - order: 10
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Monica 看到 Rachel 还在用父亲的信用卡买靴子后说：
                   "Come on, you can't live ___ your parents your whole life."
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: off
               B:
-                kind: Text
+                kind: TEXT
                 text: along
               C:
-                kind: Text
+                kind: TEXT
                 text: on
               D:
-                kind: Text
+                kind: TEXT
                 text: by
             answer: A
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: live off your parents 与 depend on your parents 含义相同
       - passRate: 75
-        kind: Connection
+        kind: CONNECTION
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   阅读片段：
                   Monica: Maybe. Joey: Wait. Your 'not a real date' tonight is with Paul the Wine Guy?
                   Ross: He finally asked you out?
                   Monica: Yes!
                   Chandler: Ooh, this is a Dear Diary moment.
-              - kind: Text
+              - kind: TEXT
                 text: 这里的 Dear Diary moment 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: 值得写到日记里的瞬间
           - order: 2
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   阅读片段：
                   Waitress: Can I get you some coffee?
                   Monica: (pointing at Rachel) De-caff. (to All) Okay, everybody, this is Rachel, another Lincoln High survivor. (to Rachel) This is everybody, this is Chandler, and Phoebe, and Joey, and- you remember my brother Ross?
                   Rachel: Hi, sure!
-              - kind: Text
+              - kind: TEXT
                 text: 为什么 Monica 要说 De-caff (过滤咖啡因)
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Monica 认为 Rachel 刚从婚礼现场逃走，需要冷静
           - order: 3
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Chandler: Look, Ross, you gotta understand, between us we haven't had a relationship that has lasted longer than a Mento. You, however have had the love of a woman for four years.  Four years of closeness and sharing at the end of which she ripped your heart out, and that is why we don't do it!  I don't think that was my point!
-              - kind: Text
+              - kind: TEXT
                 text: 这里的 Mento 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Mento 指的是是曼妥思 (Mentos)，嚼着嚼着就失去了甜味，比喻 Chandler 从不会长期处在恋爱关系中。
           - order: 4
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Ross: You know what the scariest part is? What if there's only one woman for everybody, y'know? I mean what if you get one woman- and that's it? Unfortunately in my case, there was only one woman- for her...
                   Joey: What are you talking about? 'One woman'? That's like saying there's only one flavor of ice cream for you. Lemme tell you something, Ross. There's lots of flavors out there. There's Rocky Road, and Cookie Dough, and Bing! Cherry Vanilla. You could get 'em with Jimmies, or nuts, or whipped cream! This is the best thing that ever happened to you! You got married, you were, like, what, eight? Welcome back to the world! Grab a spoon!
-              - kind: Text
+              - kind: TEXT
                 text: 这里 "grab a spoon" 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: spoon 指的是吃冰激凌的勺子，意思是让 Ross 跳出来，准备迎接新的生活
           - order: 5
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Monica: So how you doing today? Did you sleep okay? Talk to Barry? I can't stop smiling.
                   Rachel: I can see that. You look like you slept with a hanger in your mouth.
-              - kind: Text
+              - kind: TEXT
                 text: 为什么 Rachel 说 Monica 昨晚上和衣架睡了一觉？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: 因为 Monica 掩饰不住心中的兴奋，嘴角上扬，再加上她的嘴型比较宽，看起来像一个衣架。
   - order: 2
     displayName: SE01-EP02 - The Sonogram At The End
@@ -380,31 +380,31 @@ elements:
       https://www.imdb.com/title/tt0583647/
     quizzes:
       - passRate: 70
-        kind: Retrieval
+        kind: RETRIEVAL
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Chandler: Ugly Naked Guy got a Thighmaster!
-              - kind: Text
+              - kind: TEXT
                 text: 这里的 Thighmaster 是什么？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: 手臂塑型器械
               B:
-                kind: Text
+                kind: TEXT
                 text: 大腿塑型器械
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Thigh 是大腿，Thighmaster 是一种给大腿塑型的器械，这里的画面感比较强。
           - order: 2
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: >
               I know this is going to sound unbelievably selfish,
               but, were you planning on bringing up the whole baby/lesbian thing?
@@ -412,10 +412,10 @@ elements:
             answers:
               noun: heat
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Monica 希望能够转移父母的注意力，不要把热度 (heat) 集中在自己身上。
           - order: 3
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: >
               Ross: (pulls his hand away) Okay! Okay. (To his parents) Look, I, uh-
               I realise you guys have been wondering what exactly happened between Carol and me,
@@ -424,13 +424,13 @@ elements:
             answers:
               noun: deal
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "here is the deal" 常用来引出一个观点、事实、想法等等。
           - order: 4
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: Rachel 和 Ross 在讨论各自明天需要面临的难题：
             target: >
               Rachel: So, ${verb} any advice? Y'know, as someone who's recently been dumped?
@@ -440,13 +440,13 @@ elements:
             answers:
               verb: got
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "got any advice" 是一种询问建议的省略短句，本身并不符合标准语法，完整的句子可以是 "Have you got any advice for me?"
           - order: 5
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Carol, Ross 和 Susan 在讨论孩子的名字：
                   Carol: -if it's a boy, Minnie if it's a girl.
@@ -456,17 +456,17 @@ elements:
                   Carol: Julia..
                   Susan: We agreed on Minnie.
                   Ross: 'S'funny, um, uh, we agreed we'd spend the rest of our lives together. Things change, roll with the punches. I believe Julia's on the table..?
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "Things change, roll with the punches" 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "世事难料，兵来将挡水来土掩"
           - order: 6
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Rachel 和被他抛弃的未婚夫 Barry 见面：
                   Barry: Sorry about that. So. What have you been up to?
@@ -474,38 +474,38 @@ elements:
                   Barry: Oh, that's great.
                   Rachel: Why are- why are you so tanned?
                   Barry: Oh, I, uh- I went to Aruba.
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "tanned" 是什么意思
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "tanned" 指得是皮肤被晒黑
           - order: 7
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Rachel: Oh! Well, um.. (Grabs his forehand) You've got plugs!
                   Barry: Careful! They haven't quite taken yet.
                   Rachel: And you've got lenses! But you hate sticking your finger in your eye!
                   Barry: Not for her. Listen, I really wanted to thank you.
-              - kind: Text
+              - kind: TEXT
                 text: >
                   这里的 plugs 和 lenses 分别指什么？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "plugs" 是植发，"lenses" 是隐形眼镜。Barry 在 Rachel 逃婚后跟 Mindy 在一起，并且开始打扮自己。
       - passRate: 80
-        kind: Connection
+        kind: CONNECTION
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Monica: What you guys don't understand is, for us, kissing is as important as any part of it.
                   Joey: Yeah, right!.......Y'serious?
@@ -516,26 +516,26 @@ elements:
                   Ross: Yeah, and-and it's not that we don't like the comedian, it's that-that... that's not why we bought the ticket.
                   Chandler: The problem is, though, after the concert's over, no matter how great the show was, you girls are always looking for the comedian again, y'know? I mean, we're in the car, we're fighting traffic... basically just trying to stay awake.
                   Rachel: Yeah, well, word of advice: Bring back the comedian. Otherwise next time you're gonna find yourself sitting at home, listening to that album alone.
-              - kind: Text
+              - kind: TEXT
                 text: Pink Floyed 的职业是什么？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Stand-up comedian (脱口秀演员)
               B:
-                kind: Text
+                kind: TEXT
                 text: Musician(s) (音乐表演者)
               C:
-                kind: Text
+                kind: TEXT
                 text: Taxi Driver (出租车司机)
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: 从 Chandler 的话中可以看出 Pink Floyed 的表演在脱口秀演员之后，是主角；从 Rachel 的最后一句话中可以看出，它们与 album (专辑) 有关。
           - order: 2
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Ross 和前妻 Carol 在博物馆见面：
 
@@ -544,15 +544,15 @@ elements:
                   Ross: You look great. I, uh... I hate that.
                   Carol: Sorry. You look good too.
                   Ross: Ah, well, in here, anyone who... stands erect... So what's new? Still, uh...
-              - kind: Text
+              - kind: TEXT
                 text: 这里的 stands erect 的笑点在于？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: 因为 Ross 和 Carol 见面的地方 (Museum of Prehistoric History) 是一个原始人展区，stands erect 既指 Ross 也指展区里的山洞人 (模型)。
           - order: 3
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Ross: (standing outside the door).....Hi.
                   Monica: Wow. That is not a happy hi.
@@ -560,31 +560,31 @@ elements:
                   Monica: W-w-wh-... wha-... w-w-w-...
                   Ross: Yeah. Do that for another two hours, you might be where I am right about now. (He enters.)
                   Chandler: Kinda puts that whole pillow thing in perspective, huh, Mon?
-              - kind: Text
+              - kind: TEXT
                 text: Chandler 说这句话的含义是？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   因为 Monica 很担心父母来家里挑自己的毛病，甚至把沙发上的抱枕都拍得很蓬松，
                   但 Ross 前妻怀孕的这个新闻足以让那些在他们的父母面前变得不重要。
           - order: 4
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   friends 们正在看 Ross 儿子的超声图：
                   Ross: Well? Isn't that amazing?
                   Joey: What are we supposed to be seeing here?
                   Chandler: I dunno, but.. I think it's about to attack the Enterprise.
                   ...
-              - kind: Text
+              - kind: TEXT
                 text: |
                   这里 Chandler 说的 attack the Enterprise 指什么？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   这里是致敬了 Star Trek (星际迷航)，幽默地展现出父母看到胚胎或新生儿的感觉：就像看到了外星人一样。
-              - kind: Link
+              - kind: LINK
                 url: https://www.denofgeek.com/tv/the-geekiest-moments-in-friends/
   - order: 3
     displayName: SE01-EP03 - The One With the Thumb
@@ -595,14 +595,14 @@ elements:
       https://www.imdb.com/title/tt0583653/
     quizzes:
       - passRate: 80
-        kind: Retrieval
+        kind: RETRIEVAL
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   Chandler 教 Joey 如何抽烟，说道：
 
@@ -612,22 +612,22 @@ elements:
                   最后一个词应该是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: happy
               B:
-                kind: Text
+                kind: TEXT
                 text: alone
               C:
-                kind: Text
+                kind: TEXT
                 text: complete
             answer: C
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: 当你拿着它 (烟) 的时候，你感觉到一切都是对的，是完整的。
           - order: 2
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   **Monica**: No, no, no. They say it's the same as the distance from
                   the tip of a guy's thumb to the tip of his index finger.
@@ -635,17 +635,17 @@ elements:
                   这里的 "index finger" 是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: 中指
               B:
-                kind: Text
+                kind: TEXT
                 text: 无名指
               C:
-                kind: Text
+                kind: TEXT
                 text: 食指
             answer: C
             explains:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   食指通常用来指认东西，也称 "pointing finger" 和 "index finger"，下图展示了所有手指的英文名称：
 
@@ -654,9 +654,9 @@ elements:
                   参考资料：
                   * [Wikipedia: Index Finger](https://en.wikipedia.org/wiki/Index_finger)
           - order: 3
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   Chandler 抽烟被大家发现：
 
@@ -669,32 +669,32 @@ elements:
                   Chandler 说的最后一个词是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: award
               B:
-                kind: Text
+                kind: TEXT
                 text: reward
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Award 通常指公开颁发的奖项，表彰获奖者的工作
                   Reward 通常指正常工作的回报，且大多数为非公开的行为
           - order: 4
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             target: |
               Monica 带他新的约会对象 Alan 与大家见面，送走 Alan 后，说：
               "Okay, let's let the Alan-bashing begin. Who's gonna take the first ${noun}, hmm?"
             answers:
               noun: shot
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Take the first shot 表示第一个尝试。
           - order: 5
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   当大家都觉得 Monica 的新约会对象 Alan 很不错的时候，Ross 说了一句话
             target: |
@@ -702,13 +702,13 @@ elements:
             answers:
               noun: yardstick
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   yardstick 指标尺，Ross 的意思就是 Alan 将成为在座各位女性未来男朋友的衡量标准。
           - order: 6
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Markdown
+              - kind: MARKDOWN
                 text: |
                   Phoebe 打开苏打水发现了....
 
@@ -720,28 +720,28 @@ elements:
                   Phoebe 说的最后一个词是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: thumb
               B:
-                kind: Text
+                kind: TEXT
                 text: hitch-hiker
               C:
-                kind: Text
+                kind: TEXT
                 text: like
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   "hitch-hiker" 指的是搭顺风车的人，通常他们会在路边，竖起大拇指：
-              - kind: Image
+              - kind: IMAGE
                 url: https://ak.picdn.net/offset/photos/602eea3d6f52af4409fdaedd/medium/offset_1097078.jpg
-              - kind: Text
+              - kind: TEXT
                 text: |
                   因为 Phoebe 在苏打水里发现了一个拇指，好像一个 hitch-hiker 的大拇指...
           - order: 7
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   大家又发现 Chandler 抽烟并抵制一番后，Chandler 抱怨说：
             target: >
@@ -753,12 +753,12 @@ elements:
               gerund2: over-pronouncing
               noun: snort
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: 这里 Chandler 罗列了大家的一些特有的习惯来为自己抽烟开脱。
           - order: 8
-            kind: FillInTheBlanks
+            kind: FILL_IN_THE_BLANKS
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Monica 宣布要和 Alan 分手后，Phoebe 说了一句话：
             target:
@@ -766,18 +766,18 @@ elements:
             answers:
               noun: guard
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   "let your guard down" 指放下你的防御心理，表示开始接纳一个人。
       - passRate: 90
-        kind: Connection
+        kind: CONNECTION
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Phoebe 约会回到 Central Perk
                   Phoebe: Um, not so good. He walked me to the subway and said 'We should do this again!'
@@ -790,59 +790,59 @@ elements:
                   Phoebe: Or, or, y'know, um, 'I think we should see other people' means 'Ha, ha, I already am'.
                   Rachel: And everybody knows this?
                   Joey: Yeah. Cushions the blow.
-              - kind: Text
+              - kind: TEXT
                 text: Joey 说的 "Cushions the blow" 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   "Cushions the blow" 字面意思是减轻打击，这里指委婉地拒绝继续约会。
           - order: 2
-            kind: SingleChoice
+            kind: SINGLE_CHOICE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Chandler: Yeah, it's like when you're a kid, and your parents put your dog to sleep, and they tell you it went off to live on some farm.
                   Ross: That's funny, that, no, because, uh, our parents actually did, uh, send our dog off to live on a farm.
                   Monica: Uh, Ross.
                   Ross: What? Wh- hello? The Millners' farm in Connecticut? The Millners, they had this unbelievable farm, they had horses, and, and rabbits that he could chase and it was- it w- .....Oh my God, Chi Chi!
-              - kind: Text
+              - kind: TEXT
                 text: 这里的 "Chi Chi" 是？
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: 一个感叹词，表示自己被欺骗了
               B:
-                kind: Text
+                kind: TEXT
                 text: Ross 小时候养的小狗
             answer: B
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   在 SE08-EP18 中有提到：
                   Chandler: What are you doing?
                   Monica: Oh I’m working on my toast for the party, or as I like to call it. Sob fest 2002. Hey check this out. (Hands him a picture.)
                   Chandler: It’s a dog.
                   Monica: It’s a dead dog. That’s Chi-Chi; she died when I was in high school.
-              - kind: Link
+              - kind: LINK
                 text: Fandom friends wiki - Chi-Chi
                 url: https://friends.fandom.com/wiki/Chi-Chi
           - order: 3
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Phoebe 的银行卡多了 500 美金：
                   Phoebe: - and there's five hundred extra dollars in my account.
                   Chandler: Oh, Satan's minions at work again...
-              - kind: Text
+              - kind: TEXT
                 text: Chandler 说的 "Satan's minions at work again" 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: Satan's minions 是撒旦的仆人，传说他们会通过各种方式测试人们会不会作恶。这里 Chandler 开玩笑地表示这可能是撒旦的测试。
           - order: 4
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Phoebe 想摆脱意外获得的 1000 美元，找到拾荒者 Lizzie
                   Phoebe: Hey, Lizzie.
@@ -850,25 +850,25 @@ elements:
                   Phoebe: I brought you alphabet soup.
                   Lizzie: Did you pick out the vowels?
                   Phoebe: Yes. But I left in the Ys. 'Cause, y'know, "sometimes y". Uh, I also have something else for you. (She searches in her purse.)
-              - kind: Text
+              - kind: TEXT
                 text: |
                   这里的 "sometimes y" 指的是？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   首先这里的 alphabet soup 是一种字母形的意大利面，如下图所示：
-              - kind: Image
+              - kind: IMAGE
                 url: https://kidspot.co.nz/wp-content/uploads/2016/05/soup.jpg
-              - kind: Text
+              - kind: TEXT
                 text: |
                   "sometimes y" 指的是 y 在一些时候被算作元音，一些时候不被算作元音，因此 Phoebe 没有将 y 形状的面挑出。
-              - kind: Link
+              - kind: LINK
                 text: When is 'Y' a Vowel? When is 'Y' a Consonant?
                 url: https://www.sporcle.com/blog/2016/11/when-is-y-a-vowel/
           - order: 5
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   当 Chandler 吐槽大家的缺点后，大家开始互相攻击：
                   ...
@@ -876,28 +876,28 @@ elements:
                   Rachel: "Indeed there isn't"... I should really get back to work.
                   Phoebe: Yeah, 'cause otherwise someone might get what they actually ordered.
                   Rachel: Ohh-ho-hooohhh. The hair comes out, and the gloves come off.
-              - kind: Text
+              - kind: TEXT
                 text: |
                   "The hair comes out, and the gloves come on" 这句话指的是？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "The hair comes out" 字面义是把头发放下来；"The gloves come on" 字面义是把手套脱下。两句话描述的
                   是在打架前做的准备活动，意指要大战一场了。
           - order: 6
-            kind: YouTell
+            kind: YOU_TELL
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Monica 准备告诉大家她不打算和 Alan 在一起了：
                   ...
                   Monica: Please, guys, we have to talk.
                   Phoebe: Wait, wait, I'm getting a deja vu...no, I'm not.
                   Monica: Alright, we have to talk.
-              - kind: Text
+              - kind: TEXT
                 text: |
                   Phoebe 说的 "deja vu" 是什么意思？
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >
                   "deja vu" 来自于法语，指的是眼下的场景似曾相似的现象。这里暗指 Monica 又要和约会对象分手了
