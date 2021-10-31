@@ -14,9 +14,12 @@ elements:
     link: https://ctl.wiley.com/writing-quiz-questions/
     quizzes:
       - passRate: 92
+        kind: RETRIEVAL
+        displayName: review
         questions:
           - order: 1
-            kind: MultipleChoices
+            displayName: main concepts of multiple-choice
+            kind: MULTIPLE_CHOICES
             stems:
               - kind: Text
                 text: What are the main concepts of multiple-choice questions?
@@ -45,7 +48,8 @@ elements:
               - kind: Text
                 text: Wrong answers are "distractors"
           - order: 2
-            kind: MultipleChoices
+            displayName: effective stems
+            kind: MULTIPLE_CHOICES
             stems:
               - kind: Text
                 text: >-
@@ -78,7 +82,8 @@ elements:
                   If you must use a negative construction, be sure to underline
                   or bold words such as not or except
           - order: 3
-            kind: Narrative
+            displayName: characteristics of effective response
+            kind: NARRATIVE
             stems:
               - kind: Text
                 text: >-
@@ -121,10 +126,12 @@ elements:
                   you do use them, use them generously and not just when they’re
                   the correct answer.
           - order: 4
-            kind: MultipleChoices
+            displayName: problems of response items
+            kind: MULTIPLE_CHOICES
             stems:
               - kind: Text
-                text: 'Please read the following question first: '
+                text: >
+                  Please read the following question first:
               - kind: Text
                 text: What is the average effective radiation dose from a chest CT?
               - kind: Text
@@ -168,7 +175,8 @@ elements:
               - kind: Text
                 text: D. 31–40 mSv
           - order: 5
-            kind: MultipleChoices
+            displayName: effective distractors
+            kind: MULTIPLE_CHOICES
             stems:
               - kind: Text
                 text: >-
@@ -198,7 +206,8 @@ elements:
                   All of the above are directly mentioned in the original
                   material
           - order: 6
-            kind: Narrative
+            displayName: feedback
+            kind: NARRATIVE
             stems:
               - kind: Text
                 text: >-
@@ -206,10 +215,12 @@ elements:
                   it's a chance that you can help the audience understand the
                   reasoning better and point out the learning resources.
           - order: 7
-            kind: MultipleChoices
+            displayName: spot the problems
+            kind: MULTIPLE_CHOICES
             stems:
               - kind: Text
-                text: 'Please read the following question first: '
+                text: >
+                  Please read the following question first:
               - kind: Text
                 text: Annuals are ______.
               - kind: Text
@@ -249,7 +260,8 @@ elements:
               - kind: Text
                 text: There is no idioms and confusing vocabulary in response items
               - kind: Text
-                text: 'A better version of the question can be:'
+                text: >
+                  A better version of the question can be:
               - kind: Text
                 text: Which of the following is true of annuals? They ___.
               - kind: Text
