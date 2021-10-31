@@ -1,3 +1,4 @@
+---
 displayName: >
   Make It Stick: The Science of Successful Learning
 brief: >-
@@ -22,11 +23,11 @@ elements:
                   学习的过程付出得越 ___，学到的内容越扎实、越持久。
             choices:
               A:
-                - kind: TEXT
-                  text: 少
+                kind: TEXT
+                text: 少
               B:
-                - kind: TEXT
-                  text: 多
+                kind: TEXT
+                text: 多
             answer: B
             explains:
               - kind: TEXT
@@ -40,29 +41,31 @@ elements:
                   人们 ___ 判断自己学得好还是不好。
             choices:
               A:
-                - kind: TEXT
-                  text: 善于
+                kind: TEXT
+                text: 善于
               B:
-                - kind: TEXT
-                  text: 不善于
+                kind: TEXT
+                text: 不善于
             answer: B
             explains:
               - kind: TEXT
-                text: |
-                  在学习的过程中，人们倾向于选择一些容易产生成就感的策略，而通过这些策略学到的内容常常难以持久。因此我们还需要外部的人或工具来协助判断学习效果。
+                text: >
+                  在学习的过程中，人们倾向于选择一些容易产生成就感的策略，从而让人对自己的学习效果产生误判。
+                  因此我们还需要外部的人或工具来协助判断学习效果。
           - order: 12
             kind: SINGLE_CHOICE
             stems:
               - kind: TEXT
                 text: |
-                  重复阅读、题海战术给人带来的成就感 ___。(注意：这里的题海战术指的是针对某个知识点短时间大量练习)
+                  重复阅读、题海战术给人带来的成就感 ___。
+                  (注意：这里的题海战术指的是针对某个知识点短时间大量练习)
             choices:
               A:
-                - kind: TEXT
-                  text: 大
+                kind: TEXT
+                text: 大
               B:
-                - kind: TEXT
-                  text: 小
+                kind: TEXT
+                text: 小
             answer: A
             explains:
               - kind: TEXT
@@ -77,11 +80,11 @@ elements:
                   当我们要巩固学过的内容时，哪一种方式更高效？
             choices:
               A:
-                - kind: TEXT
-                  text: 尝试从记忆中获取
+                kind: TEXT
+                text: 尝试从记忆中获取
               B:
-                - kind: TEXT
-                  text: 取出材料再读一遍
+                kind: TEXT
+                text: 取出材料再读一遍
             answer: A
             explains:
               - kind: TEXT
@@ -104,12 +107,12 @@ elements:
               - kind: TEXT
                 text: 下面哪种方式学习的效率更高？
             choices:
-              - A:
-                  kind: TEXT
-                  text: 在学习一个知识点前，先尝试解决对应的问题
-              - B:
-                  kind: TEXT
-                  text: 在学习一个知识点后，再尝试解决对应的问题
+              A:
+                kind: TEXT
+                text: 在学习一个知识点前，先尝试解决对应的问题
+              B:
+                kind: TEXT
+                text: 在学习一个知识点后，再尝试解决对应的问题
             answer: A
             explains:
               - kind: TEXT
@@ -131,7 +134,7 @@ elements:
             explains:
               - kind: TEXT
                 text: |
-                目前没有实证研究证明学习风格对学习效率的影响存在显著影响。
+                  目前没有实证研究证明学习风格对学习效率的影响存在显著影响。
           - order: 17
             kind: YOU_TELL
             stems:
@@ -141,6 +144,7 @@ elements:
                   - 计算不同形状容器的容积
                   - 足球场上处理不同方向的来球
                   - 识别不同的植物
+
                   你可以怎么做？
             explains:
               - kind: TEXT
@@ -155,13 +159,14 @@ elements:
                   - 「在夏天，空气越湿，人们感到越热」，是因为蒸发吸热
                   - 「司机通过踩刹车就能停止汽车移动」，是因为杠杆原理
                   - 「烧柴火时适量吹风可让火烧得更旺」，是因为燃烧需要氧气参与
+
                   可以让学到的知识更不容易被遗忘，为什么？
             explains:
               - kind: TEXT
                 text: |
                   通过与自己已经熟悉的内容建立联系，同样能够达到强化神经通路的目的，建立更多的连接可以让这些内容都变得更持久。
           - order: 19
-            kind: SINGLE_CHOICE
+            kind: YOU_TELL
             stems:
               - kind: TEXT
                 text: 许多人认为人的智力在出生时就已经决定，而有的人认为智力可以改变，你觉得哪种说法是对的？为什么？
