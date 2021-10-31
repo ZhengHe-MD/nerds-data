@@ -21,55 +21,53 @@ elements:
             displayName: main concepts of multiple-choice
             kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: What are the main concepts of multiple-choice questions?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Stem
               B:
-                kind: Text
+                kind: TEXT
                 text: Response items
               C:
-                kind: Text
+                kind: TEXT
                 text: Correct items
               D:
-                kind: Text
+                kind: TEXT
                 text: Distractors
             answers:
               - A
               - B
               - D
             explains:
-              - kind: Text
-                text: The question is called a "stem".
-              - kind: Text
-                text: Possible answers are "response items"
-              - kind: Text
-                text: Wrong answers are "distractors"
+              - kind: MARKDOWN
+                text: |
+                  - The question is called a "stem".
+                  - Possible answers are "response items"
+                  - Wrong answers are "distractors"
           - order: 2
             displayName: effective stems
             kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
-                  Which of the following statements about effective stems are
-                  true
+                  Which of the following statements about effective stems are true
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Concise
               B:
-                kind: Text
+                kind: TEXT
                 text: Use simple, clear wording
               C:
-                kind: Text
+                kind: TEXT
                 text: Avoid grammatical clues (e.g., a or an, singular or plural)
               D:
-                kind: Text
+                kind: TEXT
                 text: Use negative constructors often (e.g., not and except)
               E:
-                kind: Text
+                kind: TEXT
                 text: Don't leak information that provides clues for other questions
             answers:
               - A
@@ -77,7 +75,7 @@ elements:
               - C
               - E
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   If you must use a negative construction, be sure to underline
                   or bold words such as not or except
@@ -85,115 +83,81 @@ elements:
             displayName: characteristics of effective response
             kind: NARRATIVE
             stems:
-              - kind: Text
-                text: >-
-                  Just to reminds you the characteristics of effective response
-                  items:
-              - kind: Text
-                text: >-
-                  - Ensure that every response is grammatically consistent with
-                  the stem
-              - kind: Text
-                text: >-
-                  - Make sure response items have a parallel grammatical
-                  structure
-              - kind: Text
-                text: '- Avoid idioms and potentially confusing vocabulary'
-              - kind: Text
-                text: '- Avoid absolutes (e.g., always and never)'
-              - kind: Text
-                text: '- Make sure the position of the correct answer varies'
-              - kind: Text
-                text: '- Make the length of response items roughly consistent'
-              - kind: Text
-                text: '- Eliminate repetitive or extraneous wording'
-              - kind: Text
-                text: >-
-                  - Ensure that all items are mutually exclusive (i.e., avoid
-                  overlapping alternatives)
-              - kind: Text
-                text: >-
-                  - List response options in a logical order (e.g.,
-                  alphabetically, chronologically, or numerically)
-              - kind: Text
-                text: >-
-                  - Avoid potentially confusing response items such as “A and B”
-                  or “B and C.” If there is more than one correct answer, use
-                  multiple-answer questions instead
-              - kind: Text
-                text: >-
-                  - Avoid using all of the above and none of the above, but if
-                  you do use them, use them generously and not just when they’re
-                  the correct answer.
+              - kind: MARKDOWN
+                text: |
+                  Just to reminds you the characteristics of effective response items:
+                  - Ensure that every response is grammatically consistent with the stem
+                  - Make sure response items have a parallel grammatical structure
+                  - Avoid idioms and potentially confusing vocabulary
+                  - Avoid absolutes (e.g., always and never)
+                  - Make sure the position of the correct answer varies
+                  - Make the length of response items roughly consistent
+                  - Eliminate repetitive or extraneous wording
+                  - Ensure that all items are mutually exclusive (i.e., avoid overlapping alternatives)
+                  - List response options in a logical order (e.g., alphabetically, chronologically, or numerically)
+                  - Avoid potentially confusing response items such as “A and B” or “B and C.”
+                  If there is more than one correct answer, use multiple-answer questions instead
+                  - Avoid using all of the above and none of the above, but if you do use them,
+                  use them generously and not just when they’re the correct answer.
           - order: 4
             displayName: problems of response items
             kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
-                text: >
+              - kind: MARKDOWN
+                text: |
                   Please read the following question first:
-              - kind: Text
-                text: What is the average effective radiation dose from a chest CT?
-              - kind: Text
-                text: A. 1–10 mSv
-              - kind: Text
-                text: B. 10–12 mSv
-              - kind: Text
-                text: C. 24–32 mSv
-              - kind: Text
-                text: D. 16–24 mSv
-              - kind: Text
-                text: Can you spot the problems with the response items?
+
+                  What is the average effective radiation dose from a chest CT?
+                  - A. 1–10 mSv
+                  - B. 10–12 mSv
+                  - C. 24–32 mSv
+                  - D. 16–24 mSv
+
+                  Can you spot the problems with the response items?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: They overlap
               B:
-                kind: Text
+                kind: TEXT
                 text: They are not in a logical order
               C:
-                kind: Text
+                kind: TEXT
                 text: They don't have a parallel grammatical structure
             answers:
               - A
               - B
             explains:
-              - kind: Text
-                text: >-
-                  The grammatical structure is obviously parallel, even the
-                  lengths of them.
-              - kind: Text
-                text: 'A better version of the question can be:'
-              - kind: Text
-                text: What is the average effective radiation dose from a chest CT?
-              - kind: Text
-                text: A. 1–10 mSv
-              - kind: Text
-                text: B. 11–20 mSv
-              - kind: Text
-                text: C. 21–30 mSv
-              - kind: Text
-                text: D. 31–40 mSv
+              - kind: MARKDOWN
+                text: |
+                  The grammatical structure is obviously parallel, even the lengths of them.
+                  A better version of the question can be:
+
+                  What is the average effective radiation dose from a chest CT?
+                  - A. 1–10 mSv
+                  - B. 11–20 mSv
+                  - C. 21–30 mSv
+                  - D. 31–40 mSv
           - order: 5
             displayName: effective distractors
             kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Which of the following statements about effective distractors
                   are true
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: Every distractor should sound plausible
               B:
-                kind: Text
+                kind: TEXT
                 text: Don't use trivial or nonsensical distractors
               C:
-                kind: Text
+                kind: TEXT
                 text: Take advantage of mistakes that users often make
               D:
-                kind: Text
+                kind: TEXT
                 text: Generate distractors from correct response items
             answers:
               - A
@@ -201,7 +165,7 @@ elements:
               - C
               - D
             explains:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   All of the above are directly mentioned in the original
                   material
@@ -209,7 +173,7 @@ elements:
             displayName: feedback
             kind: NARRATIVE
             stems:
-              - kind: Text
+              - kind: TEXT
                 text: >-
                   Don't forget the feedback for each response and distractor,
                   it's a chance that you can help the audience understand the
@@ -218,36 +182,32 @@ elements:
             displayName: spot the problems
             kind: MULTIPLE_CHOICES
             stems:
-              - kind: Text
-                text: >
+              - kind: MARKDOWN
+                text: |
                   Please read the following question first:
-              - kind: Text
-                text: Annuals are ______.
-              - kind: Text
-                text: A. plants that live and bloom for multiple years
-              - kind: Text
-                text: B. do not bloom
-              - kind: Text
-                text: C. plants that live and bloom for one year
-              - kind: Text
-                text: D. plants that bloom exclusively in cold climates
-              - kind: Text
-                text: Can you spot the problems with the question?
+
+                  Annuals are ______.
+                  - A. plants that live and bloom for multiple years
+                  - B. do not bloom
+                  - C. plants that live and bloom for one year
+                  - D. plants that bloom exclusively in cold climates
+
+                  Can you spot the problems with the question?
             choices:
               A:
-                kind: Text
+                kind: TEXT
                 text: The stem is too vague
               B:
-                kind: Text
+                kind: TEXT
                 text: The response items have repetitive or extraneous wording
               C:
-                kind: Text
+                kind: TEXT
                 text: The response items don't have a parallel grammatical structure
               D:
-                kind: Text
+                kind: TEXT
                 text: The response items don't match the stem grammatically
               E:
-                kind: Text
+                kind: TEXT
                 text: >-
                   The response items use idioms and potentially confusing
                   vocabulary
@@ -257,18 +217,13 @@ elements:
               - C
               - D
             explains:
-              - kind: Text
-                text: There is no idioms and confusing vocabulary in response items
-              - kind: Text
-                text: >
+              - kind: MARKDOWN
+                text: |
+                  There is no idioms and confusing vocabulary in response items.
                   A better version of the question can be:
-              - kind: Text
-                text: Which of the following is true of annuals? They ___.
-              - kind: Text
-                text: A. live and bloom for multiple years
-              - kind: Text
-                text: B. do not bloom
-              - kind: Text
-                text: C. bloom exclusively in cold climates
-              - kind: Text
-                text: D. live and bloom for one year
+
+                  Which of the following is true of annuals? They ___.
+                  - A. live and bloom for multiple years
+                  - B. do not bloom
+                  - C. bloom exclusively in cold climates
+                  - D. live and bloom for one year
