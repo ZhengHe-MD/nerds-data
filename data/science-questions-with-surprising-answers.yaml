@@ -19,11 +19,13 @@ elements:
       https://www.wtamu.edu/~cbaird/sq/2020/02/11/do-blind-people-dream-in-visual-images/
     quizzes:
       - passRate: 73
+        displayName: review
         kind: RETRIEVAL
         createUser: zhenghe
         contributors:
         questions:
           - order: 1
+            displayName: visual dreams of the blind
             kind: SINGLE_CHOICE
             stems:
               - kind: TEXT
@@ -51,6 +53,7 @@ elements:
                   People born blind without any problems in their brains can
                   have visual images in their dreams.
           - order: 3
+            displayName: causes of blindness
             kind: MULTIPLE_CHOICES
             stems:
               - kind: TEXT
@@ -79,6 +82,7 @@ elements:
                   The human experience of vision involves all steps above, light
                   to electrical impulses, to visual sensations
           - order: 4
+            displayName: regain vision
             kind: SINGLE_CHOICE
             stems:
               - kind: TEXT
@@ -100,6 +104,7 @@ elements:
                   brain, the person usually regains some amount of vision due to
                   brain plasticity
           - order: 5
+            displayName: how to verify
             kind: SINGLE_CHOICE
             stems:
               - kind: TEXT
@@ -127,6 +132,7 @@ elements:
                   People born blind can not understand what a visual experience
                   without experiencing themselves
           - order: 6
+            displayName: what born blind can see
             kind: MULTIPLE_CHOICES
             stems:
               - kind: TEXT
