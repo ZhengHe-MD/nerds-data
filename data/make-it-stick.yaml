@@ -176,9 +176,349 @@ elements:
                   大脑是可塑的，智力也是可以变化的。我们可以通过高效的学习策略，将知识存入大脑中，强化我们的 mental model，
                   帮助我们理解新知、解决问题、创造新事物，这些都在我们的掌控之中，并非由基因决定。
   - order: 2
-    displayName: To Learn, Retrieve
+    displayName: 学习，然后在脑中检索 (To Learn, Retrieve)
+    quizzes:
+      - passRate: 60
+        kind: RETRIEVAL
+        createUser: zhenghe
+        questions:
+          - order: 1
+            kind: MULTIPLE_CHOICES
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  神经外科医生 Ebersold 喜欢在学习过程中思考 (reflection)，当遇到棘手的病人时，
+                  他常常会思考到深夜，手术台上的哪些细节可以如何改进，如何将经验与理论结合，并加入
+                  自己的巧思。正是这些思考的过程帮助他逐步成为一位优秀的神经外科医生。
+
+                  从 Ebersold 的例子展开，你觉得「思考」可能在哪些方面强化你的学习？
+            choices:
+              A:
+                kind: TEXT
+                text: 帮助你从脑中检索知识，强化记忆
+              B:
+                kind: TEXT
+                text: 帮助你连接知识与经历，相互强化
+              C:
+                kind: TEXT
+                text: 反复思考可以帮助你下次更快决策
+            answers:
+              - A
+              - B
+              - C
+            explains:
+              - kind: TEXT
+                text: >
+                  在实践后多思考，既能帮助你强化记忆，又能加深经验，循环多次后，你的决策过程就会变得像「肌肉记忆」，
+                  在遇到相同场景后，大脑就可以略过思考的过程，直接给出最佳实践方案。
+          - order: 2
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: TEXT
+                text: 早在 1885 年，心理学家已经开始绘制人类的遗忘曲线 (forgetting curves)，下面哪种描述正确？
+            choices:
+              A:
+                kind: TEXT
+                text: 在很短的时间内，我们会遗忘约 70% 的所学内容，余下的 30% 则会在之后更缓慢地被遗忘
+              B:
+                kind: TEXT
+                text: 在很短的时间内，我们会遗忘约 30% 的所学内容，余下的 70% 则会在之后更缓慢地被遗忘
+            answer: A
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  遗忘曲线展示的是在没有任何干预的情况下，人脑遗忘的特点。形状如下图所示：
+
+                  ![forgetting-curve](https://upload.wikimedia.org/wikipedia/commons/d/dc/Ebbinghaus_Forgetting_Curve.jpg)
+
+                  其中横坐标是时间，纵坐标是未被遗忘的百分比。
+          - order: 3
+            kind: YOU_TELL
+            stems:
+              - kind: TEXT
+                text: 为了阻止遗忘，我们可以做什么？
+            explains:
+              - kind: TEXT
+                text: >
+                  尝试在脑中检索 (retrieval) 学过的信息，在心理学中被称为 testing effect，或 retrieval-practice effect。
+                  最常见的检索就是测验，在我们的常识中，测验就是用来给学生定级的，但它本身其实也是一种有效的学习工具。
+                  亚里士多德曾说「Exercise in repeatedly recalling a thing strengthens the memory」。
+          - order: 4
+            kind: YOU_TELL
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  为了在实际课堂中验证 testing effect，作者及其团队来到一个中学，展开了为期三个学期的实验。助手针对课本内容
+                  设计了一系列测验，覆盖老师在课堂中教授内容的约 1/3。
+
+                  在每堂课的开始、结束以及每次考试前一天，分别会有一次测验。这里有一个问题：如果学生在期末考试中，在被测验过的
+                  题目上表现得比未测验过的题目好，并不能证明学生成绩的提高来自于测验，因为阅读测验题目和答案本身也算是一种重复阅读。
+
+                  你能否尝试修改这个实验，证明测验比重复阅读效果更好？在提交答案之前，你能列举出具体的理由吗？
+            explains:
+              - kind: TEXT
+                text: >
+                  在测验的过程中，加入一些陈述性的知识点，直接将知识暴露在学生面前，没有检索、思考的过程。如果学生在这些陈述性
+                  的知识点上表现得比测验题覆盖的知识点差，则可以证明测验比重复阅读效果更好。
+          - order: 5
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: TEXT
+                text: >
+                  Andrew Sobel 在华盛顿大学教授国际政治经济学。为了提高学生的学习效果，他多次尝试重排教学计划，你认为下面哪种
+                  教学计划最终被验证效果最好？
+            choices:
+              A:
+                kind: TEXT
+                text: 期中、期末考试各一次，两次考试决定学生最终成绩
+              B:
+                kind: TEXT
+                text: 9 次课堂测验，不预先通知，所有测验共同决定学生最终成绩
+              C:
+                kind: TEXT
+                text: 9 次课堂测验，预先通知时间，所有测验共同决定学生最终成绩
+            answer: C
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  - 「期中、期末考试各一次」会促进学生采用抱佛脚的方式，在考前突击。短时间内的大量联系可以增强短期记忆，但很快这些记忆就会消失。
+                  - 「9 次课堂测验」，且每次测验都会包括之前所学的知识，可以帮助学生多次强化学习效果，更有利于这些知识被长期保留。
+
+                  「是否预先通知课堂测验时间」背后实际上是心理感受问题：不预先通知时，主动权在老师手上；预先通知时，主动权在学生手里。后者对于学生
+                  在感受上会更能接受一些。
+          - order: 6
+            kind: MULTIPLE_CHOICES
+            stems:
+              - kind: TEXT
+                text: 测验后给予答题者反馈十分重要，以下针对这种反馈的说法，哪些是正确的？
+            choices:
+              A:
+                kind: TEXT
+                text: 在学习课本知识时，测验后立即反馈效果更好
+              B:
+                kind: TEXT
+                text: 在学习课本知识时，测验后延迟反馈效果更好
+              C:
+                kind: TEXT
+                text: 在学习运动技能时，测验后立即反馈效果更好
+              D:
+                kind: TEXT
+                text: 在学习运动技能时，测验后延迟反馈效果更好
+            answers:
+              - B
+              - D
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  尽管从感受上，延迟反馈会让人觉得奇怪，但从实证研究上看，延迟反馈总是要比立即反馈效果好，体现在两个方面：
+                  - 延迟反馈在某种程度上也是一种间隔学习，本身有利于强化学习效果
+                  - 如果学习者在练习过程中总是得到立即反馈，进入实践时由于失去了反馈会影响结果
+                  - 立即反馈会打断学习者的学习过程，阻碍学习内容在脑中固化
+          - order: 7
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: TEXT
+                text: 你认为以下哪种检索训练的效果最好？
+            choices:
+              A:
+                kind: TEXT
+                text: 记忆卡片 (flashcards)
+              B:
+                kind: TEXT
+                text: 选择题
+              C:
+                kind: TEXT
+                text: 判断题
+            answer: A
+            explains:
+              - kind: TEXT
+                text: >
+                  一个简单的判断标准：你在检索训练中付出的认知努力越大，效果越好。判断题和选择题都可以用排除法，
+                  或以题干作为线索来帮助检索知识，而记忆卡片无法借助其它信息，因此付出的认知努力更大。
+          - order: 8
+            kind: YOU_TELL
+            stems:
+              - kind: TEXT
+                text: >
+                  假设我们称呼在学习过程中，采取反复阅读策略的学生为「阅读型」，采取练习测验策略的学生为「测验型」，
+                  你可以总结出他们学习效果的不同点吗？
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  - 阅读型学生会高估自己的掌握程度；测验型学生对自己掌握程度的判断相对更精准。
+                  - 阅读型学生的短期学习效果更好，长期学习效果更差；测验型学生长期学习效果更好，知识留存更久。
+                  - 测验型学生能应对更丰富的实践场景。
   - order: 3
-    displayName: Mix Up Your Practice
+    displayName: 混合练习 (Mix Up Your Practice)
+    quizzes:
+      - passRate: 60
+        kind: RETRIEVAL
+        createUser: zhenghe
+        questions:
+          - order: 1
+            kind: YOU_TELL
+            stems:
+              - kind: TEXT
+                text: 满足什么样的条件，你认为算是学会了某个知识或技能？
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  1. 记住主要内容
+                  2. 能运用到实践
+          - order: 2
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  38 位外科住院医师作为被试者参加了一项实验：学习四节显微外科课程，讲授如何重连微小血管。其中 19 位
+                  医师在一天内听完所有课程，剩下的医师在一周内逐步学完所有课程。一个月后，他们被要求参加一次测验：为
+                  小白鼠重连血管。
+
+                  你觉得哪组医师的表现更好？
+            choices:
+              A:
+                kind: TEXT
+                text: 一天内听完所有课程的医师
+              B:
+                kind: TEXT
+                text: 一周内听完所有课程的医师
+            answer: B
+            explains:
+              - kind: TEXT
+                text: >
+                  测验结果标明，一周内听完所有课程的医师在所有评价指标上的表现都优于一天内完成所有课程的医师。人脑
+                  神经通路的建立过程需要不断强化，有间隔、有遗忘、再回忆的过程可以帮助人脑建立更强健的网络。
+          - order: 3
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  两组大学生作为被试者参加了一项实验：学习如何计算不同几何实体的体积：
+                  * A 组学生：先集中练习如何计算各种楔形体积、再集中练习如何计算各种球体体积，以此类推，一样一样地集中练习；
+                  * B 组学生：交叉学习各种几何实体的体积计算，不知道下一题是哪类几何实体。
+
+                  一周后，两组学生被邀请参加最终测验。实验者记录了学生在练习过程中和最终测验中的成绩，关于这两次成绩记录，
+                  你认为下面哪种说法是正确的：
+            choices:
+              A:
+                kind: TEXT
+                text: A 组在练习中的成绩更好，B 组在测验中的成绩更好
+              B:
+                kind: TEXT
+                text: A 组在测验中的成绩更好，B 组在练习中的成绩更好
+              C:
+                kind: TEXT
+                text: A 组在两次成绩记录中都表现更好
+              D:
+                kind: TEXT
+                text: B 组在两次成绩记录中都表现更好
+            answer: A
+            explains:
+              - kind: TEXT
+                text: >
+                  实验结果是，在练习过程中，A 组的正确率为 89%，B 组的正确率为 60%；一周后的测验中，A 组的正确率为 20%，
+                  B 组的正确率为 63%。本实验阐释的学习策略就是所谓的交叉练习 (interleaved practice)。
+          - order: 4
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  一群八岁的小朋友在体育课上练习往框里投掷沙包，老师将它们平均分成两组训练：
+                  * A 组：练习从离框 3 英尺的地方投掷
+                  * B 组：分别从离框 2 英尺和 4 英尺的地方投掷
+
+                  在经过 12 周的练习后，小朋友们被集中到一起参加测验：从离框 3 英尺的地方投掷。你认为测试结果如何？
+            choices:
+              A:
+                kind: TEXT
+                text: A 组表现得更好
+              B:
+                kind: TEXT
+                text: B 组表现得更好
+              C:
+                kind: TEXT
+                text: 两组学生表现接近
+            answer: B
+            explains:
+              - kind: TEXT
+                text: >
+                  实验结果是 B 组表现得更好。可以从两个角度理解练习从不同举例投掷沙包带来的好处：
+
+                  - 改善你的迁移学习能力，即所谓举一反三
+                  - 学会区分不同场景，总结不同场景的相同点和不同点
+
+                  本实验阐释的学习策略就是所谓的多样性练习 (varied practice)。在一些实验中，甚至发现人脑会用不同
+                  区域来记录不同复杂度的内容。当使用多样性学习策略时，人脑倾向于使用更复杂的表达。
+          - order: 5
+            kind: YOU_TELL
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  还记得这两个概念是什么意思吗？
+                  - 事实性知识 (factual knowledge)
+                  - 概念性知识 (conceptual knowledge)
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  - 事实性知识：关于事物的一些客观基本信息，如苹果是红色的。
+                  - 概念性知识：关于事物之间关系的抽象，能帮助你区分事物、建立模型、解决新问题，如牛顿第一定律
+
+                  除了以上两种知识，还有过程性知识 (procedural knowledge) 和元认知知识 (metacognitive knowledge)，
+                  详情可以阅读 [4 Types of Knowledge](https://learningstrategist.org/2018/03/01/4-types-of-knowledge/).
+          - order: 6
+            kind: SINGLE_CHOICE
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  要区分一只鸟属于什么科 (family)，需要考虑许多特征，如体型、羽毛、行为、地理位置、喙的形状、虹膜
+                  颜色等等。但很常见的是，同一个科内的许多鸟可能存在许多共同特征，但这些特征不一定存在于该科内的所有
+                  鸟类中，即很多特征都并不绝对。
+
+                  你认为能区分鸟类属于什么科的知识是什么类型的知识？
+            choices:
+              A:
+                kind: TEXT
+                text: 事实性知识
+              B:
+                kind: TEXT
+                text: 概念性知识
+            answer: B
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  从题干中可以看出，判断一只鸟所属的科，光知道每种鸟所具备的事实特征是不够的，也无法通过某一个通用的、
+                  具体的特征直接判断，需要通过结合所学的概念作出判断，且这个判断不一定能做到绝对正确。
+
+                  通过交叉练习和多样性练习，能够帮助你逐渐掌握这样的概念性知识。
+          - order: 7
+            kind: YOU_TELL
+            stems:
+              - kind: MARKDOWN
+                text: |
+                  你可以通过「区分鸟类所属的科」推测出「医生给病人看病」的大致过程吗？
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  一个简化了的过程可以是：
+                  - 获取病人的基本信息，如年龄、性别、疾病史等等
+                  - 观察病人的状态，听病人描述他的各种症状，借助技术手段获取病人的客观数据，如血常规、B 超等
+                  - 从记忆中获取一系列症状类似的疾病，如果有遗忘可能查阅相关诊疗指南，同时根据过去的各方面经验筛选可能性更大的疾病
+                  - 给出诊断结果，实施治疗
+
+                  与「区分鸟类所属的科」类似，很多疾病都存在相似的特征，很难基于一个特征断定所患疾病。
+          - order: 8
+            kind: YOU_TELL
+            stems:
+              - kind: TEXT
+                text: >
+                  在实施交叉练习和多样性练习的过程中，我们不要忘了加上合理的间隔时间。你还记得应该如何设定间隔时间的长度吗？
+            explains:
+              - kind: MARKDOWN
+                text: |
+                  - 不要太长，太长的时间有可能让再次练习变成瞎猜；
+                  - 不要太短，太短的时间不足以让我们遗忘部分内容；
+                  - 你掌握的越好，间隔的时间应当越长；
+                  - 研究表明，睡眠在记忆强化 (memories consolidation) 中起到很大的作用，如果你不知道如何开始，就至少间隔一天吧。
   - order: 4
     displayName: Embrace Difficulties
   - order: 5
