@@ -1,531 +1,1543 @@
----
 displayName: >
   Make It Stick: The Science of Successful Learning
-brief: >-
-  从认知心理学出发分析人的学习特点以及如何利用它们来提高学习效率。
+slug: make-it-stick
+brief: 从认知心理学出发分析人的学习特点以及如何利用它们来提高学习效率。
 link: https://www.goodreads.com/book/show/18770267-make-it-stick
-referrer: zhenghe
 tags:
   - displayName: book
-elements:
+items:
   - order: 1
     displayName: 我们误解了学习 (Learning Is Misunderstood)
+    slug: misunderstood
     quizzes:
-      - passRate: 60
+      - displayName: 读后回顾
+        slug: retrieval
         kind: RETRIEVAL
-        createUser: zhenghe
         questions:
           - order: 10
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: |
-                  学习的过程付出得越 ___，学到的内容越扎实、越持久。
-            choices:
-              A:
-                kind: TEXT
-                text: 少
-              B:
-                kind: TEXT
-                text: 多
-            answer: B
-            explains:
-              - kind: TEXT
-                text: |
-                  过于简单的学习，就像在沙中写字，今天还在这里，明天就消失了。
+            config:
+              stems:
+                - kind: TEXT
+                  text: |
+                    学习的过程付出得越 ___，学到的内容越扎实、越持久。
+              choices:
+                A:
+                  kind: TEXT
+                  text: 少
+                B:
+                  kind: TEXT
+                  text: 多
+              answer: B
+              explains:
+                - kind: TEXT
+                  text: |
+                    过于简单的学习，就像在沙中写字，今天还在这里，明天就消失了。
           - order: 11
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: |
-                  人们 ___ 判断自己学得好还是不好。
-            choices:
-              A:
-                kind: TEXT
-                text: 善于
-              B:
-                kind: TEXT
-                text: 不善于
-            answer: B
-            explains:
-              - kind: TEXT
-                text: >
-                  在学习的过程中，人们倾向于选择一些容易产生成就感的策略，从而让人对自己的学习效果产生误判。
-                  因此我们还需要外部的人或工具来协助判断学习效果。
+            config:
+              stems:
+                - kind: TEXT
+                  text: |
+                    人们 ___ 判断自己学得好还是不好。
+              choices:
+                A:
+                  kind: TEXT
+                  text: 善于
+                B:
+                  kind: TEXT
+                  text: 不善于
+              answer: B
+              explains:
+                - kind: TEXT
+                  text: >
+                    在学习的过程中，人们倾向于选择一些容易产生成就感的策略，
+                    从而让人对自己的学习效果产生误判。
+                    因此我们还需要外部的人或工具来协助判断学习效果。
           - order: 12
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: |
-                  重复阅读、题海战术给人带来的成就感 ___。
-                  (注意：这里的题海战术指的是针对某个知识点短时间大量练习)
-            choices:
-              A:
-                kind: TEXT
-                text: 大
-              B:
-                kind: TEXT
-                text: 小
-            answer: A
-            explains:
-              - kind: TEXT
-                text: >
-                  重复阅读、题海战术让我们感觉自己记住了很多内容，带来很大的成就感。但实际上这是一种典型的低效学习方式。
-                  实证研究甚至发现，即便实验结果证明了相关结论，仍然有被试者认为重复阅读、题海战术是有效的学习策略。
+            config:
+              stems:
+                - kind: TEXT
+                  text: |
+                    重复阅读、题海战术给人带来的成就感 ___。
+                    (注意：这里的题海战术指的是针对某个知识点短时间大量练习)
+              choices:
+                A:
+                  kind: TEXT
+                  text: 大
+                B:
+                  kind: TEXT
+                  text: 小
+              answer: A
+              explains:
+                - kind: TEXT
+                  text: >
+                    重复阅读、题海战术让我们感觉自己记住了很多内容，带来很大的成就感。但实际上这是一种典型的低效学习方式。
+                    实证研究甚至发现，即便实验结果证明了它的低效，仍然有被试者认为重复阅读、题海战术是有效的学习策略。
           - order: 13
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: |
-                  当我们要巩固学过的内容时，哪一种方式更高效？
-            choices:
-              A:
-                kind: TEXT
-                text: 尝试从记忆中获取
-              B:
-                kind: TEXT
-                text: 取出材料再读一遍
-            answer: A
-            explains:
-              - kind: TEXT
-                text: |
-                  努力从记忆中获取会强化我们大脑中的记忆通道，通过课本直接获取答案会让大脑跳过这个过程。
+            config:
+              stems:
+                - kind: TEXT
+                  text: |
+                    当我们要巩固学过的内容时，哪一种方式更高效？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 尝试从记忆中检索
+                B:
+                  kind: TEXT
+                  text: 取出材料再读一遍
+              answer: A
+              explains:
+                - kind: TEXT
+                  text: |
+                    努力从记忆中获取会强化我们大脑中的记忆通路，通过课本直接获取答案会让大脑跳过这个过程。
           - order: 14
             kind: YOU_TELL
-            stems:
-              - kind: TEXT
-                text: |
-                  既然短时间内的重复练习无法让学习内容长期留存在大脑中，我们可以如何改善它？
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  - 间隔练习：隔一段时间后再练习相同的内容，且对内容越熟悉，间隔的时间越长。
-                  - 交叉练习：如轮流练习 A、B、C 三个话题的内容，自动间隔相同内容的重复联系。
+            config:
+              stems:
+                - kind: TEXT
+                  text: |
+                    既然短时间内的重复练习无法让学习内容长期留存在大脑中，我们可以如何改善它？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 间隔练习：隔一段时间后再练习相同的内容，且对内容越熟悉，间隔的时间越长。
+                    - 交叉练习：如轮流练习 A、B、C 三个话题的内容，自动间隔相同内容的重复联系。
           - order: 15
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: 下面哪种方式学习的效率更高？
-            choices:
-              A:
-                kind: TEXT
-                text: 在学习一个知识点前，先尝试解决对应的问题
-              B:
-                kind: TEXT
-                text: 在学习一个知识点后，再尝试解决对应的问题
-            answer: A
-            explains:
-              - kind: TEXT
-                text: |
-                  套用前面提到的一个基本结论：「学习过程付出得越多，学到的内容越扎实、越持久」，就不难理解答案。付出的努力帮助大脑建立更健壮的神经通路。
+            config:
+              stems:
+                - kind: TEXT
+                  text: 下面哪种方式学习的效率更高？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 在学习一个知识点前，先尝试解决对应的问题
+                B:
+                  kind: TEXT
+                  text: 在学习一个知识点后，再尝试解决对应的问题
+              answer: A
+              explains:
+                - kind: TEXT
+                  text: |
+                    套用前面提到的一个基本结论：「学习过程付出得越多，学到的内容越扎实、越持久」，就不难理解答案。付出的努力帮助大脑建立更健壮的神经通路。
           - order: 16
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: 关于学习风格，如听觉学习、视觉学习，下面哪种说法正确？
-            choices:
-              A:
-                kind: TEXT
-                text: 通过更适合你的学习风格学习，你会学得更好。
-              B:
-                kind: TEXT
-                text: 通过更适合你的学习风格学习，不会学得更好
-            answer: B
-            explains:
-              - kind: TEXT
-                text: |
-                  目前没有实证研究证明学习风格对学习效率的影响存在显著影响。
+            config:
+              stems:
+                - kind: TEXT
+                  text: 关于学习风格，如听觉学习、视觉学习，下面哪种说法正确？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 通过更适合你的学习风格学习，你会学得更好。
+                B:
+                  kind: TEXT
+                  text: 通过更适合你的学习风格学习，不会学得更好
+              answer: B
+              explains:
+                - kind: TEXT
+                  text: |
+                    目前没有实证研究证明学习风格对学习效率的影响存在显著影响。
           - order: 17
             kind: YOU_TELL
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  如果想要掌握多种问题的内在原则，比如：
-                  - 计算不同形状容器的容积
-                  - 足球场上处理不同方向的来球
-                  - 识别不同的植物
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    如果想要掌握多种问题的内在原则，比如：
+                    - 计算不同形状容器的容积
+                    - 足球场上处理不同方向的来球
+                    - 识别不同的植物
 
-                  你可以怎么做？
-            explains:
-              - kind: TEXT
-                text: |
-                  有意交叉练习不同的问题，尝试在场景、角度等各个维度上变化。
+                    你可以怎么做？
+              explains:
+                - kind: TEXT
+                  text: |
+                    有意交叉练习不同的问题，尝试在场景、角度等各个维度上变化。
           - order: 18
             kind: YOU_TELL
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  利用学到的知识解释生活中的现象，如：
-                  - 「在夏天，空气越湿，人们感到越热」，是因为蒸发吸热
-                  - 「司机通过踩刹车就能停止汽车移动」，是因为杠杆原理
-                  - 「烧柴火时适量吹风可让火烧得更旺」，是因为燃烧需要氧气参与
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    利用学到的知识解释生活中的现象，如：
+                    - 「在夏天，空气越湿，人们感到越热」，是因为蒸发吸热
+                    - 「司机通过踩刹车就能停止汽车移动」，是因为杠杆原理
+                    - 「烧柴火时适量吹风可让火烧得更旺」，是因为燃烧需要氧气参与
 
-                  可以让学到的知识更不容易被遗忘，为什么？
-            explains:
-              - kind: TEXT
-                text: |
-                  通过与自己已经熟悉的内容建立联系，同样能够达到强化神经通路的目的，建立更多的连接可以让这些内容都变得更持久。
+                    可以让学到的知识更不容易被遗忘，为什么？
+              explains:
+                - kind: TEXT
+                  text: |
+                    通过与自己已经熟悉的内容建立连结，能够让整个神经网络更健壮，就如数的根系相互缠绕会让植物立得更稳。
           - order: 19
             kind: YOU_TELL
-            stems:
-              - kind: TEXT
-                text: 许多人认为人的智力在出生时就已经决定，而有的人认为智力可以改变，你觉得哪种说法是对的？为什么？
-            explains:
-              - kind: TEXT
-                text: >
-                  大脑是可塑的，智力也是可以变化的。我们可以通过高效的学习策略，将知识存入大脑中，强化我们的 mental model，
-                  帮助我们理解新知、解决问题、创造新事物，这些都在我们的掌控之中，并非由基因决定。
+            config:
+              stems:
+                - kind: TEXT
+                  text: 许多人认为人的智商在出生时就已经决定，而有的人认为智商可以改变，你觉得哪种说法是对的？为什么？
+              explains:
+                - kind: TEXT
+                  text: >
+                    性状是基因和环境共同作用的结果，智商也是人的性状之一。
+                    大脑是可塑的，智商也是可以变化的。我们可以通过高效的学习策略，将知识存入大脑中，强化我们的思维模型，
+                    帮助我们理解新知、解决问题、创造新事物，这些都在我们的掌控之中，并非由基因决定。
   - order: 2
     displayName: 学习，然后在脑中检索 (To Learn, Retrieve)
+    slug: retrieval
     quizzes:
-      - passRate: 60
+      - displayName: 读后回顾
+        slug: retrieval
         kind: RETRIEVAL
-        createUser: zhenghe
         questions:
           - order: 1
             kind: MULTIPLE_CHOICES
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  神经外科医生 Ebersold 喜欢在学习过程中思考 (reflection)，当遇到棘手的病人时，
-                  他常常会思考到深夜，手术台上的哪些细节可以如何改进，如何将经验与理论结合，并加入
-                  自己的巧思。正是这些思考的过程帮助他逐步成为一位优秀的神经外科医生。
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    神经外科医生 Ebersold 喜欢在学习过程中思考 (reflection)，当遇到棘手的病人时，
+                    他常常会思考到深夜，手术台上的哪些细节可以如何改进，如何将经验与理论结合，并加入自己的巧思。
+                    正是这些思考的过程帮助他逐步成为一位优秀的神经外科医生。
 
-                  从 Ebersold 的例子展开，你觉得「思考」可能在哪些方面强化你的学习？
-            choices:
-              A:
-                kind: TEXT
-                text: 帮助你从脑中检索知识，强化记忆
-              B:
-                kind: TEXT
-                text: 帮助你连接知识与经历，相互强化
-              C:
-                kind: TEXT
-                text: 反复思考可以帮助你下次更快决策
-            answers:
-              - A
-              - B
-              - C
-            explains:
-              - kind: TEXT
-                text: >
-                  在实践后多思考，既能帮助你强化记忆，又能加深经验，循环多次后，你的决策过程就会变得像「肌肉记忆」，
-                  在遇到相同场景后，大脑就可以略过思考的过程，直接给出最佳实践方案。
+                    从 Ebersold 的例子展开，你觉得「思考」可能在哪些方面强化你的学习？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 帮助你从脑中检索知识，强化记忆
+                B:
+                  kind: TEXT
+                  text: 帮助你连接知识与经历，相互强化
+                C:
+                  kind: TEXT
+                  text: 反复思考可以帮助你下次更快决策
+              answers:
+                - A
+                - B
+                - C
+              explains:
+                - kind: TEXT
+                  text: >
+                    在实践后多思考，既能帮助你强化记忆，又能加深经验，循环多次后，你的决策过程就会变得像「肌肉记忆」，
+                    在遇到相同场景后，大脑就可以略过思考的过程，直接给出最佳实践方案。
           - order: 2
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: 早在 1885 年，心理学家已经开始绘制人类的遗忘曲线 (forgetting curves)，下面哪种描述正确？
-            choices:
-              A:
-                kind: TEXT
-                text: 在很短的时间内，我们会遗忘约 70% 的所学内容，余下的 30% 则会在之后更缓慢地被遗忘
-              B:
-                kind: TEXT
-                text: 在很短的时间内，我们会遗忘约 30% 的所学内容，余下的 70% 则会在之后更缓慢地被遗忘
-            answer: A
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  遗忘曲线展示的是在没有任何干预的情况下，人脑遗忘的特点。形状如下图所示：
+            config:
+              stems:
+                - kind: TEXT
+                  text: 早在 1885 年，心理学家已经开始绘制人类的遗忘曲线 (forgetting curves)，下面哪个关于它的描述正确？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 在很短的时间内，我们会遗忘约 70% 的所学内容，余下的 30% 则会在之后更缓慢地被遗忘
+                B:
+                  kind: TEXT
+                  text: 在很短的时间内，我们会遗忘约 30% 的所学内容，余下的 70% 则会在之后更缓慢地被遗忘
+              answer: A
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    遗忘曲线展示的是在没有任何干预的情况下，人脑遗忘的特点。形状如下图所示：
 
-                  ![forgetting-curve](https://upload.wikimedia.org/wikipedia/commons/d/dc/Ebbinghaus_Forgetting_Curve.jpg)
+                    ![forgetting-curve](https://upload.wikimedia.org/wikipedia/commons/d/dc/Ebbinghaus_Forgetting_Curve.jpg)
 
-                  其中横坐标是时间，纵坐标是未被遗忘的百分比。
+                    其中横坐标是时间，纵坐标是未被遗忘的百分比。
           - order: 3
             kind: YOU_TELL
-            stems:
-              - kind: TEXT
-                text: 为了阻止遗忘，我们可以做什么？
-            explains:
-              - kind: TEXT
-                text: >
-                  尝试在脑中检索 (retrieval) 学过的信息，在心理学中被称为 testing effect，或 retrieval-practice effect。
-                  最常见的检索就是测验，在我们的常识中，测验就是用来给学生定级的，但它本身其实也是一种有效的学习工具。
-                  亚里士多德曾说「Exercise in repeatedly recalling a thing strengthens the memory」。
+            config:
+              stems:
+                - kind: TEXT
+                  text: 为了阻止遗忘，我们可以做什么？
+              explains:
+                - kind: TEXT
+                  text: >
+                    尝试在脑中检索 (retrieval) 学过的信息，在心理学中被称为 testing effect，或 retrieval-practice effect。
+                    最常见的检索就是测验，在我们的常识中，测验就是用来给学生定级的，但它本身其实也是一种有效的学习工具。
+                    亚里士多德曾说「Exercise in repeatedly recalling a thing strengthens the memory」。
           - order: 4
             kind: YOU_TELL
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  为了在实际课堂中验证 testing effect，作者及其团队来到一个中学，展开了为期三个学期的实验。助手针对课本内容
-                  设计了一系列测验，覆盖老师在课堂中教授内容的约 1/3。
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    为了在实际课堂中验证 testing effect，作者及其团队来到一个中学，展开了为期三个学期的实验。
+                    助手针对课本内容设计了一系列测验，覆盖老师在课堂中教授内容的约 1/3。
 
-                  在每堂课的开始、结束以及每次考试前一天，分别会有一次测验。这里有一个问题：如果学生在期末考试中，在被测验过的
-                  题目上表现得比未测验过的题目好，并不能证明学生成绩的提高来自于测验，因为阅读测验题目和答案本身也算是一种重复阅读。
+                    在每堂课的开始、结束以及每次考试前一天，分别会有一次测验。这里有一个问题：如果学生在期末考试中，
+                    在被测验过的题目上表现得比未测验过的题目好，并不能证明学生成绩的提高来自于测验，
+                    因为阅读测验题目和答案本身也算是一种重复阅读。
 
-                  你能否尝试修改这个实验，证明测验比重复阅读效果更好？在提交答案之前，你能列举出具体的理由吗？
-            explains:
-              - kind: TEXT
-                text: >
-                  在测验的过程中，加入一些陈述性的知识点，直接将知识暴露在学生面前，没有检索、思考的过程。如果学生在这些陈述性
-                  的知识点上表现得比测验题覆盖的知识点差，则可以证明测验比重复阅读效果更好。
+                    你能否尝试修改这个实验，证明测验比重复阅读效果更好？
+              explains:
+                - kind: TEXT
+                  text: >
+                    在测验的过程中，加入一些陈述性的知识点，直接将知识暴露在学生面前，没有检索、思考的过程。
+                    如果学生在这些陈述性的知识点上表现得比测验题覆盖的知识点差，则可以证明测验比重复阅读效果更好。
           - order: 5
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: >
-                  Andrew Sobel 在华盛顿大学教授国际政治经济学。为了提高学生的学习效果，他多次尝试重排教学计划，你认为下面哪种
-                  教学计划最终被验证效果最好？
-            choices:
-              A:
-                kind: TEXT
-                text: 期中、期末考试各一次，两次考试决定学生最终成绩
-              B:
-                kind: TEXT
-                text: 9 次课堂测验，不预先通知，所有测验共同决定学生最终成绩
-              C:
-                kind: TEXT
-                text: 9 次课堂测验，预先通知时间，所有测验共同决定学生最终成绩
-            answer: C
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  - 「期中、期末考试各一次」会促进学生采用抱佛脚的方式，在考前突击。短时间内的大量联系可以增强短期记忆，但很快这些记忆就会消失。
-                  - 「9 次课堂测验」，且每次测验都会包括之前所学的知识，可以帮助学生多次强化学习效果，更有利于这些知识被长期保留。
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    Andrew Sobel 在华盛顿大学教授国际政治经济学。为了提高学生的学习效果，他多次尝试重排教学计划，
+                    你认为下面哪种教学计划最终被验证效果最好？为什么？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 期中、期末考试各一次，两次考试决定学生最终成绩
+                B:
+                  kind: TEXT
+                  text: 9 次课堂测验，不预先通知，所有测验共同决定学生最终成绩
+                C:
+                  kind: TEXT
+                  text: 9 次课堂测验，预先通知时间，所有测验共同决定学生最终成绩
+              answer: C
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 「期中、期末考试各一次」会促进学生采用抱佛脚的方式，在考前突击。短时间内的大量联系可以增强短期记忆，但很快这些记忆就会消失。
+                    - 「9 次课堂测验」，且每次测验都会包括之前所学的知识，可以帮助学生多次强化学习效果，更有利于这些知识被长期保留。
 
-                  「是否预先通知课堂测验时间」背后实际上是心理感受问题：不预先通知时，主动权在老师手上；预先通知时，主动权在学生手里。后者对于学生
-                  在感受上会更能接受一些。
+                    「是否预先通知课堂测验时间」背后实际上是心理感受问题：不预先通知时，主动权在老师手上；
+                    预先通知时，主动权在学生手里。后者对于学生在感受上会更好接受一些。
           - order: 6
             kind: MULTIPLE_CHOICES
-            stems:
-              - kind: TEXT
-                text: 测验后给予答题者反馈十分重要，以下针对这种反馈的说法，哪些是正确的？
-            choices:
-              A:
-                kind: TEXT
-                text: 在学习课本知识时，测验后立即反馈效果更好
-              B:
-                kind: TEXT
-                text: 在学习课本知识时，测验后延迟反馈效果更好
-              C:
-                kind: TEXT
-                text: 在学习运动技能时，测验后立即反馈效果更好
-              D:
-                kind: TEXT
-                text: 在学习运动技能时，测验后延迟反馈效果更好
-            answers:
-              - B
-              - D
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  尽管从感受上，延迟反馈会让人觉得奇怪，但从实证研究上看，延迟反馈总是要比立即反馈效果好，体现在两个方面：
-                  - 延迟反馈在某种程度上也是一种间隔学习，本身有利于强化学习效果
-                  - 如果学习者在练习过程中总是得到立即反馈，进入实践时由于失去了反馈会影响结果
-                  - 立即反馈会打断学习者的学习过程，阻碍学习内容在脑中固化
+            config:
+              stems:
+                - kind: TEXT
+                  text: 测验后给予答题者反馈十分重要，以下针对这种反馈的说法，哪些是正确的？为什么？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 在学习课本知识时，测验后立即反馈效果更好
+                B:
+                  kind: TEXT
+                  text: 在学习课本知识时，测验后延迟反馈效果更好
+                C:
+                  kind: TEXT
+                  text: 在学习运动技能时，测验后立即反馈效果更好
+                D:
+                  kind: TEXT
+                  text: 在学习运动技能时，测验后延迟反馈效果更好
+              answers:
+                - B
+                - D
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    尽管从感受上，延迟反馈会让人觉得奇怪，但从实证研究上看，延迟反馈总是要比立即反馈效果好，体现在两个方面：
+                    - 延迟反馈在某种程度上也是一种间隔学习，本身有利于强化学习效果
+                    - 如果学习者在练习过程中总是得到立即反馈，进入实践时由于失去了反馈会影响结果
+                    - 立即反馈会打断学习者的学习过程，阻碍学习内容在脑中固化
           - order: 7
             kind: SINGLE_CHOICE
-            stems:
-              - kind: TEXT
-                text: 你认为以下哪种检索训练的效果最好？
-            choices:
-              A:
-                kind: TEXT
-                text: 记忆卡片 (flashcards)
-              B:
-                kind: TEXT
-                text: 选择题
-              C:
-                kind: TEXT
-                text: 判断题
-            answer: A
-            explains:
-              - kind: TEXT
-                text: >
-                  一个简单的判断标准：你在检索训练中付出的认知努力越大，效果越好。判断题和选择题都可以用排除法，
-                  或以题干作为线索来帮助检索知识，而记忆卡片无法借助其它信息，因此付出的认知努力更大。
+            config:
+              stems:
+                - kind: TEXT
+                  text: 你认为以下哪种检索训练的效果最好？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 简答题
+                B:
+                  kind: TEXT
+                  text: 选择题
+                C:
+                  kind: TEXT
+                  text: 判断题
+              answer: A
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    一个简单的判断标准：在难度不会过大的前提下，你在检索训练中付出的认知努力越大，效果越好。
+                    判断题和选择题都可以用排除法，或以题干作为线索来帮助检索知识，
+                    而简答题借助的信息量大，而且提示内容少，需要付出的认知努力更大。
+                    一种最简单的简答题就是常见的记忆卡片 (flashcards)，如 [Anki](https://apps.ankiweb.net/)。
           - order: 8
             kind: YOU_TELL
-            stems:
-              - kind: TEXT
-                text: >
-                  假设我们称呼在学习过程中，采取反复阅读策略的学生为「阅读型」，采取练习测验策略的学生为「测验型」，
-                  你可以总结出他们学习效果的不同点吗？
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  - 阅读型学生会高估自己的掌握程度；测验型学生对自己掌握程度的判断相对更精准。
-                  - 阅读型学生的短期学习效果更好，长期学习效果更差；测验型学生长期学习效果更好，知识留存更久。
-                  - 测验型学生能应对更丰富的实践场景。
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    假设我们称在学习过程中，采取反复阅读策略的学生为「阅读型」，采取练习测验策略的学生为「测验型」，
+                    你可以总结出他们学习效果的不同点吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 阅读型学生会高估自己的掌握程度；测验型学生对自己掌握程度的判断相对更精准。
+                    - 阅读型学生的短期学习效果更好，长期学习效果更差；测验型学生长期学习效果更好，知识留存更久。
+                    - 测验型学生能应对更丰富的实践场景。
   - order: 3
     displayName: 混合练习 (Mix Up Your Practice)
+    slug: mixed-up
     quizzes:
-      - passRate: 60
+      - displayName: 读后回顾
+        slug: retrieval
         kind: RETRIEVAL
-        createUser: zhenghe
         questions:
           - order: 1
             kind: YOU_TELL
-            stems:
-              - kind: TEXT
-                text: 满足什么样的条件，你认为算是学会了某个知识或技能？
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  1. 记住主要内容
-                  2. 能运用到实践
+            config:
+              stems:
+                - kind: TEXT
+                  text: 满足什么样的条件，你认为算是学会了某个知识或技能？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    1. 记住主要内容
+                    2. 能运用到实践
           - order: 2
             kind: SINGLE_CHOICE
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  38 位外科住院医师作为被试者参加了一项实验：学习四节显微外科课程，讲授如何重连微小血管。其中 19 位
-                  医师在一天内听完所有课程，剩下的医师在一周内逐步学完所有课程。一个月后，他们被要求参加一次测验：为
-                  小白鼠重连血管。
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    38 位外科住院医师作为被试者参加了一项实验：学习四节显微外科课程，讲授如何重连微小血管。
+                    其中 19 位医师在一天内听完所有课程，剩下的医师在一周内逐步学完所有课程。
+                    一个月后，他们被要求参加一次测验，内容是「为小白鼠重连血管」。
 
-                  你觉得哪组医师的表现更好？
-            choices:
-              A:
-                kind: TEXT
-                text: 一天内听完所有课程的医师
-              B:
-                kind: TEXT
-                text: 一周内听完所有课程的医师
-            answer: B
-            explains:
-              - kind: TEXT
-                text: >
-                  测验结果标明，一周内听完所有课程的医师在所有评价指标上的表现都优于一天内完成所有课程的医师。人脑
-                  神经通路的建立过程需要不断强化，有间隔、有遗忘、再回忆的过程可以帮助人脑建立更强健的网络。
+                    你觉得哪组医师的表现更好？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 一天内听完所有课程的医师
+                B:
+                  kind: TEXT
+                  text: 一周内听完所有课程的医师
+              answer: B
+              explains:
+                - kind: TEXT
+                  text: >
+                    测验结果标明，一周内听完所有课程的医师在所有评价指标上的表现都优于一天内完成所有课程的医师。
+                    人脑神经通路的建立过程需要不断强化，有间隔、有遗忘、再回忆的过程可以帮助人脑建立更强健的网络。
           - order: 3
             kind: SINGLE_CHOICE
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  两组大学生作为被试者参加了一项实验：学习如何计算不同几何实体的体积：
-                  * A 组学生：先集中练习如何计算各种楔形体积、再集中练习如何计算各种球体体积，以此类推，一样一样地集中练习；
-                  * B 组学生：交叉学习各种几何实体的体积计算，不知道下一题是哪类几何实体。
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    两组大学生作为被试者参加了一项实验：学习如何计算不同几何实体的体积：
+                    * A 组学生：先集中练习如何计算各种楔形体积、再集中练习如何计算各种球体体积，以此类推，一样一样地集中练习；
+                    * B 组学生：交叉学习各种几何实体的体积计算，不知道下一题是哪类几何实体。
 
-                  一周后，两组学生被邀请参加最终测验。实验者记录了学生在练习过程中和最终测验中的成绩，关于这两次成绩记录，
-                  你认为下面哪种说法是正确的：
-            choices:
-              A:
-                kind: TEXT
-                text: A 组在练习中的成绩更好，B 组在测验中的成绩更好
-              B:
-                kind: TEXT
-                text: A 组在测验中的成绩更好，B 组在练习中的成绩更好
-              C:
-                kind: TEXT
-                text: A 组在两次成绩记录中都表现更好
-              D:
-                kind: TEXT
-                text: B 组在两次成绩记录中都表现更好
-            answer: A
-            explains:
-              - kind: TEXT
-                text: >
-                  实验结果是，在练习过程中，A 组的正确率为 89%，B 组的正确率为 60%；一周后的测验中，A 组的正确率为 20%，
-                  B 组的正确率为 63%。本实验阐释的学习策略就是所谓的交叉练习 (interleaved practice)。
+                    一周后，两组学生被邀请参加最终测验。实验者记录了学生在练习过程中和最终测验中的成绩，关于这两次成绩记录，
+                    你认为下面哪种说法是正确的：
+              choices:
+                A:
+                  kind: TEXT
+                  text: A 组在练习中的成绩更好，B 组在测验中的成绩更好
+                B:
+                  kind: TEXT
+                  text: A 组在测验中的成绩更好，B 组在练习中的成绩更好
+                C:
+                  kind: TEXT
+                  text: A 组在两次成绩记录中都表现更好
+                D:
+                  kind: TEXT
+                  text: B 组在两次成绩记录中都表现更好
+              answer: A
+              explains:
+                - kind: TEXT
+                  text: >
+                    实验结果是，在练习过程中，A 组的正确率为 89%，B 组的正确率为 60%；一周后的测验中，A 组的正确率为 20%，
+                    B 组的正确率为 63%。本实验阐释的学习策略就是所谓的交叉练习 (interleaved practice)。
           - order: 4
             kind: SINGLE_CHOICE
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  一群八岁的小朋友在体育课上练习往框里投掷沙包，老师将它们平均分成两组训练：
-                  * A 组：练习从离框 3 英尺的地方投掷
-                  * B 组：分别从离框 2 英尺和 4 英尺的地方投掷
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    一群八岁的小朋友在体育课上练习往框里投掷沙包，老师将它们平均分成两组训练：
+                    * A 组：练习从离框 3 英尺的地方投掷
+                    * B 组：分别从离框 2 英尺和 4 英尺的地方投掷
 
-                  在经过 12 周的练习后，小朋友们被集中到一起参加测验：从离框 3 英尺的地方投掷。你认为测试结果如何？
-            choices:
-              A:
-                kind: TEXT
-                text: A 组表现得更好
-              B:
-                kind: TEXT
-                text: B 组表现得更好
-              C:
-                kind: TEXT
-                text: 两组学生表现接近
-            answer: B
-            explains:
-              - kind: TEXT
-                text: >
-                  实验结果是 B 组表现得更好。可以从两个角度理解练习从不同举例投掷沙包带来的好处：
+                    在经过 12 周的练习后，小朋友们被集中到一起参加测验：从离框 3 英尺的地方投掷。你认为测试结果如何？
+              choices:
+                A:
+                  kind: TEXT
+                  text: A 组表现得更好
+                B:
+                  kind: TEXT
+                  text: B 组表现得更好
+                C:
+                  kind: TEXT
+                  text: 两组学生表现接近
+              answer: B
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    实验结果是 B 组表现得更好。可以从两个角度理解练习从不同举例投掷沙包带来的好处：
 
-                  - 改善你的迁移学习能力，即所谓举一反三
-                  - 学会区分不同场景，总结不同场景的相同点和不同点
+                    - 改善你的迁移学习能力，即所谓举一反三
+                    - 学会区分不同场景，总结不同场景的相同点和不同点
 
-                  本实验阐释的学习策略就是所谓的多样性练习 (varied practice)。在一些实验中，甚至发现人脑会用不同
-                  区域来记录不同复杂度的内容。当使用多样性学习策略时，人脑倾向于使用更复杂的表达。
+                    一些实验结果甚至表明：人脑会用不同区域来记录不同复杂度的内容。
+                    当使用交叉学习策略时，人脑倾向于使用更复杂的表达。
           - order: 5
             kind: YOU_TELL
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  还记得这两个概念是什么意思吗？
-                  - 事实性知识 (factual knowledge)
-                  - 概念性知识 (conceptual knowledge)
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  - 事实性知识：关于事物的一些客观基本信息，如苹果是红色的。
-                  - 概念性知识：关于事物之间关系的抽象，能帮助你区分事物、建立模型、解决新问题，如牛顿第一定律
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    还记得这两个概念是什么意思吗？
+                    - 事实性知识 (factual knowledge)
+                    - 概念性知识 (conceptual knowledge)
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 事实性知识：关于事物的一些客观基本信息，如苹果是红色的。
+                    - 概念性知识：关于事物之间关系的抽象，能帮助你区分事物、建立模型、解决新问题，如牛顿第一定律
 
-                  除了以上两种知识，还有过程性知识 (procedural knowledge) 和元认知知识 (metacognitive knowledge)，
-                  详情可以阅读 [4 Types of Knowledge](https://learningstrategist.org/2018/03/01/4-types-of-knowledge/).
+                    除了以上两种知识，还有过程性知识 (procedural knowledge) 和元认知知识 (metacognitive knowledge)，
+                    详情可以阅读 [4 Types of Knowledge](https://learningstrategist.org/2018/03/01/4-types-of-knowledge/).
           - order: 6
             kind: SINGLE_CHOICE
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  要区分一只鸟属于什么科 (family)，需要考虑许多特征，如体型、羽毛、行为、地理位置、喙的形状、虹膜
-                  颜色等等。但很常见的是，同一个科内的许多鸟可能存在许多共同特征，但这些特征不一定存在于该科内的所有
-                  鸟类中，即很多特征都并不绝对。
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    要区分一只鸟属于什么科 (family)，需要考虑许多特征，如体型、羽毛、行为、地理位置、喙的形状、虹膜颜色等等。
+                    但很常见的是，同一个科内的许多鸟可能存在许多共同特征，但这些特征不一定存在于该科内的所有鸟类中，即很多特征都并不绝对。
 
-                  你认为能区分鸟类属于什么科的知识是什么类型的知识？
-            choices:
-              A:
-                kind: TEXT
-                text: 事实性知识
-              B:
-                kind: TEXT
-                text: 概念性知识
-            answer: B
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  从题干中可以看出，判断一只鸟所属的科，光知道每种鸟所具备的事实特征是不够的，也无法通过某一个通用的、
-                  具体的特征直接判断，需要通过结合所学的概念作出判断，且这个判断不一定能做到绝对正确。
+                    你认为能区分鸟类属于什么科的知识是什么类型的知识？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 事实性知识
+                B:
+                  kind: TEXT
+                  text: 概念性知识
+              answer: B
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    从题干中可以看出，判断一只鸟所属的科，光知道每种鸟所具备的事实特征是不够的，也无法通过某一个通用的、
+                    具体的特征直接判断，需要通过结合所学的概念作出判断，且这个判断不一定能做到绝对正确。
 
-                  通过交叉练习和多样性练习，能够帮助你逐渐掌握这样的概念性知识。
+                    交叉练习可以帮助你逐渐掌握这样的概念性知识。
           - order: 7
             kind: YOU_TELL
-            stems:
-              - kind: MARKDOWN
-                text: |
-                  你可以通过「区分鸟类所属的科」推测出「医生给病人看病」的大致过程吗？
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  一个简化了的过程可以是：
-                  - 获取病人的基本信息，如年龄、性别、疾病史等等
-                  - 观察病人的状态，听病人描述他的各种症状，借助技术手段获取病人的客观数据，如血常规、B 超等
-                  - 从记忆中获取一系列症状类似的疾病，如果有遗忘可能查阅相关诊疗指南，同时根据过去的各方面经验筛选可能性更大的疾病
-                  - 给出诊断结果，实施治疗
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    你可以通过「区分鸟类所属的科」推测出「医生给病人看病」的大致过程吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    一个简化了的过程可以是：
+                    - 获取病人的基本信息，如年龄、性别、疾病史等等
+                    - 观察病人的状态，听病人描述他的各种症状，借助技术手段获取病人的客观数据，如血常规、B 超等
+                    - 从记忆中获取一系列症状类似的疾病，如果有遗忘可能查阅相关诊疗指南，同时根据过去的各方面经验筛选可能性更大的疾病
+                    - 给出诊断结果，实施治疗
 
-                  与「区分鸟类所属的科」类似，很多疾病都存在相似的特征，很难基于一个特征断定所患疾病。
+                    与「区分鸟类所属的科」类似，很多疾病都存在相似的特征，很难基于一个特征断定所患疾病。
           - order: 8
             kind: YOU_TELL
-            stems:
-              - kind: TEXT
-                text: >
-                  在实施交叉练习和多样性练习的过程中，我们不要忘了加上合理的间隔时间。你还记得应该如何设定间隔时间的长度吗？
-            explains:
-              - kind: MARKDOWN
-                text: |
-                  - 不要太长，太长的时间有可能让再次练习变成瞎猜；
-                  - 不要太短，太短的时间不足以让我们遗忘部分内容；
-                  - 你掌握的越好，间隔的时间应当越长；
-                  - 研究表明，睡眠在记忆强化 (memories consolidation) 中起到很大的作用，如果你不知道如何开始，就至少间隔一天吧。
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    在实施交叉练习和多样性练习的过程中，我们不要忘了加上合理的间隔时间。
+                    我们在设定间隔时长时应该遵循什么样的基本原理？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 不要太长，太长的时间有可能让再次练习变成瞎猜；
+                    - 不要太短，太短的时间不足以让我们遗忘部分内容；
+                    - 你掌握的越好，间隔的时间应当越长；
+                    - 研究表明，睡眠在记忆巩固 (memories consolidation) 中起到很大的作用，如果你不知道如何开始，就至少间隔一天吧。
   - order: 4
-    displayName: Embrace Difficulties
+    displayName: 拥抱困难 (Embrace Difficulties)
+    slug: embrace-diff
+    quizzes:
+      - displayName: 读后回顾
+        slug: retrieval
+        kind: RETRIEVAL
+        questions:
+          - order: 0
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: 记忆的形成过程大致可以分为三步：encoding、consolidation 和 retrieval，它们分别是指什么？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - encoding：将外部传入的感知信号转化成人脑中的表达
+                    - consolidation：强化 encoding 后的表达形成长期记忆
+                    - retrieval：通过检索，修正、巩固长期记忆
+          - order: 1
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    通常下列哪些选项会形成人脑中的长期记忆？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 使用九键键盘打字
+                B:
+                  kind: TEXT
+                  text: 一则大快人心的新闻
+                C:
+                  kind: TEXT
+                  text: 坐地铁先下后上
+              answers:
+                - A
+                - C
+              explains:
+                - kind: TEXT
+                  text: 通常对我们的生活长期有意义的感知信号会在人脑中形成长期表达，一些即时有效，用后即废的信号会形成短期表达。
+          - order: 2
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    下列关于 consolidation 的说法中，正确的是？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 可能会重构原先的记忆
+                B:
+                  kind: TEXT
+                  text: 可能会与之前的记忆建立连结
+                C:
+                  kind: TEXT
+                  text: 可能会舍弃部分记忆
+                D:
+                  kind: TEXT
+                  text: 可能会微调部分记忆
+              answers:
+                - A
+                - B
+                - C
+                - D
+              explains:
+                - kind: TEXT
+                  text: >
+                    consolidation 的过程就像打磨一篇文章，针对之前的草稿，你可能需要舍弃冗余表达、美化文字，
+                    甚至调整文章结构。与之前的记忆建立连结是强化记忆的重要手段之一。
+          - order: 3
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    我们称一些能瞬间理解、记忆的内容为瞬间可检索，人脑瞬间可检索的容量十分有限。
+                    那么如果你想让你脑中可检索的信息容量变大，可以怎么做？
+              explains:
+                - kind: TEXT
+                  text: >
+                    尽管脑中瞬间可检索的容量有限，但我们可以以这些瞬间可检索的内容为线索，建立它们与其它信息的联系，
+                    利用间接检索的方式扩大脑中的可检索信息容量。
+          - order: 4
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    本节的标题是「拥抱困难」，在学习的过程中，你付出的认知努力越大，学到的东西就越扎实。
+                    我们到此为止提到过的一些学习方法罗列如下：
+                    - 间隔 (spacing)
+                    - 交叉 (interleaving)
+
+                    你可以尝试分析一下它们分别如何增加我们在认知过程中付出的努力？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - **间隔**：通过间隔让我们遗忘一部分知识，再次练习时需要通过借助各种线索得到答案
+                    - **交叉**：通过交叉让我们不断地切换所需使用的知识，发现知识的不同点和相同点，学会泛化；
+                      倒逼我们建立更复杂的 mental model，能够处理更多变的实践场景
+          - order: 5
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    外部干扰通常会被我们认为是影响我们学习质量的因素之一，比如在嘈杂的环境中，人们很难集中精力学习。
+                    然而，学习过程中也存在这样的现象：
+
+                    - 如果课本上的字稍微有些不清晰，人们反而更能回忆起书中的内容
+                    - 如果老师授课时微调大纲的顺序，学生反而更能回忆起课中的要点
+                    - 在背单词时，如果遮挡或隐藏部分字母，反而单词记忆得更加深刻
+
+                    你可以归纳上述现象的特点，同时尝试解释其中的原因吗？
+              explains:
+                - kind: TEXT
+                  text: |
+                    适当的微小的干扰 (interference) 反而能让我们学得更扎实，过度干扰会阻碍学习。原因在于：
+                    我们在认知过程为了克服困难，付出了更大的努力，从而间接达到了强化学习的目的。
+          - order: 6
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    尝试解决一个问题的过程被称作「生成 (generation)」。相比与通过直接阅读文本获取知识和结论，
+                    从问题出发尝试解决是一种更高效的学习方式。你认为下面哪些选项属于生成？
+                    (如果可以的话，顺便为它们在你的心中排个顺序)
+              choices:
+                A:
+                  kind: TEXT
+                  text: 做即时测验，如填空题、选择题、简答题
+                B:
+                  kind: TEXT
+                  text: 不按课本讲述顺序阅读课本
+                C:
+                  kind: TEXT
+                  text: 写一篇短文介绍、分析你学到的某块知识
+              answers:
+                - A
+                - C
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    「不按课本讲述顺序阅读课本」仍然是直接阅读文本，因此不属于生成。按学习效果从好到差排序为 C, A, B，
+                    和你心里想得一样吗？
+          - order: 7
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    用自己的方式来理解、描述新知的过程被称作「阐述 (elaboration)」。
+                    其中一种方式就是通过与过去熟悉的知识建立连结，你认为下面哪些描述属于阐述？
+              choices:
+                A:
+                  kind: TEXT
+                  text: >
+                    治大国，若烹小鲜，以道莅天下，其鬼不神。非其鬼不神，其神不伤人。非其神不伤人，圣人亦不伤人。夫两不相伤，故德交归焉。
+                B:
+                  kind: TEXT
+                  text: >
+                    截拳道的本质如「水」:让你的思想像水一样没有束缚，将水倒入杯中，它变成了杯形，将水倒入瓶中，它变成了瓶形...
+                C:
+                  kind: TEXT
+                  text: >
+                    和弦是指有一定音程关系的一组声音，即将三个或以上的音，按照三度或非三度的叠置关系，在纵向上加以结合，就称为和弦。
+              answers:
+                - A
+                - B
+              explains:
+                - kind: TEXT
+                  text: A 在治国与做菜之间建立连结；B 在武术哲学与水之间建立连结；C 介绍了和弦的概念，但没有与其它领域的知识建立联系。
+          - order: 8
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    在学习之后，花几分钟时间回顾、复盘、总结、分析的过程被称作「思考 (reflection)」。
+                    比如在一堂课结束后，你可能问自己：
+                    - 本章节的核心观点是什么？
+                    - 有哪些例子可以体现他们？
+                    - 我以前的理解是否有误？这些和我学过的内容有什么关系？
+                    - 我可以将这些内容运用到哪里？
+
+                    思考是一种复杂的学习过程，你认为它包含我们之前提过的哪些学习方法？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 检索练习
+                B:
+                  kind: TEXT
+                  text: 生成
+                C:
+                  kind: TEXT
+                  text: 阐述
+              answers:
+                - A
+                - B
+                - C
+              explains:
+                - kind: TEXT
+                  text: 从题干中的问题中，我们可以看到既有检索练习 (核心观点是什么)；又有生成 (有哪些例子可以体现它们)；还有阐述 (剩下两点)。
+          - order: 9
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    在一个实验中，一帮六年级的学生被邀请来解决字谜问题。这些字谜问题被刻意设计得很难。在思考一段时间仍然无法解决后，
+                    实验参与人员给其中一半的学生上了一节十分钟的课程，这节课主要告诉学生：「困难是学习过程中的重要组成部分，
+                    犯错是一件很常见的事情」。另外一半的学生则在这十分钟内被简单询问了做题的情况。
+                    之后，所有学生被邀请参加另外一组测试，这部分测试主要用于测量被试的工作记忆 (working memory) 容量。
+                    你觉得这两组学生的测试结果是怎样的？为什么？
+
+                    注：工作记忆指的是在解决问题的过程中，你能在心中临时存储的信息容量，通常工作记忆容量与个人的智商成正相关关系。
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    经过「困难教育」的学生在工作记忆容量测试中表现得更加优异。显然，他们的工作记忆容量并不会因为 10 分钟的课程变得更大，
+                    剩下的解释就只能是他们的工作记忆容量之前用在了别处，在上课后被挪了过来。
+                    事实上，在后续的实验中证明，困难容易让人们产生挫败感，觉得自己不行，从而产生焦虑，进而挤占工作记忆，干扰学习过程。
+                    简单地说，那些被试者的一部分注意力被放在了担心犯错和如何避免犯错上。
+          - order: 10
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: |
+                    尽管本节讲的是拥抱困难，并非任何形式的困难都值得拥抱。你认为以下哪些困难值得拥抱？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 在训练棒球的时候刻意增加球棒的重量
+                B:
+                  kind: TEXT
+                  text: 小孩上了幼儿园就开始看红楼梦
+                C:
+                  kind: TEXT
+                  text: 读新闻的时候刻意找一个嘈杂的环境
+                D:
+                  kind: TEXT
+                  text: 做数学题的时候不使用计算器
+              answers:
+                - A
+                - D
+              explains:
+                - kind: TEXT
+                  text: >
+                    基本的判断准则：学习者无法通过自己的能力克服的困难，不值得拥抱。这种困难是「不良困难」 (undesirable difficulties)，
+                    应该予以避免。
   - order: 5
-    displayName: Avoid Illusions of Knowing
+    displayName: 避开「我已掌握」的错觉 (Avoid Illusions of Knowing)
+    slug: illusions
+    quizzes:
+      - displayName: 读后回顾
+        slug: retrieval
+        kind: RETRIEVAL
+        questions:
+          - order: 1
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    Meta 在希腊语中有「关于」的意思，比如元数据 (metadata) 指的是关于数据的数据；
+                    元语言 (metalanguage) 指的是关于语言的语言；
+                    本节引入了一个新的概念：元认知 (metacognition)，以下选项中属于元认知的是：
+              choices:
+                A:
+                  kind: TEXT
+                  text: 了解自己对某个领域的掌握程度
+                B:
+                  kind: TEXT
+                  text: 在学习后阐述今天所学的内容
+                C:
+                  kind: TEXT
+                  text: 理解大脑的构造以及每个部位的功能
+                D:
+                  kind: TEXT
+                  text: 理解一些高效的学习方法，如检索练习
+              answers:
+                - A
+                - D
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    元认知是关于认知的认知：
+                    - A 是对个人认知水平的认知
+                    - B 是用熟悉的知识描述新知，是在实施一种学习策略
+                    - C 是一个具体的知识点
+                    - D 是对认知过程的认知
+          - order: 2
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    本节开篇引用了「思考，快与慢 (Thinking, Fast and SLow)」一书中的两个概念，
+                    即人的两个分析系统：System 1 和 System 2。你能回想一下它们各自的特点，以及二者之间的关系吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - System 1 是自动分析系统，决策速度快，通常是在无意识的情况下，通过直觉做出的判断，如篮球运动员投篮、运球。
+                    - System 2 是受控分析系统，决策速度慢，通常是在有意识的情况下，综合分析做出的判断，如奥数比赛、选择工作。
+
+                    受限于决策时间和无意识状态，System 1 容易受错觉影响，导致误判。在重大决策面前，我们会倾向于使用 System 2，
+                    同时，为了提升 System 1 的决策合理性，我们会不断用 System 2 来训练、完善 System 1。
+          - order: 3
+            kind: SINGLE_CHOICE
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    在一项实验中，主办方邀请被试者完成一组字谜题，被试者们都认为自己解题的结果是实验测试的目的。在做题过程中，
+                    主办者刻意播放一段无关的对话，其中一半的被试者能听到对话两边的声音 (A 组)，而另一半只能听到单边的声音 (B 组)。
+                    做题完毕后，所有被试被邀请回忆背景声音中的对话。你认为以下哪个正确地描述了实验的结果？为什么？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 在解字谜题的表现上，A 组更好；在回顾对话上，A 组召回的内容更多
+                B:
+                  kind: TEXT
+                  text: 在解字谜题的表现上，A 组更好；在回顾对话上，B 组召回的内容更多
+                C:
+                  kind: TEXT
+                  text: 在解字谜题的表现上，B 组更好；在回顾对话上，B 组召回的内容更多
+                D:
+                  kind: TEXT
+                  text: 在解字谜题的表现上，B 组更好；在回顾对话上，A 组召回的内容更多
+              answer: B
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    由于 B 组被试只能听到对话单边的声音，他们在做题过程中不自觉地会尝试补全对话，从而影响做字谜题的表现；
+                    而正因为他们在尝试补全对话，召回的对话内容更多。
+
+                    人们会习惯性地对想要解释模糊、不确定的现象，给这些现象找个发生的理由。
+          - order: 4
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    当看到新闻中涉及到官民、穷富和性的话题时，不论事实如何，我们通常会倾向于相信弱势一方的陈述，你认为可能的原因是什么？
+              explains:
+                - kind: TEXT
+                  text: 当人们在寻找解释的过程中发现有多个解释时，他会倾向于选择相信让自己舒服，即符合自己情绪的那一个。
+          - order: 5
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    我们记录在脑中的信息无法像相机一样记录当时当地完整的信息和所有细节，那么当我们尝试回忆的时候，会如何确定实际发生的细节？
+              explains:
+                - kind: TEXT
+                  text: 选择让自己更舒服的细节。这种现象也是各种记忆扭曲的来源。
+          - order: 6
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    随着我们对某个领域认知的深入，我们会在脑中将一些步骤、模块有机的结合起来，建立思维模型 (Mental Models)。
+                    这些模型就像手机中的 App，可以方便我们解决常见问题。以下哪些选项是思维模型？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 对于奶茶店的店员：调出一杯红豆布丁奶茶的步骤
+                B:
+                  kind: TEXT
+                  text: 对于羽毛球运动员：杀上网、吊上网等技战术
+                C:
+                  kind: TEXT
+                  text: 对于软件工程师：快速启动一台数据挖掘机的方案
+                D:
+                  kind: TEXT
+                  text: 对于斗舞舞者：即兴表演时的常见动作套路和组合
+              answers:
+                - A
+                - B
+                - C
+                - D
+              explains:
+                - kind: TEXT
+                  text: 每个职业的从业者都会在大量的实践过程中建立出一组高效完成工作的思维模型，上述选项都是典型的例子。
+          - order: 7
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: 生活中有一个现象：你在一个领域钻研得越深，越难将这些东西教给他人。这是为什么？
+              explains:
+                - kind: TEXT
+                  text: >
+                    你已经在研究过程中建立了十分复杂的思维模型，这些思维模型可以帮助你的分析问题的时候快速跳过一些你熟知的内容，
+                    然而这些内容恰好就是初学者亟待掌握的内容。这就是所谓的知识诅咒 (the curse of knowledge)。
+          - order: 8
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    看底下这张图，你能回忆起什么是 Dunning-Kruger Effect 吗？
+
+                    ![dk-effect](https://pic3.zhimg.com/v2-f95c04a3886ee8fb805b3af1f0bde615_1440w.jpg)
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    弱者常常高估自己的能力，而强者常常低估自己的能力。Dunning 和 Kruger 的研究还表明，
+                    提高弱者对认知水平的判断力能有效提高他们的竞争力。
+
+                    * [Paper: Unskilled and Unaware of It](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.2655&rep=rep1&type=pdf)
+          - order: 9
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: 下列哪些做法或习惯可以帮助我们校准自己对认知水平的判断力？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 做测验题，并在完成后确认答案
+                B:
+                  kind: TEXT
+                  text: 和同学交流、讨论，甚至开展同行评审
+                C:
+                  kind: TEXT
+                  text: 寻找更综合的判断依据
+                D:
+                  kind: TEXT
+                  text: 与更有经验、能力更强的人合作
+                E:
+                  kind: TEXT
+                  text: 参与接近实践的仿真训练
+              answers:
+                - A
+                - B
+                - C
+                - D
+                - E
+              explains:
+                - kind: TEXT
+                  text: 保持开放的心态，怀疑的态度，以及听取其它同学、导师的判断都可以帮助我们校准、提升自己对认知水平的判断力。
   - order: 6
-    displayName: Get Beyond Learning Styles
+    displayName: 越过学习风格 (Get Beyond Learning Styles)
+    slug: learning-styles
+    quizzes:
+      - displayName: 读后回顾
+        slug: retrieval
+        kind: RETRIEVAL
+        questions:
+          - order: 1
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    市面上存在许多中学习风格理论，其核心观点是一致的：
+                    当一个人使用最适合自己的学习风格学习某个领域的知识时，他将学得更好。
+
+
+                    这种说法对吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    不对，目前既没有足够的证据支持学习风格理论，也没有足够的证据证伪它。
+                    但存在一些证据表明不同的教授形式对于特定话题的教学效果有帮助，比如：
+                    - 学习几何和地理时使用更多视觉元素
+                    - 学习诗词时使用更多的口头交流
+
+                    都是更有效的教授形式，但这种帮助与学习者本身无关。
+          - order: 2
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    现代心理学家基本上认同每个人至少有两类智力 (intelligence)：
+                    - 流体智力 (fluid intelligence)
+                    - 晶体智力 (crystallized intelligence)
+
+                    这两种智力合起来帮助我们学习、分析和解决问题，你能想起他们的含义吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 流体智力：分析、抽象、发现关系，解决问题时在心中储存临时信息的能力
+                    - 晶体智力：个人在过去学习、生活经验中积累的知识、开发的思维模型
+          - order: 3
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: IQ 的英文全称是什么？它的定义是什么？它是在人出生后就决定的吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    IQ 的全称是 Intelligence Quotient，从全称中可以看出它是一个比例。智商的定义有传统和现代两种：
+                    - 传统观点：智商是一个人的心理年龄与生理年龄之商再乘以 100 的结果。
+                      比如一个 8 岁的孩子解决了一系列平均需要达到 10 岁才能解决的问题，
+                      我们就可以认为这个 8 岁孩子的智商达到了 10÷8×100 = 125。
+                    - 现代观点：智商是在同一年龄段中，个人表现与同年龄段平均表现之商乘以 100 的结果。
+                      (实际还会将原始分数转化成一个正态分布，但这里不影响我们的理解)
+
+                    显然，不论是根据哪个观点理解，每个人的 IQ 是动态变化的。
+                    任何 IQ 测试，不论它的衡量方式准确与否，都只能反映一个人测试时刻的智商水平。
+          - order: 4
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    心理学家 Robert Sternberg 做过多项调研，以下是三个例子：
+
+                    1. 在肯尼亚一个偏远地区，有一帮小孩。这些小孩有两类知识需要掌握：学校知识和草药知识。
+                       学校知识即在学校中学习的与学业相关的知识；草药知识则是辨别野外能够被用于治疗各种常见疾病的草药的类别和剂量的知识。
+                       在调研中，Sternberg 和他的助手们发现：那些在草药知识测试中表现得最好的学生恰恰是在学校知识测试中表现得最差的学生。
+                    2. 在巴西的一个偏远地区，有许多孤儿，他们要生存就必须学会在街头做生意。
+                       做好街头生意需要很强的计算能力，但同样是考验计算能力，他们在数学课堂测验中的表现很差。
+                    3. 在赛马场有许多下注老手，他们在心中建立了极为复杂的思维模型来预测赛马的快慢。但通过 IQ 测试发现，
+                       这些人的 IQ 仅仅位于平均水平。
+
+                    通过众多调研，Sternberg 提出了成功智力三部分理论，你能回忆一下这个理论的内容吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    能帮助人取得成功的智力可以分成三部分：
+                    - 分析型智力 (analytical intelligence)：完成解决问题任务的能力，比如完成测验；
+                    - 创造型智力 (creative intelligence)：利用已有的知识和技能解决陌生场景中陌生问题的能力；
+                    - 实践型智力 (practical intelligence)：知道在特定的生活环境中完成某些任务的能力，它与文化环境息息相关。
+
+                    这些能力很难通过标准 IQ 测试测量。
+          - order: 5
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    智商 (IQ) 测验让很多人认为人的智商在出生是就决定了。但实际上我们完全能够通过后天努力在一些领域取得成就。
+                    为改变大家的误解，
+                    心理学家 Robert Sternberg 与 Elena Grigorenko 提出了动态测试 (Dynamic Testing) 的概念。
+                    动态测试的过程是怎样的？有哪几个步骤？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    动态测试有 3 个步骤：
+                    1. 找到某种测试方式，完成一个任务或者做一份试题，用于测量一个人在某个时刻于某个领域的能力
+                    2. 通过步骤 1 找到自己的弱项，通过高效的学习方法去刻意改善这些弱项
+                    3. 重新参与测试，观察自己是否做得更好，以及发现自己的其它弱项
+          - order: 6
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    当我们遇到全新的内容需要学习时，「快速提取核心要点，并构建一个逻辑自洽的思维模型」是一种很重要的能力。
+                    心理学家称这种能力为结构建设 (structure building)。
+
+                    以下哪些选项是高水平结构建设者 (high structure-builders) 的特征？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 善于剥离无关信息和干扰信息
+                B:
+                  kind: TEXT
+                  text: 介绍某个领域整体工作时用很大篇幅介绍某个细节
+                C:
+                  kind: TEXT
+                  text: 能够将新内容抽象成某个大结构中的子结构
+              answers:
+                - A
+                - C
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    高水平结构建设者擅长从繁杂的信息中提取要点，这自然要求他们善于剥离无关信息和干扰信息；
+                    在遇到新材料时，能够快速建立新材料与已建立过的思维模型之间的联系，也是高水平结构建设能够快速掌握新知的原因之一；
+                    高水平结构建设者擅长将学到的内容讲述给他人，在介绍整体领域工作时过多进入细节，
+                    无法让听众掌握核心观点，是一种缺乏结构建设能力的表现。
+          - order: 7
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    简述一下规则学习者 (rule learner) 和例子学习者 (example learner) 的区别和联系。
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 规则学习者习惯于通过学习相似的材料，总结出其中普适的规则，然后在遇到新问题时，通过这些规则来作出判断；
+                    - 例子学习者习惯于将见过的例子记住，在遇到新问题时，通过将新问题与学过的例子比较，利用最相似的例子作出判断；
+
+                    规则学习者在解决陌生问题时常常能取到更好的表现；例子学习者在引导下也能获得总结规则的能力。
+                    尽管我们称之为「学习者」，但这里并不是指某个人，每个人也并非必须属于其中一类，这里只是用于指代学习策略。
+          - order: 8
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    在市面上我们能见到各种各样的记忆术 (mnemonic device)，其最简单的形式就是人们日常生活中经常使用的缩写、口诀，
+                    如 "飞雪连天射白鹿,笑书神侠倚碧鸳" 可以帮助武侠迷们记忆金庸的 14 部小说；
+                    复杂的形式如 Joshua Foer 的 [memory palace](https://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do?language=en)。
+
+                    你能回想起记忆术的基本原理吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    记忆术本质上就是将大量的信息利用高效的编码方式存储在人脑中，方便检索。
+                    即利用各式各样的记忆线索建立待记忆内容与已知内容的关系，这样你在回忆的时候可以通过已知内容及其与需记忆内容的联系，
+                    顺藤摸瓜的检索出需记忆的内容。如果你对计算机中的概念熟悉的话，
+                    记忆术就像[二级索引](https://docs.oracle.com/cd/E17275_01/html/programmer_reference/am_second.html)。
   - order: 7
-    displayName: Increase Your Abilities
+    displayName: 提升你的能力 (Increase Your Abilities)
+    slug: abilities
+    quizzes:
+      - displayName: 读后回顾
+        slug: retrieval
+        kind: RETRIEVAL
+        questions:
+          - order: 1
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    提到延迟满足感 (delaying gratification)，人们一定不会忘了著名的棉花糖实验 (marshmallow experiment)，
+                    你能描述一下实验的经过和结果吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    在 20 世纪 60-70 年代，Walter Mischel 和他的学生邀请到数百名幼儿园的小朋友参与了一项棉花糖实验。
+                    每个小朋友被邀请进入到一个单独的房间，助理在桌上的托盘中放了一个棉花糖，
+                    并告诉小朋友，如果他能再等 15 分钟，就会得到第二个棉花糖。
+                    最终，有 1/3 的小朋友得到了第二个棉花糖，而这些小朋友长大成人后，也在学业和人生事业上取得了更高的成就。
+          - order: 2
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    当神经元的轴突 (axons) 与另一个神经元的树突 (denrites) 结合时，就形成了突触 (synapse)，
+                    用白话说就是建立了连结 (connection)。下图是不同年龄人脑中的突触密度切片：
+
+                    ![synapse-density-over-time](http://www.urbanchildinstitute.org/sites/all/files/databooks/2011/ch1-fg3-synapse-density-over-time.jpg)
+
+                    据此你可以描述人脑的突触密度随着年龄变化而变化的完整过程吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    以下是人脑视觉皮层中**突触密度**和**突触总数**随**时间**变化的示意图：
+
+                    ![synaptic-desity-and-total-synapses-in-visual-cortex](https://neuroscience.uchicago.edu/sites/default/files/inline-images/synapse%20graph.JPG)
+
+                    小孩出出生后一直到一岁或两岁期间，脑中会迅速建立大量突触，达到数量和密度顶峰，约 300 兆 (trillion)。
+                    随后突触数量开始逐步减少，直到青春期为止，这个阶段被称为突触剪枝 (synaptic pruning) 阶段。
+                    大约从 16 岁开始，人脑中的突触数量不再发生较大的变化，维持在 150 兆左右，直到进入老年阶段。
+
+                    有意思的是，我们的大部分高强度的学习恰好是发生在突触数量不再剧变的时期。因此也诞生了很多假说。
+          - order: 3
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    Paul Bach-y-Rita 是一位神经学家 (neurologists)，他设计的设备能够帮助一些失去某种知觉的人重建知觉。
+                    其中一个病例是一位失去视觉的 35 岁男士。Paul 为他设计了一个头盔，上面有一个用于捕捉视觉信号小型摄像机，
+                    视觉信号会被传递到病人的舌头上。Paul 说：「真正能够看到东西的是大脑，而不是眼睛」。通过训练，这位病人能够：
+                    - 抓住滚向他的小球
+                    - 和女儿玩「剪刀、石头、布」
+                    - ...
+
+                    从这个故事中，你能得到什么结论？
+              explains:
+                - kind: TEXT
+                  text: >
+                    人脑具备很强的可塑性。各种感知器官是信号来源，人脑负责处理这些信号，转化成思考和行动。
+                    当感知器官损坏时，人脑能在训练下借助其它信号重建相关能力。
+          - order: 4
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    在学习过程中，我们会发现这样一个规律：当你重复做某种练习达到一定程度后，它会变成一种下意识 (subconcious)。比如：
+                    - 钢琴演奏家可以以极快的速度弹奏节奏、旋律多变的音乐
+                    - 羽毛球运动员在对方出球后会自动运用合理的步伐移动到球的落点处
+                    - 职业棋手可以在短时间内思考各种可能的下法并找到最优方案
+                    - ...
+
+                    你认为他们的大脑处理相同信号时，与我们的大脑可能有什么不同？
+              explains:
+                - kind: TEXT
+                  text: >
+                    当练习不充分时，人脑需要经过一段时间的思考才能做出决策；
+                    当练习充分时，人脑就可以快速地、自动地做出决策；
+                    事实上，这两种决策方式利用的神经回路并不一样，
+                    前者位于有意识决策的区域，后者位于下意识决策的区域。
+          - order: 5
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    Richard Nisbett 在他的书「Intelligence and How to Get It」中提到了一个观点：现代社会相较于以前，
+                    存在更丰富、更多样、更容易获得的认知刺激，比如：
+                    麦当劳在开心乐园餐中附带的迷宫图比用于测试天才儿童的迷宫图难度还大。
+
+
+                    你认为这些认知刺激可能对人们产生什么样的影响？
+              explains:
+                - kind: TEXT
+                  text: >
+                    现代社会中人的平均认知水平 (智商) 提高了，也从另一个角度佐证了人脑的可塑性。
+          - order: 6
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    性状是基因与环境共同作用的结果，智商是人的一种性状，它也会受到环境的影响。关于社会经济因素对智商的影响，
+                    从统计学角度上看，下列说法正确的是：
+              choices:
+                A:
+                  kind: TEXT
+                  text: 在富裕家庭成长的孩子智商比在贫困家庭的孩子高
+                B:
+                  kind: TEXT
+                  text: 得到充分营养摄入孩子的智商比缺乏一些营养摄入孩子的高
+                C:
+                  kind: TEXT
+                  text: 没有证据显示早教、学前教育和语言训练对于富裕家庭的孩子智商提升有帮助
+              answers:
+                - A
+                - B
+                - C
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 富裕家庭成长的孩子能接触到的各方面认知刺激更丰富，成长过程中的焦虑情绪少，更有利于孩子智商的发展；
+                    - 有证据显示，一些营养成分摄入对孩子的智商发育很有帮助，如脂肪酸有利于神经细胞成长；
+                    - 富裕家庭的孩子的生长环境已经提供了早教、学前教育和语言训练对孩子智商发育所提供的帮助。
+
+                    注意：以上结论都是在统计学角度上分析，不适用于个例分析。
+          - order: 7
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    脑力训练 (brain training) 已经成为许多商业公司制造的噱头，他们认为：
+                    「人脑就像肌肉，通过训练可以提升你的综合认知能力」。
+
+
+                    下列关于脑力训练的说法，正确的是？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 提升在元认知领域的能力，能提升在其它认知领域的认知效率
+                B:
+                  kind: TEXT
+                  text: 通过训练可以提升学生的晶体智力
+                C:
+                  kind: TEXT
+                  text: 通过训练可以提升学生的流体智力
+                D:
+                  kind: TEXT
+                  text: 在单个认知领域不断训练，能提升另一认知领域的认知能力
+                E:
+                  kind: TEXT
+                  text: 养成良好的认知习惯、心态，建立信息，能放大认知效果
+              answers:
+                - A
+                - E
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - A：阅读本书就是在提升元认知领域的能力，理解认知的过程可以帮助我们有意识地选择更高效的认知练习；
+                    - B、C：[n-back](https://en.wikipedia.org/wiki/N-back) 实验尝试证明通过训练可以提升学生的流体认知能力，但实验引发了很多争议，且无法被复现；
+                    - D：在单个认知领域不断训练，只能提升对该领域的认知能力。一个人接受专业训练可能成为一位足球运动员，但这种训练无法让他成为钢琴家；
+                    - E：认知习惯和心态本身虽然无法提升你对单个领域的认知能力，但却可以帮助你更高效地学习、掌握不同领域的能力。
+          - order: 8
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    心理学家 Carol Dweck 和她的学生在「成长心态 (growth mindset)」领域做了许多研究。在一项早期研究中，
+                    她们邀请了纽约城市初中的成绩较差的一组七年级学生参与一个有关大脑以及高效学习技巧的培训：
+                    其中一半学生 (A 组) 额外学习了记忆过程的内容；
+                    另一半学生 (B 组) 则额外学习了努力学习可以给大脑如何带来改变，随着时间推移能使得自己变得更加聪明；
+
+                    培训结束后，这些学生回到学校中参与日常学习。你觉得他们的学习方式和成就有什么变化？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    B 组学生在学习主动性和考试成绩上平均优于 A 组。他们的主要区别在于：
+                    - B 组学生倾向于认为通过努力能够改善能力，Dweck 称之为成长心态 (growth mindset)
+                    - A 组学生倾向于认为能力天生决定无法改变，Dweck 称之为固定心态 (fixed mindset)
+          - order: 9
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    心理学家 Carol Dweck 研究发现，学生的学习目标可以分为两类：
+                    - 以表现为目标 (performance goal)：努力在社会环境中证明自己的能力
+                    - 以习得为目标 (learning goal)：努力获取新知和技能
+
+                    你认为这两种目标会给学生带来怎样的影响？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 以表现为目标
+                      - 倾向于做自己擅长的事情，使得自己看起来能力很强
+                      - 倾向于认为能力是静态的，心态更保守
+                      - 倾向于将成就归功于自己的天赋
+                    - 以习得为目标
+                      - 倾向于做自己未涉足的、更具挑战的事情
+                      - 倾向于认为能力是动态的，心态更开放
+                      - 倾向于将成就归功于自己的努力
+          - order: 10
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    刻意练习 (deliberate practice) 是在任何领域取得出色表现的必经之路。
+                    米开朗基罗曾在完成 Sistine Chapel 天花板的超过 400 幅真人大小的画作后，曾写过一句话：
+
+                    > "If people knew how hard I worked to get my mastery, it wouldn't seem so wonderful after all."
+
+                    下列关于刻意练习的说法中，正确的是？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 专家能力并非天赋决定，而是通过不断努力获得
+                B:
+                  kind: TEXT
+                  text: 刻意练习可以帮助大脑建立更复杂的思维模型
+                C:
+                  kind: TEXT
+                  text: 刻意练习的数量和质量都很重要
+                D:
+                  kind: TEXT
+                  text: 天赋一般的人即使通过刻意练习也很难成为专家
+                E:
+                  kind: TEXT
+                  text: 在一个领域上的刻意练习只能帮助人们提升在该领域的能力
+              answers:
+                - A
+                - B
+                - C
+                - E
+              explains:
+                - kind: TEXT
+                  text: >
+                    大家都听过一万小时定律，它说的是一个人要在某个领域成为专家，至少需要一万小时的练习，尽管这里的绝对数字不一定准确，
+                    但专家能力是需要通过超长时间的刻意练习才能达到。刻意练习可以有效地帮助大脑为该领域的各个细节建立更复杂的思维模型。
+                    普遍来看，有老师傅带能够让学习者少走弯路，刻意练习的质量同样重要。天赋一般的人如果能具备成长心态、
+                    坚持不懈地努力，同样能取得极高的成就。但需要注意的是，在一个领域上的刻意练习无法转化成另一个领域的能力。
   - order: 8
-    displayName: Make It Stick
+    displayName: 让学习更扎实 (Make It Stick)
+    slug: stick
+    quizzes:
+      - displayName: 读后回顾
+        slug: retrieval
+        kind: RETRIEVAL
+        questions:
+          - order: 1
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: 尽可能地列举本书到现在为止介绍过的所有高效学习策略
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 检索练习：使用检索练习而不是重复阅读利用练习发现不足，并有针对性地学习。在练习后与参考答案校对，确保正确的理解
+                    - 间隔练习：在两次相似的检索练习之间间隔一段时间，允许一定的遗忘发生
+                    - 交叉练习：交替地进行不同类型的检索练习
+                    - 阐述：用自己的话理解、描述新知，如换个说法表达、向他人讲授、与已掌握的知识建立联系
+                    - 生成：在看到答案前先尝试解决陌生问题
+                    - 思考：一种综合的学习过程，包含回忆自己学过的内容 (检索+阐述)，复盘学习的效果，寻找改善的空间 (生成)
+                    - 校准：有意识地借助一些客观的指标确保自己对自己学习效果的认知是准确的
+                    - 记忆术：利用各种记忆术快速编码大量需要记忆的内容
+          - order: 2
+            kind: MULTIPLE_CHOICES
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    Fuller 是一名专业演员，熟悉台词是他的拿手好戏。每当他拿到一个新剧本后，他就会过一遍剧本，
+                    用笔高亮出自己的台词，大致了解剧本的结构以及角色在其中的形式。完成后，他就会做这样一件事：
+
+                    - 拿一张白纸，遮住一页剧本
+                    - 慢慢地将白纸往下移动，使得自己能看到对手角色的台词
+                    - 尝试回忆并大声说出自己的台词
+                      - 如果说错了，他就会把它掩盖起来，然后再说一遍
+                      - 如果说对了，他就会揭开下一段话继续说下去
+
+                    他还会做另外一件事：
+
+                    - 拿一个便携式录音设备，录下自己对手角色的所有台词
+                    - 把设备放在手上，播放一句，跟着说一句自己的台词
+                      - 如果他想不起来或者对自己记忆的准确性有所怀疑，就会到剧本中确认
+                      - 如果他确信自己是对的，则继续练习
+
+                    上述过程体现了什么样的学习策略？
+              choices:
+                A:
+                  kind: TEXT
+                  text: 阐述
+                B:
+                  kind: TEXT
+                  text: 思考
+                C:
+                  kind: TEXT
+                  text: 记忆术
+                D:
+                  kind: TEXT
+                  text: 检索练习
+              answers:
+                - D
+              explains:
+                - kind: MARKDOWN
+                  text: Fuller 做的事情就是借助其它线索 (对手台词)，尝试从记忆中检索自己的台词，因此是**检索练习**。
+          - order: 3
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    接上一题：Fuller 在做检索练习时，不会在同一页台词上停留很长时间反复练习，
+                    而是先从前到后，再从后向前，尝试检索不同情节的台词。
+
+                    上述过程体现了什么样的学习策略？
+              explains:
+                - kind: MARKDOWN
+                  text: 交叉练习
+          - order: 4
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    接上一题：当 Fuller 觉得做检索练习带来的边际效益过低时，他就会停止当天的学习，第二天再继续。
+                    当第二天开始时，他会发现自己已经忘了一些内容，这时他就继续做检索练习。这样日复一日，直到熟悉整个剧本为止。
+
+                    上述过程体现了什么样的学习策略？
+              explains:
+                - kind: MARKDOWN
+                  text: 间隔练习
+          - order: 5
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: MARKDOWN
+                  text: |
+                    接上一题：Fuller 说，他认为学习台词不仅仅是一种视觉过程，还是一个感受角色本身的过程：
+                    这个角色为什么说这些话？他在整个故事中为什么这样发展？
+                    他在每个瞬间的面部表情应该是怎样的？
+
+                    上述过程体现了什么样的学习策略？
+              explains:
+                - kind: MARKDOWN
+                  text: 阐述和思考
+          - order: 6
+            kind: YOU_TELL
+            config:
+              stems:
+                - kind: TEXT
+                  text: >
+                    本书在第一章其实就已经把全书大意介绍了一遍，你认为看完全书和看完书的第一章，在认知上会有哪些差别？
+                    你可以用本书的一些观点来描述吗？
+              explains:
+                - kind: MARKDOWN
+                  text: |
+                    - 后面章节中引用前面章节的内容，使得我们在阅读过程中无意地做了一些检索练习
+                    - 每个章节都通过讲述不同的故事或者实验，强化我们的认知，丰富这些信息在我们脑中的表达，是一种交叉练习
+                    - 全书总分总的结构，在加上后面的章节会引用前面章节的内容，都体现了间隔练习
+                    - 书的最后一章基于前面所学，分别站在学生、终身学习者、老师、培训讲师给出许多实际、具体的建议，是一种阐述，
+                      通过阅读这些角色的建议，我们可以思考并生成更有效的学习策略。
+                    - ...
